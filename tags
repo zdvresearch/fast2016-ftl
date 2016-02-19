@@ -1,0 +1,2460 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A0	include/bank.h	/^#define A0 /;"	d
+A1	include/bank.h	/^#define A1 /;"	d
+A2	include/bank.h	/^#define A2 /;"	d
+A3	include/bank.h	/^#define A3 /;"	d
+A4	include/bank.h	/^#define A4 /;"	d
+A5	include/bank.h	/^#define A5 /;"	d
+A6	include/bank.h	/^#define A6 /;"	d
+A7	include/bank.h	/^#define A7 /;"	d
+ABL_5_WO	installer/ntddstor.h	/^    ABL_5_WO,                  \/\/ Opt_Disk - Ablative 5.25" Write Once Optical$/;"	e	enum:_STORAGE_MEDIA_TYPE
+ADR_1	installer/ntddstor.h	/^    ADR_1,                     \/\/ OnStream ADR Mediatypes$/;"	e	enum:_STORAGE_MEDIA_TYPE
+ADR_2	installer/ntddstor.h	/^    ADR_2,$/;"	e	enum:_STORAGE_MEDIA_TYPE
+AIT1_8mm	installer/ntddstor.h	/^    AIT1_8mm,                  \/\/ Tape - 8mm Sony AIT$/;"	e	enum:_STORAGE_MEDIA_TYPE
+AIT_8mm	installer/ntddstor.h	/^    AIT_8mm,                   \/\/ AIT2 or higher$/;"	e	enum:_STORAGE_MEDIA_TYPE
+AME_8mm	installer/ntddstor.h	/^    AME_8mm,                   \/\/ Tape - 8mm Exabyte Advanced Metal Evap$/;"	e	enum:_STORAGE_MEDIA_TYPE
+APB_ICU_CON	include/peri.h	/^#define APB_ICU_CON	/;"	d
+APB_INT_MSK	include/peri.h	/^#define APB_INT_MSK	/;"	d
+APB_INT_STS	include/peri.h	/^#define APB_INT_STS	/;"	d
+APB_PRI_SET1	include/peri.h	/^#define APB_PRI_SET1	/;"	d
+APB_PRI_SET2	include/peri.h	/^#define APB_PRI_SET2	/;"	d
+AS	build_gnu/Makefile	/^AS = $(PREFIX)as$/;"	m
+ASFLAGS	build_gnu/Makefile	/^ASFLAGS = -R -mcpu=arm7tdmi-s$/;"	m
+ASSERT	installer/installer-linux.c	/^#define ASSERT(/;"	d	file:
+ASSERT	installer/installer-linux.c	/^#undef ASSERT$/;"	d	file:
+ASSERT	installer/installer.c	/^#define ASSERT(/;"	d	file:
+ASSERT	installer/installer.c	/^#undef ASSERT$/;"	d	file:
+ASSERT	target_spw/target.h	/^	#define ASSERT(/;"	d
+ATA_CHECK_POWER_MODE	include/sata.h	/^	ATA_CHECK_POWER_MODE			= 0xE5,	\/* Check Power Mode			 *\/$/;"	e	enum:__anon11
+ATA_CMD_NUM	include/sata_cmd.h	/^#define	ATA_CMD_NUM	/;"	d
+ATA_DATA_SET_MANAGEMENT	include/sata.h	/^	ATA_DATA_SET_MANAGEMENT			= 0x06,	\/* Data Set Management       *\/$/;"	e	enum:__anon11
+ATA_DEVICE_CONFIGURATION	include/sata.h	/^	ATA_DEVICE_CONFIGURATION		= 0xB1,	\/* Device Configuration		 *\/$/;"	e	enum:__anon11
+ATA_DEVICE_RESET	include/sata.h	/^	ATA_DEVICE_RESET				= 0x08,	\/* Device Reset		 		 *\/$/;"	e	enum:__anon11
+ATA_DOWNLOAD_MICROCODE	include/sata.h	/^	ATA_DOWNLOAD_MICROCODE			= 0x92,	\/* Download Microcode		 *\/$/;"	e	enum:__anon11
+ATA_EXEDIAG	include/sata.h	/^	ATA_EXEDIAG						= 0x90,	\/* Execute Drive Diagnostics *\/$/;"	e	enum:__anon11
+ATA_FLUSH_CACHE	include/sata.h	/^	ATA_FLUSH_CACHE					= 0xE7,	\/* Flush Cache 				 *\/$/;"	e	enum:__anon11
+ATA_FLUSH_CACHE_EXT	include/sata.h	/^	ATA_FLUSH_CACHE_EXT				= 0xEA,	\/* Flush Cache Ext			 *\/$/;"	e	enum:__anon11
+ATA_FUNCTION_T	include/sata_cmd.h	/^typedef void (* ATA_FUNCTION_T)(UINT32, UINT32);$/;"	t
+ATA_IDENT	include/sata.h	/^	ATA_IDENT						= 0xEC,	\/* Identify Device           *\/$/;"	e	enum:__anon11
+ATA_IDLE	include/sata.h	/^	ATA_IDLE						= 0xE3,	\/* Idle			 			 *\/$/;"	e	enum:__anon11
+ATA_IDLE_IMMEDIATE	include/sata.h	/^	ATA_IDLE_IMMEDIATE				= 0xE1, \/* Idle Immediate 			 *\/$/;"	e	enum:__anon11
+ATA_INITIALIZE_DEV_PARA	include/sata.h	/^	ATA_INITIALIZE_DEV_PARA			= 0x91,	\/* Initialize Device Parameters *\/$/;"	e	enum:__anon11
+ATA_NOP	include/sata.h	/^	ATA_NOP							= 0x00,	\/* Nop                       *\/$/;"	e	enum:__anon11
+ATA_READ_BUFFER	include/sata.h	/^	ATA_READ_BUFFER					= 0xE4,	\/* Read Buffer 				 *\/$/;"	e	enum:__anon11
+ATA_READ_DMA	include/sata.h	/^	ATA_READ_DMA					= 0xC8,	\/* Read DMA 				 *\/$/;"	e	enum:__anon11
+ATA_READ_DMA_EXT	include/sata.h	/^	ATA_READ_DMA_EXT				= 0x25,	\/* Read DMA Ext 			 *\/$/;"	e	enum:__anon11
+ATA_READ_FPDMA_QUEUED	include/sata.h	/^	ATA_READ_FPDMA_QUEUED			= 0x60,	\/* Read FPDMA Queued		 *\/$/;"	e	enum:__anon11
+ATA_READ_LOG_EXT	include/sata.h	/^	ATA_READ_LOG_EXT				= 0x2F,	\/* Read Log Ext			 	 *\/$/;"	e	enum:__anon11
+ATA_READ_MULTIPLE	include/sata.h	/^	ATA_READ_MULTIPLE				= 0xC4,	\/* Read Multiple			 *\/$/;"	e	enum:__anon11
+ATA_READ_MULTIPLE_EXT	include/sata.h	/^	ATA_READ_MULTIPLE_EXT			= 0x29,	\/* Read Multiple Ext		 *\/$/;"	e	enum:__anon11
+ATA_READ_NATIVE_MAX_ADDRESS	include/sata.h	/^	ATA_READ_NATIVE_MAX_ADDRESS		= 0xF8,	\/* Read Native Max Address   *\/$/;"	e	enum:__anon11
+ATA_READ_NATIVE_MAX_ADDRESS_EXT	include/sata.h	/^	ATA_READ_NATIVE_MAX_ADDRESS_EXT	= 0x27,	\/* Read Native Max Address Ext *\/$/;"	e	enum:__anon11
+ATA_READ_SECTORS	include/sata.h	/^	ATA_READ_SECTORS				= 0x20,	\/* Read Sectors		 		 *\/$/;"	e	enum:__anon11
+ATA_READ_SECTORS_EXT	include/sata.h	/^	ATA_READ_SECTORS_EXT			= 0x24,	\/* Read Sectors Ext		 	 *\/$/;"	e	enum:__anon11
+ATA_READ_VERIFY_SECTORS	include/sata.h	/^	ATA_READ_VERIFY_SECTORS			= 0x40, \/* Read Verify Sectors		 *\/$/;"	e	enum:__anon11
+ATA_READ_VERIFY_SECTORS_EXT	include/sata.h	/^	ATA_READ_VERIFY_SECTORS_EXT		= 0x42, \/* Read Verify Sectors Ext	 *\/$/;"	e	enum:__anon11
+ATA_RECALIBRATE	include/sata.h	/^	ATA_RECALIBRATE					= 0x10,	\/* Recalibrate - for booting *\/$/;"	e	enum:__anon11
+ATA_SECURITY_DISABLE_PASSWORD	include/sata.h	/^	ATA_SECURITY_DISABLE_PASSWORD	= 0xF6, \/* Security Disable Password *\/$/;"	e	enum:__anon11
+ATA_SECURITY_ERASE_PREPARE	include/sata.h	/^	ATA_SECURITY_ERASE_PREPARE		= 0xF3, \/* Security Erase Prepare    *\/$/;"	e	enum:__anon11
+ATA_SECURITY_ERASE_UNIT	include/sata.h	/^	ATA_SECURITY_ERASE_UNIT			= 0xF4, \/* Security Erase Unlock     *\/$/;"	e	enum:__anon11
+ATA_SECURITY_FREEZE_LOCK	include/sata.h	/^	ATA_SECURITY_FREEZE_LOCK		= 0xF5, \/* Security Freeze Lock		 *\/$/;"	e	enum:__anon11
+ATA_SECURITY_SET_PASSWORD	include/sata.h	/^	ATA_SECURITY_SET_PASSWORD		= 0xF1,	\/* Security Set Password     *\/$/;"	e	enum:__anon11
+ATA_SECURITY_UNLOCK	include/sata.h	/^	ATA_SECURITY_UNLOCK 			= 0xF2,	\/* Security Unlock           *\/$/;"	e	enum:__anon11
+ATA_SET_FEATURE	include/sata.h	/^	ATA_SET_FEATURE					= 0xEF,	\/* Set Feature               *\/$/;"	e	enum:__anon11
+ATA_SET_MAX_ADDRESS	include/sata.h	/^	ATA_SET_MAX_ADDRESS				= 0xF9,	\/* Set Max Address   		 *\/$/;"	e	enum:__anon11
+ATA_SET_MAX_ADDRESS_EXT	include/sata.h	/^	ATA_SET_MAX_ADDRESS_EXT			= 0x37,	\/* Set Max Address Ext 		 *\/$/;"	e	enum:__anon11
+ATA_SET_MULTIPLE_MODE	include/sata.h	/^	ATA_SET_MULTIPLE_MODE			= 0xC6,	\/* Set Multiple Mode		 *\/$/;"	e	enum:__anon11
+ATA_SLEEP	include/sata.h	/^	ATA_SLEEP						= 0xE6, \/* Sleep			 		 *\/$/;"	e	enum:__anon11
+ATA_SMART	include/sata.h	/^	ATA_SMART						= 0xB0,	\/* Smart					 *\/$/;"	e	enum:__anon11
+ATA_SRST	include/sata.h	/^	ATA_SRST						= 0xFF	\/* SRST request is regarded as if it were an ATA command. *\/$/;"	e	enum:__anon11
+ATA_STANDBY	include/sata.h	/^	ATA_STANDBY						= 0xE2,	\/* Standby					 *\/$/;"	e	enum:__anon11
+ATA_STANDBY_IMMEDIATE	include/sata.h	/^	ATA_STANDBY_IMMEDIATE			= 0xE0,	\/* Standby Immediate		 *\/$/;"	e	enum:__anon11
+ATA_WRITE_BUFFER	include/sata.h	/^	ATA_WRITE_BUFFER				= 0xE8,	\/* Write Buffer 			 *\/$/;"	e	enum:__anon11
+ATA_WRITE_DMA	include/sata.h	/^	ATA_WRITE_DMA					= 0xCA,	\/* Write DMA 				 *\/$/;"	e	enum:__anon11
+ATA_WRITE_DMA_EXT	include/sata.h	/^	ATA_WRITE_DMA_EXT				= 0x35,	\/* Write DMA Ext 			 *\/$/;"	e	enum:__anon11
+ATA_WRITE_FPDMA_QUEUED	include/sata.h	/^	ATA_WRITE_FPDMA_QUEUED			= 0x61,	\/* Write FPDMA Queued		 *\/$/;"	e	enum:__anon11
+ATA_WRITE_LOG_EXT	include/sata.h	/^	ATA_WRITE_LOG_EXT				= 0x3F,	\/* Write Log Ext			 *\/$/;"	e	enum:__anon11
+ATA_WRITE_MULTIPLE	include/sata.h	/^	ATA_WRITE_MULTIPLE				= 0xC5,	\/* Write Multiple			 *\/$/;"	e	enum:__anon11
+ATA_WRITE_MULTIPLE_EXT	include/sata.h	/^	ATA_WRITE_MULTIPLE_EXT			= 0x39,	\/* Write Multiple Ext		 *\/$/;"	e	enum:__anon11
+ATA_WRITE_SECTORS	include/sata.h	/^	ATA_WRITE_SECTORS				= 0x30,	\/* Write Sectors	 		 *\/$/;"	e	enum:__anon11
+ATA_WRITE_SECTORS_EXT	include/sata.h	/^	ATA_WRITE_SECTORS_EXT			= 0x34,	\/* Write Sectors Ext		 *\/$/;"	e	enum:__anon11
+ATR_LBA_EXT	include/sata.h	/^#define	ATR_LBA_EXT	/;"	d
+ATR_LBA_NOR	include/sata.h	/^#define	ATR_LBA_NOR	/;"	d
+ATR_LBA_SECT_CNT	include/sata.h	/^#define ATR_LBA_SECT_CNT /;"	d
+ATR_LOCK_FREE	include/sata.h	/^#define ATR_LOCK_FREE	/;"	d
+ATR_NO_SECT	include/sata.h	/^#define	ATR_NO_SECT	/;"	d
+AUTOINC	include/sata_registers.h	/^#define	AUTOINC	/;"	d
+AUTO_SEL	include/flash.h	/^#define AUTO_SEL /;"	d
+AVATAR_F2	installer/ntddstor.h	/^    AVATAR_F2,                 \/\/ Mag_Disk - 2.5" Floppy$/;"	e	enum:_STORAGE_MEDIA_TYPE
+AcceleratedTransfer	installer/ntddstor.h	/^    BOOLEAN AcceleratedTransfer;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+AdapterScansDown	installer/ntddstor.h	/^    BOOLEAN AdapterScansDown;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+AdapterUsesPio	installer/ntddstor.h	/^    BOOLEAN AdapterUsesPio;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+AdditionalParameters	installer/ntddstor.h	/^    UCHAR AdditionalParameters[1];$/;"	m	struct:_STORAGE_PROPERTY_QUERY
+AlignmentMask	installer/ntddstor.h	/^    ULONG AlignmentMask;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+Association	installer/ntddstor.h	/^    STORAGE_ASSOCIATION_TYPE Association;$/;"	m	struct:_STORAGE_IDENTIFIER
+B0	include/bank.h	/^#define B0 /;"	d
+B1	include/bank.h	/^#define B1 /;"	d
+B2	include/bank.h	/^#define B2 /;"	d
+B3	include/bank.h	/^#define B3 /;"	d
+B4	include/bank.h	/^#define B4 /;"	d
+B5	include/bank.h	/^#define B5 /;"	d
+B6	include/bank.h	/^#define B6 /;"	d
+B7	include/bank.h	/^#define B7 /;"	d
+BAD_BLK_BMP_ADDR	ftl_page_mapped/dram_layout.h	/^#define BAD_BLK_BMP_ADDR /;"	d
+BAD_BLK_BMP_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define BAD_BLK_BMP_BYTES /;"	d
+BANKS_PER_CHN_MAX	include/jasmine.h	/^#define BANKS_PER_CHN_MAX /;"	d
+BANK_BMP	include/jasmine.h	/^#define BANK_BMP /;"	d
+BANK_CHAGET	include/flash.h	/^#define BANK_CHAGET /;"	d
+BANK_CMDEND	include/flash.h	/^#define BANK_CMDEND /;"	d
+BANK_ECCWAIT	include/flash.h	/^#define BANK_ECCWAIT /;"	d
+BANK_END	include/flash.h	/^#define BANK_END /;"	d
+BANK_FLAG_SEL	include/flash.h	/^#define BANK_FLAG_SEL /;"	d
+BANK_GRANT	include/flash.h	/^#define BANK_GRANT /;"	d
+BANK_H	include/bank.h	/^#define    BANK_H$/;"	d
+BANK_IDLE	include/flash.h	/^#define BANK_IDLE /;"	d
+BANK_MAP	include/bank.h	/^    #define    BANK_MAP /;"	d
+BANK_MAP	include/bank.h	/^    #define BANK_MAP /;"	d
+BANK_RESET	include/flash.h	/^#define BANK_RESET /;"	d
+BANK_RMAP	include/bank.h	/^    #define    BANK_RMAP /;"	d
+BANK_RMAP	include/bank.h	/^    #define BANK_RMAP /;"	d
+BANK_START	include/flash.h	/^#define BANK_START /;"	d
+BANK_TAKE	include/flash.h	/^#define BANK_TAKE /;"	d
+BANK_WAIT	include/flash.h	/^#define BANK_WAIT /;"	d
+BCH	include/flash.h	/^#define BCH(/;"	d
+BIT0	include/sata.h	/^#define BIT0 /;"	d
+BIT1	include/sata.h	/^#define BIT1 /;"	d
+BIT10	include/sata.h	/^#define BIT10 /;"	d
+BIT11	include/sata.h	/^#define BIT11 /;"	d
+BIT12	include/sata.h	/^#define BIT12 /;"	d
+BIT13	include/sata.h	/^#define BIT13 /;"	d
+BIT14	include/sata.h	/^#define BIT14 /;"	d
+BIT15	include/sata.h	/^#define BIT15 /;"	d
+BIT16	include/sata.h	/^#define BIT16 /;"	d
+BIT17	include/sata.h	/^#define BIT17 /;"	d
+BIT18	include/sata.h	/^#define BIT18 /;"	d
+BIT19	include/sata.h	/^#define BIT19 /;"	d
+BIT2	include/sata.h	/^#define BIT2 /;"	d
+BIT20	include/sata.h	/^#define BIT20 /;"	d
+BIT21	include/sata.h	/^#define BIT21 /;"	d
+BIT22	include/sata.h	/^#define BIT22 /;"	d
+BIT23	include/sata.h	/^#define BIT23 /;"	d
+BIT24	include/sata.h	/^#define BIT24 /;"	d
+BIT25	include/sata.h	/^#define BIT25 /;"	d
+BIT26	include/sata.h	/^#define BIT26 /;"	d
+BIT27	include/sata.h	/^#define BIT27 /;"	d
+BIT28	include/sata.h	/^#define BIT28 /;"	d
+BIT29	include/sata.h	/^#define BIT29 /;"	d
+BIT3	include/sata.h	/^#define BIT3 /;"	d
+BIT30	include/sata.h	/^#define BIT30 /;"	d
+BIT31	include/sata.h	/^#define BIT31 /;"	d
+BIT4	include/sata.h	/^#define BIT4 /;"	d
+BIT5	include/sata.h	/^#define BIT5 /;"	d
+BIT6	include/sata.h	/^#define BIT6 /;"	d
+BIT7	include/sata.h	/^#define BIT7 /;"	d
+BIT8	include/sata.h	/^#define BIT8 /;"	d
+BIT9	include/sata.h	/^#define BIT9 /;"	d
+BLANK_CHK_BYTES	installer/installer-linux.c	/^#define BLANK_CHK_BYTES	/;"	d	file:
+BLANK_CHK_BYTES	installer/installer.c	/^#define BLANK_CHK_BYTES	/;"	d	file:
+BLK_SIZE	include/flash.h	/^#define BLK_SIZE(/;"	d
+BMAP_1CH_1WY	include/bank.h	/^#define BMAP_1CH_1WY /;"	d
+BMAP_1CH_2WY_A	include/bank.h	/^#define BMAP_1CH_2WY_A /;"	d
+BMAP_1CH_2WY_B	include/bank.h	/^#define BMAP_1CH_2WY_B /;"	d
+BMAP_1CH_4WY	include/bank.h	/^#define BMAP_1CH_4WY /;"	d
+BMAP_2CH_1WY	include/bank.h	/^#define BMAP_2CH_1WY /;"	d
+BMAP_2CH_2WY_A	include/bank.h	/^#define BMAP_2CH_2WY_A /;"	d
+BMAP_2CH_2WY_B	include/bank.h	/^#define BMAP_2CH_2WY_B /;"	d
+BMAP_2CH_2WY_C	include/bank.h	/^#define BMAP_2CH_2WY_C /;"	d
+BMAP_2CH_2WY_D	include/bank.h	/^#define BMAP_2CH_2WY_D /;"	d
+BMAP_2CH_2WY_E	include/bank.h	/^#define BMAP_2CH_2WY_E /;"	d
+BMAP_2CH_3WY	include/bank.h	/^#define BMAP_2CH_3WY /;"	d
+BMAP_2CH_4WY_A	include/bank.h	/^#define BMAP_2CH_4WY_A /;"	d
+BMAP_2CH_4WY_B	include/bank.h	/^#define BMAP_2CH_4WY_B /;"	d
+BMAP_2CH_4WY_C	include/bank.h	/^#define BMAP_2CH_4WY_C /;"	d
+BMAP_2CH_4WY_D	include/bank.h	/^#define BMAP_2CH_4WY_D /;"	d
+BMAP_2CH_4WY_E	include/bank.h	/^#define BMAP_2CH_4WY_E /;"	d
+BMAP_2CH_4WY_F	include/bank.h	/^#define BMAP_2CH_4WY_F /;"	d
+BMAP_2CH_5WY_A	include/bank.h	/^#define BMAP_2CH_5WY_A /;"	d
+BMAP_2CH_6WY_A	include/bank.h	/^#define BMAP_2CH_6WY_A /;"	d
+BMAP_2CH_8WY_A	include/bank.h	/^#define BMAP_2CH_8WY_A /;"	d
+BMAP_3CH_2WY	include/bank.h	/^#define BMAP_3CH_2WY /;"	d
+BMAP_3CH_2WY_B	include/bank.h	/^#define BMAP_3CH_2WY_B /;"	d
+BMAP_3CH_4WY	include/bank.h	/^#define BMAP_3CH_4WY /;"	d
+BMAP_4CH_1WY	include/bank.h	/^#define BMAP_4CH_1WY /;"	d
+BMAP_4CH_2WY_A	include/bank.h	/^#define BMAP_4CH_2WY_A /;"	d
+BMAP_4CH_2WY_B	include/bank.h	/^#define BMAP_4CH_2WY_B /;"	d
+BMAP_4CH_3WY	include/bank.h	/^#define BMAP_4CH_3WY /;"	d
+BMAP_4CH_4WY	include/bank.h	/^#define BMAP_4CH_4WY /;"	d
+BMAP_4CH_4WY_B	include/bank.h	/^#define BMAP_4CH_4WY_B /;"	d
+BMAP_4CH_4WY_C	include/bank.h	/^#define BMAP_4CH_4WY_C /;"	d
+BMAP_4CH_5WY	include/bank.h	/^#define BMAP_4CH_5WY /;"	d
+BMAP_4CH_6WY	include/bank.h	/^#define BMAP_4CH_6WY /;"	d
+BMAP_4CH_8WY	include/bank.h	/^#define BMAP_4CH_8WY /;"	d
+BM_READ_LIMIT	include/peri.h	/^#define BM_READ_LIMIT	/;"	d
+BM_STACK_RDSET	include/peri.h	/^#define BM_STACK_RDSET	/;"	d
+BM_STACK_RESET	include/peri.h	/^#define BM_STACK_RESET	/;"	d
+BM_STACK_WRSET	include/peri.h	/^#define BM_STACK_WRSET	/;"	d
+BM_WRITE_LIMIT	include/peri.h	/^#define BM_WRITE_LIMIT	/;"	d
+BOOL16	include/jasmine.h	/^typedef    unsigned short        BOOL16;$/;"	t
+BOOL32	include/jasmine.h	/^typedef    unsigned int        BOOL32;$/;"	t
+BOOL8	include/jasmine.h	/^typedef    unsigned char        BOOL8;$/;"	t
+BRMAP_1CH_1WY	include/bank.h	/^#define BRMAP_1CH_1WY /;"	d
+BRMAP_1CH_2WY_A	include/bank.h	/^#define BRMAP_1CH_2WY_A /;"	d
+BRMAP_1CH_2WY_B	include/bank.h	/^#define BRMAP_1CH_2WY_B /;"	d
+BRMAP_1CH_4WY	include/bank.h	/^#define BRMAP_1CH_4WY /;"	d
+BRMAP_2CH_1WY	include/bank.h	/^#define BRMAP_2CH_1WY /;"	d
+BRMAP_2CH_2WY_A	include/bank.h	/^#define BRMAP_2CH_2WY_A /;"	d
+BRMAP_2CH_2WY_B	include/bank.h	/^#define BRMAP_2CH_2WY_B /;"	d
+BRMAP_2CH_2WY_C	include/bank.h	/^#define BRMAP_2CH_2WY_C /;"	d
+BRMAP_2CH_2WY_D	include/bank.h	/^#define BRMAP_2CH_2WY_D /;"	d
+BRMAP_2CH_2WY_E	include/bank.h	/^#define BRMAP_2CH_2WY_E /;"	d
+BRMAP_2CH_3WY	include/bank.h	/^#define BRMAP_2CH_3WY /;"	d
+BRMAP_2CH_4WY_A	include/bank.h	/^#define BRMAP_2CH_4WY_A /;"	d
+BRMAP_2CH_4WY_B	include/bank.h	/^#define BRMAP_2CH_4WY_B /;"	d
+BRMAP_2CH_4WY_C	include/bank.h	/^#define BRMAP_2CH_4WY_C /;"	d
+BRMAP_2CH_4WY_D	include/bank.h	/^#define BRMAP_2CH_4WY_D /;"	d
+BRMAP_2CH_4WY_E	include/bank.h	/^#define BRMAP_2CH_4WY_E /;"	d
+BRMAP_2CH_4WY_F	include/bank.h	/^#define BRMAP_2CH_4WY_F /;"	d
+BRMAP_2CH_5WY_A	include/bank.h	/^#define BRMAP_2CH_5WY_A /;"	d
+BRMAP_2CH_6WY_A	include/bank.h	/^#define BRMAP_2CH_6WY_A /;"	d
+BRMAP_2CH_8WY_A	include/bank.h	/^#define BRMAP_2CH_8WY_A /;"	d
+BRMAP_3CH_2WY	include/bank.h	/^#define BRMAP_3CH_2WY /;"	d
+BRMAP_3CH_2WY_B	include/bank.h	/^#define BRMAP_3CH_2WY_B /;"	d
+BRMAP_3CH_4WY	include/bank.h	/^#define BRMAP_3CH_4WY /;"	d
+BRMAP_4CH_1WY	include/bank.h	/^#define BRMAP_4CH_1WY /;"	d
+BRMAP_4CH_2WY_A	include/bank.h	/^#define BRMAP_4CH_2WY_A /;"	d
+BRMAP_4CH_2WY_B	include/bank.h	/^#define BRMAP_4CH_2WY_B /;"	d
+BRMAP_4CH_3WY	include/bank.h	/^#define BRMAP_4CH_3WY /;"	d
+BRMAP_4CH_4WY	include/bank.h	/^#define BRMAP_4CH_4WY /;"	d
+BRMAP_4CH_4WY_B	include/bank.h	/^#define BRMAP_4CH_4WY_B /;"	d
+BRMAP_4CH_4WY_C	include/bank.h	/^#define BRMAP_4CH_4WY_C /;"	d
+BRMAP_4CH_5WY	include/bank.h	/^#define BRMAP_4CH_5WY /;"	d
+BRMAP_4CH_6WY	include/bank.h	/^#define BRMAP_4CH_6WY /;"	d
+BRMAP_4CH_8WY	include/bank.h	/^#define BRMAP_4CH_8WY /;"	d
+BSO_RX_SSC	include/sata.h	/^#define BSO_RX_SSC	/;"	d
+BSO_TX_SSC	include/sata.h	/^#define BSO_TX_SSC	/;"	d
+BSP_BASE	include/flash.h	/^#define BSP_BASE /;"	d
+BSP_CHASTAT	include/flash.h	/^#define BSP_CHASTAT /;"	d
+BSP_CMD	include/flash.h	/^#define BSP_CMD(/;"	d
+BSP_CMD_ID	include/flash.h	/^#define BSP_CMD_ID(/;"	d
+BSP_COL	include/flash.h	/^#define BSP_COL(/;"	d
+BSP_DMA_ADDR	include/flash.h	/^#define BSP_DMA_ADDR(/;"	d
+BSP_DMA_CNT	include/flash.h	/^#define BSP_DMA_CNT(/;"	d
+BSP_DST_COL	include/flash.h	/^#define BSP_DST_COL(/;"	d
+BSP_DST_ROW_H	include/flash.h	/^#define BSP_DST_ROW_H(/;"	d
+BSP_DST_ROW_L	include/flash.h	/^#define BSP_DST_ROW_L(/;"	d
+BSP_ECCNUM	include/flash.h	/^#define BSP_ECCNUM(/;"	d
+BSP_FSM	include/flash.h	/^#define BSP_FSM(/;"	d
+BSP_FSM_BASE	include/flash.h	/^#define BSP_FSM_BASE /;"	d
+BSP_INTR	include/flash.h	/^#define BSP_INTR(/;"	d
+BSP_INTR_BASE	include/flash.h	/^#define BSP_INTR_BASE /;"	d
+BSP_OPTION	include/flash.h	/^#define BSP_OPTION(/;"	d
+BSP_ROW_H	include/flash.h	/^#define BSP_ROW_H(/;"	d
+BSP_ROW_L	include/flash.h	/^#define BSP_ROW_L(/;"	d
+BS_BASE	target_spw/target.h	/^#define BS_BASE	/;"	d
+BUF_ALIGN	installer/installer.c	/^	#define BUF_ALIGN	/;"	d	file:
+BUF_SIZE	installer/installer.c	/^	#define BUF_SIZE /;"	d	file:
+BYTES_PER_BANK	include/jasmine.h	/^#define BYTES_PER_BANK /;"	d
+BYTES_PER_CHUNK	ftl_page_mapped/ftl_parameters.h	/^#define BYTES_PER_CHUNK /;"	d
+BYTES_PER_FW_PAGE	include/jasmine.h	/^#define BYTES_PER_FW_PAGE /;"	d
+BYTES_PER_PAGE	include/jasmine.h	/^#define BYTES_PER_PAGE /;"	d
+BYTES_PER_PAGE_EXT	include/jasmine.h	/^#define BYTES_PER_PAGE_EXT /;"	d
+BYTES_PER_PHYPAGE	include/jasmine.h	/^#define BYTES_PER_PHYPAGE /;"	d
+BYTES_PER_SECTOR	include/jasmine.h	/^#define BYTES_PER_SECTOR /;"	d
+BYTES_PER_SMALL_PAGE	include/jasmine.h	/^#define BYTES_PER_SMALL_PAGE /;"	d
+BYTES_PER_VBLK	include/jasmine.h	/^#define BYTES_PER_VBLK /;"	d
+B_AA	include/sata.h	/^#define B_AA	/;"	d
+B_ABRT	include/sata.h	/^#define	B_ABRT	/;"	d
+B_BSY	include/sata.h	/^#define	B_BSY	/;"	d
+B_DF	include/sata.h	/^#define	B_DF	/;"	d
+B_DRDY	include/sata.h	/^#define	B_DRDY	/;"	d
+B_DRQ	include/sata.h	/^#define	B_DRQ	/;"	d
+B_ERR	include/sata.h	/^#define	B_ERR	/;"	d
+B_HOB	include/sata.h	/^#define	B_HOB	/;"	d
+B_ICRC	include/sata.h	/^#define B_ICRC	/;"	d
+B_IDNF	include/sata.h	/^#define	B_IDNF	/;"	d
+B_IRQ	include/sata.h	/^#define B_IRQ	/;"	d
+B_SRST	include/sata.h	/^#define	B_SRST	/;"	d
+B_UNC	include/sata.h	/^#define	B_UNC	/;"	d
+BusMajorVersion	installer/ntddstor.h	/^    USHORT BusMajorVersion;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+BusMinorVersion	installer/ntddstor.h	/^    USHORT BusMinorVersion;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+BusSpecificData	installer/ntddstor.h	/^            } BusSpecificData;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23	typeref:union:_DEVICE_MEDIA_INFO::__anon20::__anon23::__anon24
+BusType	installer/ntddstor.h	/^            STORAGE_BUS_TYPE BusType;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23
+BusType	installer/ntddstor.h	/^    STORAGE_BUS_TYPE BusType;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+BusType	installer/ntddstor.h	/^    UCHAR BusType;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+BusType1394	installer/ntddstor.h	/^    BusType1394,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeAta	installer/ntddstor.h	/^    BusTypeAta,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeAtapi	installer/ntddstor.h	/^    BusTypeAtapi,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeFibre	installer/ntddstor.h	/^    BusTypeFibre,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeMaxReserved	installer/ntddstor.h	/^    BusTypeMaxReserved = 0x7F$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeRAID	installer/ntddstor.h	/^    BusTypeRAID,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeScsi	installer/ntddstor.h	/^    BusTypeScsi,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeSsa	installer/ntddstor.h	/^    BusTypeSsa,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeUnknown	installer/ntddstor.h	/^    BusTypeUnknown = 0x00,$/;"	e	enum:_STORAGE_BUS_TYPE
+BusTypeUsb	installer/ntddstor.h	/^    BusTypeUsb,$/;"	e	enum:_STORAGE_BUS_TYPE
+BytesPerSector	installer/ntddstor.h	/^            ULONG BytesPerSector;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+BytesPerSector	installer/ntddstor.h	/^            ULONG BytesPerSector;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+C0	include/bank.h	/^#define C0 /;"	d
+C1	include/bank.h	/^#define C1 /;"	d
+C2	include/bank.h	/^#define C2 /;"	d
+C3	include/bank.h	/^#define C3 /;"	d
+C4	include/bank.h	/^#define C4 /;"	d
+C5	include/bank.h	/^#define C5 /;"	d
+C6	include/bank.h	/^#define C6 /;"	d
+C7	include/bank.h	/^#define C7 /;"	d
+CC	build_gnu/Makefile	/^CC = $(PREFIX)gcc$/;"	m
+CCL_FTL_D2H	include/sata.h	/^#define CCL_FTL_D2H	/;"	d
+CCL_FTL_H2D	include/sata.h	/^#define CCL_FTL_H2D	/;"	d
+CCL_OTHER	include/sata.h	/^#define CCL_OTHER	/;"	d
+CCL_UNDEFINED	include/sata.h	/^#define	CCL_UNDEFINED	/;"	d
+CD_R	installer/ntddstor.h	/^    CD_R,                      \/\/ Opt_Disk - CD-Recordable (Write Once)$/;"	e	enum:_STORAGE_MEDIA_TYPE
+CD_ROM	installer/ntddstor.h	/^    CD_ROM,                    \/\/ Opt_Disk - CD$/;"	e	enum:_STORAGE_MEDIA_TYPE
+CD_RW	installer/ntddstor.h	/^    CD_RW,                     \/\/ Opt_Disk - CD-Rewriteable$/;"	e	enum:_STORAGE_MEDIA_TYPE
+CFA_ERASE_SECTORS	installer/ata_7.h	/^#define CFA_ERASE_SECTORS	/;"	d
+CFA_REQUEST_EXTENDED_ERROR	installer/ata_7.h	/^#define CFA_REQUEST_EXTENDED_ERROR	/;"	d
+CFA_TRANSLATE_SECTOR	installer/ata_7.h	/^#define CFA_TRANSLATE_SECTOR	/;"	d
+CFA_WRITE_MULTIPLE_WITHOUT_ERASE	installer/ata_7.h	/^#define CFA_WRITE_MULTIPLE_WITHOUT_ERASE	/;"	d
+CFA_WRITE_SECTORS_WITHOUT_ERASE	installer/ata_7.h	/^#define CFA_WRITE_SECTORS_WITHOUT_ERASE	/;"	d
+CFLAGS	build_gnu/Makefile	/^CFLAGS = -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O3 -DPROGRAM_MAIN_FW -Wall$/;"	m
+CHA_ADDR	include/flash.h	/^#define CHA_ADDR /;"	d
+CHA_ADDREND	include/flash.h	/^#define CHA_ADDREND /;"	d
+CHA_ADDRSTA	include/flash.h	/^#define CHA_ADDRSTA /;"	d
+CHA_BANKSEL	include/flash.h	/^#define CHA_BANKSEL /;"	d
+CHA_BUFREADY	include/flash.h	/^#define CHA_BUFREADY /;"	d
+CHA_COM1NOP	include/flash.h	/^#define CHA_COM1NOP /;"	d
+CHA_COM1STA	include/flash.h	/^#define CHA_COM1STA /;"	d
+CHA_COM2STA	include/flash.h	/^#define CHA_COM2STA /;"	d
+CHA_COMMAND1	include/flash.h	/^#define CHA_COMMAND1 /;"	d
+CHA_COMMAND2	include/flash.h	/^#define CHA_COMMAND2 /;"	d
+CHA_END	include/flash.h	/^#define CHA_END /;"	d
+CHA_ENDNOP	include/flash.h	/^#define CHA_ENDNOP /;"	d
+CHA_IDLE	include/flash.h	/^#define CHA_IDLE /;"	d
+CHA_READ	include/flash.h	/^#define CHA_READ /;"	d
+CHA_READNOP	include/flash.h	/^#define CHA_READNOP /;"	d
+CHA_READSTA	include/flash.h	/^#define CHA_READSTA /;"	d
+CHA_START	include/flash.h	/^#define CHA_START /;"	d
+CHA_WAIT	include/flash.h	/^#define CHA_WAIT /;"	d
+CHA_WRITE	include/flash.h	/^#define CHA_WRITE /;"	d
+CHA_WRITE2	include/flash.h	/^#define CHA_WRITE2 /;"	d
+CHA_WRITENOP	include/flash.h	/^#define CHA_WRITENOP /;"	d
+CHA_WRITESTA	include/flash.h	/^#define CHA_WRITESTA /;"	d
+CHECK_MEDIA_CARD_TYPE	installer/ata_7.h	/^#define CHECK_MEDIA_CARD_TYPE	/;"	d
+CHECK_POWER_MODE	installer/ata_7.h	/^#define CHECK_POWER_MODE	/;"	d
+CHK_CMD	include/flash.h	/^#define CHK_CMD(/;"	d
+CHK_CODE	include/flash.h	/^#define CHK_CODE(/;"	d
+CHK_MASK	include/flash.h	/^#define CHK_MASK(/;"	d
+CHN_WIDTH	include/jasmine.h	/^#define CHN_WIDTH /;"	d
+CHS_HEADS	include/sata.h	/^#define CHS_HEADS	/;"	d
+CHS_MAX_ADDR	include/sata.h	/^#define CHS_MAX_ADDR	/;"	d
+CHUNKS_MAP_TABLE_ADDR	ftl_page_mapped/dram_layout.h	/^#define CHUNKS_MAP_TABLE_ADDR /;"	d
+CHUNKS_MAP_TABLE_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_MAP_TABLE_BYTES /;"	d
+CHUNKS_PER_BLK	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_BLK /;"	d
+CHUNKS_PER_LOG_BLK	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_LOG_BLK /;"	d
+CHUNKS_PER_LOG_BLK_FIRST_USAGE	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_LOG_BLK_FIRST_USAGE /;"	d
+CHUNKS_PER_LOG_BLK_SECOND_USAGE	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_LOG_BLK_SECOND_USAGE /;"	d
+CHUNKS_PER_OW_LOG_BLK	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_OW_LOG_BLK /;"	d
+CHUNKS_PER_PAGE	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_PAGE /;"	d
+CHUNKS_PER_RECYCLED_LOG_BLK	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_RECYCLED_LOG_BLK /;"	d
+CHUNKS_PER_RECYCLED_PAGE	ftl_page_mapped/ftl_parameters.h	/^#define CHUNKS_PER_RECYCLED_PAGE /;"	d
+CHUNK_ADDR_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define CHUNK_ADDR_BYTES /;"	d
+CLEANER_CARTRIDGE	installer/ntddstor.h	/^    CLEANER_CARTRIDGE,         \/\/ Cleaner - All Drive types that support Drive Cleaners$/;"	e	enum:_STORAGE_MEDIA_TYPE
+CLEAN_LIST_H	ftl_page_mapped/cleanList.h	/^#define CLEAN_LIST_H$/;"	d
+CLEAN_LIST_NODES_ADDR	ftl_page_mapped/dram_layout.h	/^#define CLEAN_LIST_NODES_ADDR /;"	d
+CLEAN_LIST_NODES_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define CLEAN_LIST_NODES_BYTES /;"	d
+CLEAR_TIMER_INTR	include/peri.h	/^#define	CLEAR_TIMER_INTR(/;"	d
+CLKSelCon	include/peri.h	/^#define CLKSelCon	/;"	d
+CLOCK_DIV_0001	target_spw/target.h	/^#define	CLOCK_DIV_0001	/;"	d
+CLOCK_DIV_0001_SPEED	target_spw/target.h	/^#define	CLOCK_DIV_0001_SPEED	/;"	d
+CLOCK_DIV_0002	target_spw/target.h	/^#define	CLOCK_DIV_0002	/;"	d
+CLOCK_DIV_0002_SPEED	target_spw/target.h	/^#define	CLOCK_DIV_0002_SPEED	/;"	d
+CLOCK_DIV_0032	target_spw/target.h	/^#define	CLOCK_DIV_0032	/;"	d
+CLOCK_DIV_0032_SPEED	target_spw/target.h	/^#define CLOCK_DIV_0032_SPEED	/;"	d
+CLOCK_DIV_1024	target_spw/target.h	/^#define	CLOCK_DIV_1024	/;"	d
+CLOCK_DIV_1024_SPEED	target_spw/target.h	/^#define	CLOCK_DIV_1024_SPEED	/;"	d
+CLOCK_DIV_PLL	target_spw/target.h	/^#define	CLOCK_DIV_PLL	/;"	d
+CLOCK_SPEED	include/jasmine.h	/^#define CLOCK_SPEED /;"	d
+CLR_BSP_INTR	include/flash.h	/^#define CLR_BSP_INTR(/;"	d
+CLR_STAT_PIO_SETUP	include/sata_registers.h	/^#define CLR_STAT_PIO_SETUP	/;"	d
+CMD_ID_MAX	include/flash.h	/^#define CMD_ID_MAX /;"	d
+CMD_RECV	include/sata_registers.h	/^#define	CMD_RECV	/;"	d
+CMD_T	include/sata.h	/^} CMD_T;$/;"	t	typeref:struct:__anon6
+CMD_TABLE_SIZE	include/sata_cmd.h	/^#define	CMD_TABLE_SIZE	/;"	d
+COLD_LOG_BUF	ftl_page_mapped/dram_layout.h	/^#define COLD_LOG_BUF(/;"	d
+COLD_LOG_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define COLD_LOG_BUF_ADDR /;"	d
+COMPLETE	include/sata_registers.h	/^#define COMPLETE	/;"	d
+CONFIGURE_STREAM	installer/ata_7.h	/^#define CONFIGURE_STREAM	/;"	d
+COPY_BUF	ftl_page_mapped/dram_layout.h	/^#define COPY_BUF(/;"	d
+COPY_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define COPY_BUF_ADDR /;"	d
+COPY_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define COPY_BUF_BYTES /;"	d
+CYCLE_PER_HOLD	target_spw/target.h	/^	#define CYCLE_PER_HOLD /;"	d
+CYCLE_PER_HOLD	target_spw/target.h	/^#define CYCLE_PER_HOLD /;"	d
+CYGNET_12_WO	installer/ntddstor.h	/^    CYGNET_12_WO,              \/\/ Opt_Disk - Cygnet\/ATG 12" Write Once$/;"	e	enum:_STORAGE_MEDIA_TYPE
+C_BITMAP_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define C_BITMAP_BYTES /;"	d
+CanReuseBlksForColdData	include/jasmine.h	/^#define CanReuseBlksForColdData /;"	d
+CdChangerClassGuid	installer/ntddstor.h	/^#define CdChangerClassGuid /;"	d
+CdRomClassGuid	installer/ntddstor.h	/^#define CdRomClassGuid /;"	d
+ChunkToBank	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToBank(/;"	d
+ChunkToChunkOffset	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToChunkOffset(/;"	d
+ChunkToChunkOffsetInBank	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToChunkOffsetInBank(/;"	d
+ChunkToLbn	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToLbn(/;"	d
+ChunkToLpn	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToLpn(/;"	d
+ChunkToPageOffset	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToPageOffset(/;"	d
+ChunkToSectOffset	ftl_page_mapped/ftl_parameters.h	/^#define ChunkToSectOffset(/;"	d
+ChunksMapTable	ftl_page_mapped/dram_layout.h	/^#define ChunksMapTable(/;"	d
+CleanBlksBackgroundGcThreshold	ftl_page_mapped/ftl_metadata.c	/^UINT32 CleanBlksBackgroundGcThreshold = 1;$/;"	v
+CleanList	ftl_page_mapped/dram_layout.h	/^#define CleanList(/;"	d
+ClkMaskCon	include/peri.h	/^#define ClkMaskCon	/;"	d
+CodeSet	installer/ntddstor.h	/^    STORAGE_IDENTIFIER_CODE_SET CodeSet;$/;"	m	struct:_STORAGE_IDENTIFIER
+ColdLogBufBitFlag	ftl_page_mapped/ftl_parameters.h	/^#define ColdLogBufBitFlag /;"	d
+CommandQueueing	installer/ntddstor.h	/^    BOOLEAN CommandQueueing;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+CommandQueueing	installer/ntddstor.h	/^    BOOLEAN CommandQueueing;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+CompressionRatioReads	installer/ntddstor.h	/^    UCHAR         CompressionRatioReads;$/;"	m	struct:_TAPE_STATISTICS
+CompressionRatioWrites	installer/ntddstor.h	/^    UCHAR         CompressionRatioWrites;$/;"	m	struct:_TAPE_STATISTICS
+CurrentBlockSize	installer/ntddstor.h	/^            ULONG   CurrentBlockSize;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23
+Cylinders	installer/ntddstor.h	/^            LARGE_INTEGER Cylinders;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+Cylinders	installer/ntddstor.h	/^            LARGE_INTEGER Cylinders;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+D0	include/bank.h	/^#define D0 /;"	d
+D1	include/bank.h	/^#define D1 /;"	d
+D2	include/bank.h	/^#define D2 /;"	d
+D3	include/bank.h	/^#define D3 /;"	d
+D4	include/bank.h	/^#define D4 /;"	d
+D5	include/bank.h	/^#define D5 /;"	d
+D6	include/bank.h	/^#define D6 /;"	d
+D7	include/bank.h	/^#define D7 /;"	d
+DATA_BLK_PER_BANK	ftl_page_mapped/ftl_parameters.h	/^#define DATA_BLK_PER_BANK /;"	d
+DBG_RX_BUFSIZE	include/uart.h	/^#define DBG_RX_BUFSIZE	/;"	d
+DBG_TX_BUFSIZE	include/uart.h	/^#define DBG_TX_BUFSIZE	/;"	d
+DDS_4mm	installer/ntddstor.h	/^    DDS_4mm = 0x20,            \/\/ Tape - DAT DDS1,2,... (all vendors)$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DEFAULT_DRIVE	target_spw/flash.c	/^    #define DEFAULT_DRIVE /;"	d	file:
+DEPS	build_gnu/Makefile	/^DEPS = $(SRCS:.c=.d)$/;"	m
+DEVICE_CONFIGURATION_FREEZE_LOCK	installer/ata_7.h	/^#define DEVICE_CONFIGURATION_FREEZE_LOCK	/;"	d
+DEVICE_CONFIGURATION_IDENTIFY	installer/ata_7.h	/^#define DEVICE_CONFIGURATION_IDENTIFY	/;"	d
+DEVICE_CONFIGURATION_RESTORE	installer/ata_7.h	/^#define DEVICE_CONFIGURATION_RESTORE	/;"	d
+DEVICE_CONFIGURATION_SET	installer/ata_7.h	/^#define DEVICE_CONFIGURATION_SET	/;"	d
+DEVICE_ID	installer/installer-linux.c	/^#define DEVICE_ID /;"	d	file:
+DEVICE_MEDIA_INFO	installer/ntddstor.h	/^} DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO;$/;"	t	typeref:struct:_DEVICE_MEDIA_INFO
+DEVICE_RESET	installer/ata_7.h	/^#define DEVICE_RESET	/;"	d
+DIS_COM2_SEL	include/flash.h	/^#define DIS_COM2_SEL(/;"	d
+DLT	installer/ntddstor.h	/^    DLT,                       \/\/ Tape - DLT Compact IIIxt, IV$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DMA_READ	include/sata_registers.h	/^#define DMA_READ	/;"	d
+DMA_WRITE	include/sata_registers.h	/^#define DMA_WRITE	/;"	d
+DMI	installer/ntddstor.h	/^    DMI,                       \/\/ Tape - Exabyte DMI and compatibles$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DOWNLOAD_MICROCODE	installer/ata_7.h	/^#define DOWNLOAD_MICROCODE	/;"	d
+DRAMColdLog	ftl_page_mapped/ftl_parameters.h	/^typedef enum {Invalid, FlashWLog, FlashWLogEncoded, DRAMHotLog, DRAMColdLog} chunkLocation;$/;"	e	enum:__anon1
+DRAMHotLog	ftl_page_mapped/ftl_parameters.h	/^typedef enum {Invalid, FlashWLog, FlashWLogEncoded, DRAMHotLog, DRAMColdLog} chunkLocation;$/;"	e	enum:__anon1
+DRAM_BASE	target_spw/target.h	/^#define DRAM_BASE	/;"	d
+DRAM_BYTES_OTHER	ftl_page_mapped/ftl_parameters.h	/^#define DRAM_BYTES_OTHER /;"	d
+DRAM_ECC_UNIT	include/jasmine.h	/^#define    DRAM_ECC_UNIT /;"	d
+DRAM_LAYOUT_H	ftl_page_mapped/dram_layout.h	/^#define DRAM_LAYOUT_H$/;"	d
+DRAM_SIZE	include/jasmine.h	/^#define DRAM_SIZE /;"	d
+DST_L	installer/ntddstor.h	/^    DST_L,                     \/\/ Ampex DST Large Tapes$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DST_M	installer/ntddstor.h	/^    DST_M,                     \/\/ Ampex DST Medium Tapes$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DST_S	installer/ntddstor.h	/^    DST_S,                     \/\/ Ampex DST Small Tapes$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DVD_R	installer/ntddstor.h	/^    DVD_R,                     \/\/ Opt_Disk - DVD-Recordable (Write Once)$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DVD_RAM	installer/ntddstor.h	/^    DVD_RAM,                   \/\/ Opt_Disk - DVD-RAM$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DVD_ROM	installer/ntddstor.h	/^    DVD_ROM,                   \/\/ Opt_Disk - DVD-ROM$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DVD_RW	installer/ntddstor.h	/^    DVD_RW,                    \/\/ Opt_Disk - DVD-Rewriteable$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DV_6mm	installer/ntddstor.h	/^    DV_6mm,                    \/\/ Tape - 6mm Digital Video$/;"	e	enum:_STORAGE_MEDIA_TYPE
+DataBlksPerBankSeenByUser	ftl_page_mapped/ftl_parameters.h	/^#define DataBlksPerBankSeenByUser /;"	d
+DataPageToDataBlk	ftl_page_mapped/ftl_metadata.h	/^#define DataPageToDataBlk(/;"	d
+DataPageToOffset	ftl_page_mapped/ftl_metadata.h	/^#define DataPageToOffset(/;"	d
+DensityCode	installer/ntddstor.h	/^                    UCHAR DensityCode;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23::__anon24::__anon25
+DetailedOwStats	include/jasmine.h	/^#define DetailedOwStats /;"	d
+DeviceHotplug	installer/ntddstor.h	/^    BOOLEAN DeviceHotplug;  \/\/ ie. 1394, USB, etc.$/;"	m	struct:_STORAGE_HOTPLUG_INFO
+DeviceNumber	installer/ntddstor.h	/^    ULONG       DeviceNumber;$/;"	m	struct:_STORAGE_DEVICE_NUMBER
+DeviceSpecific	installer/ntddstor.h	/^    } DeviceSpecific;$/;"	m	struct:_DEVICE_MEDIA_INFO	typeref:union:_DEVICE_MEDIA_INFO::__anon20
+DeviceType	installer/ntddstor.h	/^    DWORD       DeviceType;$/;"	m	struct:_STORAGE_DEVICE_NUMBER
+DeviceType	installer/ntddstor.h	/^    UCHAR DeviceType;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+DeviceType	installer/ntddstor.h	/^    ULONG DeviceType;              \/\/ FILE_DEVICE_XXX values$/;"	m	struct:_GET_MEDIA_TYPES
+DeviceTypeModifier	installer/ntddstor.h	/^    UCHAR DeviceTypeModifier;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+DiskClassGuid	installer/ntddstor.h	/^#define DiskClassGuid /;"	d
+DiskInfo	installer/ntddstor.h	/^        } DiskInfo;$/;"	m	union:_DEVICE_MEDIA_INFO::__anon20	typeref:struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+DramLogBufLpn	ftl_page_mapped/ftl_parameters.h	/^#define DramLogBufLpn /;"	d
+ECC_SEC_FLAG	include/flash.h	/^#define ECC_SEC_FLAG /;"	d
+ECC_SIZE	include/flash.h	/^#define ECC_SIZE(/;"	d
+EDC_SEC_FLAG	include/flash.h	/^#define EDC_SEC_FLAG /;"	d
+EDC_SEC_INT	include/flash.h	/^#define EDC_SEC_INT(/;"	d
+END_ADDR	ftl_page_mapped/dram_layout.h	/^#define END_ADDR /;"	d
+EQ_MARGIN	target_spw/target.h	/^#define EQ_MARGIN	/;"	d
+EQ_SIZE	target_spw/target.h	/^#define EQ_SIZE	/;"	d
+ERR_BLANK	installer/installer-linux.c	/^#define ERR_BLANK	/;"	d	file:
+ERR_BLANK	installer/installer.c	/^#define ERR_BLANK	/;"	d	file:
+ERR_CORRUPT	installer/installer-linux.c	/^#define ERR_CORRUPT	/;"	d	file:
+ERR_CORRUPT	installer/installer.c	/^#define ERR_CORRUPT	/;"	d	file:
+ERR_EXIT	installer/installer-linux.c	/^#define ERR_EXIT	/;"	d	file:
+ERR_EXIT	installer/installer.c	/^#define ERR_EXIT	/;"	d	file:
+EVEN_PARITY	include/uart.h	/^#define EVEN_PARITY	/;"	d
+EXECUTE_DEVICE_DIAGNOSTIC	installer/ata_7.h	/^#define EXECUTE_DEVICE_DIAGNOSTIC	/;"	d
+ExtINTCon	include/peri.h	/^#define ExtINTCon	/;"	d
+F0_PARITY	include/uart.h	/^#define F0_PARITY	/;"	d
+F1_PARITY	include/uart.h	/^#define F1_PARITY	/;"	d
+FACTORY_CMD_SIGNATURE	include/rom.h	/^#define FACTORY_CMD_SIGNATURE	/;"	d
+FAIL	include/jasmine.h	/^#define    FAIL /;"	d
+FALSE	include/jasmine.h	/^#define    FALSE /;"	d
+FALSE	include/jasmine.h	/^#undef FALSE$/;"	d
+FAR	installer/ntddstor.h	/^#define FAR /;"	d
+FAR	installer/ntddstor.h	/^#define FAR$/;"	d
+FCONF_BUFSIZE	include/flash.h	/^#define FCONF_BUFSIZE /;"	d
+FCONF_CHKCMD	include/flash.h	/^#define FCONF_CHKCMD /;"	d
+FCONF_COMMAND	include/flash.h	/^#define FCONF_COMMAND /;"	d
+FCONF_CPBDMABASE	include/flash.h	/^#define FCONF_CPBDMABASE /;"	d
+FCONF_NANDCFG_1	include/flash.h	/^#define FCONF_NANDCFG_1 /;"	d
+FCONF_NANDCFG_2	include/flash.h	/^#define FCONF_NANDCFG_2 /;"	d
+FCONF_PAUSE	include/flash.h	/^#define FCONF_PAUSE /;"	d
+FCONF_REBDELAY	include/flash.h	/^#define FCONF_REBDELAY /;"	d
+FCONF_TIMECYCLE	include/flash.h	/^#define FCONF_TIMECYCLE /;"	d
+FCP_BANK	include/flash.h	/^#define FCP_BANK /;"	d
+FCP_BASE	include/flash.h	/^#define FCP_BASE /;"	d
+FCP_CMD	include/flash.h	/^#define FCP_CMD /;"	d
+FCP_CMD_ID	include/flash.h	/^#define FCP_CMD_ID /;"	d
+FCP_COL	include/flash.h	/^#define FCP_COL /;"	d
+FCP_DMA_ADDR	include/flash.h	/^#define FCP_DMA_ADDR /;"	d
+FCP_DMA_CNT	include/flash.h	/^#define FCP_DMA_CNT /;"	d
+FCP_DST_COL	include/flash.h	/^#define FCP_DST_COL /;"	d
+FCP_DST_ROW_H	include/flash.h	/^#define FCP_DST_ROW_H /;"	d
+FCP_DST_ROW_L	include/flash.h	/^#define FCP_DST_ROW_L /;"	d
+FCP_ISSUE	include/flash.h	/^#define FCP_ISSUE /;"	d
+FCP_OPTION	include/flash.h	/^#define FCP_OPTION /;"	d
+FCP_ROW0_H	include/flash.h	/^#define FCP_ROW0_H /;"	d
+FCP_ROW0_L	include/flash.h	/^#define FCP_ROW0_L /;"	d
+FCP_ROW_H	include/flash.h	/^#define FCP_ROW_H(/;"	d
+FCP_ROW_L	include/flash.h	/^#define FCP_ROW_L(/;"	d
+FC_COL_OUT	include/flash.h	/^#define FC_COL_OUT /;"	d
+FC_COL_ROW_IN	include/flash.h	/^#define FC_COL_ROW_IN /;"	d
+FC_COL_ROW_IN_PROG	include/flash.h	/^#define FC_COL_ROW_IN_PROG /;"	d
+FC_COL_ROW_READ	include/flash.h	/^#define FC_COL_ROW_READ /;"	d
+FC_COL_ROW_READ_OUT	include/flash.h	/^#define FC_COL_ROW_READ_OUT /;"	d
+FC_COPYBACK	include/flash.h	/^#define FC_COPYBACK /;"	d
+FC_ERASE	include/flash.h	/^#define FC_ERASE /;"	d
+FC_GENERIC	include/flash.h	/^#define FC_GENERIC /;"	d
+FC_GENERIC_ADDR	include/flash.h	/^#define FC_GENERIC_ADDR /;"	d
+FC_IN	include/flash.h	/^#define FC_IN /;"	d
+FC_IN_PROG	include/flash.h	/^#define FC_IN_PROG /;"	d
+FC_MODIFY_COPYBACK	include/flash.h	/^#define FC_MODIFY_COPYBACK /;"	d
+FC_OUT	include/flash.h	/^#define FC_OUT /;"	d
+FC_PROG	include/flash.h	/^#define FC_PROG /;"	d
+FC_READ_ID	include/flash.h	/^#define FC_READ_ID /;"	d
+FC_WAIT	include/flash.h	/^#define FC_WAIT /;"	d
+FEATURE_DISABLE_ADVANCED_POWER_MANAGEMENT	include/sata_cmd.h	/^	FEATURE_DISABLE_ADVANCED_POWER_MANAGEMENT			= 0x85,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_DISABLE_POWERUP_IN_STANDBY	include/sata_cmd.h	/^	FEATURE_DISABLE_POWERUP_IN_STANDBY					= 0x86,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_DISABLE_READ_LOOK_AHEAD	include/sata_cmd.h	/^	FEATURE_DISABLE_READ_LOOK_AHEAD						= 0x55,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_DISABLE_REVERTING_TO_POWER_ON_DEFAULTS	include/sata_cmd.h	/^	FEATURE_DISABLE_REVERTING_TO_POWER_ON_DEFAULTS		= 0x66,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_DISABLE_USE_OF_SATA	include/sata_cmd.h	/^	FEATURE_DISABLE_USE_OF_SATA							= 0x90,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_DISABLE_WRITE_CACHE	include/sata_cmd.h	/^	FEATURE_DISABLE_WRITE_CACHE							= 0x82,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_ENABLE_ADVANCED_POWER_MANAGEMENT	include/sata_cmd.h	/^	FEATURE_ENABLE_ADVANCED_POWER_MANAGEMENT			= 0x05,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_ENABLE_POWERUP_IN_STANDBY	include/sata_cmd.h	/^	FEATURE_ENABLE_POWERUP_IN_STANDBY					= 0x06,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_ENABLE_READ_LOOK_AHEAD	include/sata_cmd.h	/^	FEATURE_ENABLE_READ_LOOK_AHEAD						= 0xAA,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_ENABLE_REVERTING_TO_POWER_ON_DEFAULTS	include/sata_cmd.h	/^	FEATURE_ENABLE_REVERTING_TO_POWER_ON_DEFAULTS		= 0xCC$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_ENABLE_USE_OF_SATA	include/sata_cmd.h	/^	FEATURE_ENABLE_USE_OF_SATA							= 0x10,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_ENABLE_WRITE_CACHE	include/sata_cmd.h	/^	FEATURE_ENABLE_WRITE_CACHE							= 0x02,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_POWRUP_IN_STANDBY_FEATURE_SET_DEVICE_SPINUP	include/sata_cmd.h	/^	FEATURE_POWRUP_IN_STANDBY_FEATURE_SET_DEVICE_SPINUP	= 0x07,$/;"	e	enum:tag_FEATURES_subcommands
+FEATURE_SET_TRANSFER_MODE	include/sata_cmd.h	/^	FEATURE_SET_TRANSFER_MODE							= 0x03,$/;"	e	enum:tag_FEATURES_subcommands
+FIRQ_ALL_FF	include/flash.h	/^#define FIRQ_ALL_FF /;"	d
+FIRQ_BADBLK_H	include/flash.h	/^#define FIRQ_BADBLK_H /;"	d
+FIRQ_BADBLK_L	include/flash.h	/^#define FIRQ_BADBLK_L /;"	d
+FIRQ_CORRECTED	include/flash.h	/^#define FIRQ_CORRECTED /;"	d
+FIRQ_CRC_FAIL	include/flash.h	/^#define FIRQ_CRC_FAIL /;"	d
+FIRQ_DATA_CORRUPT	include/flash.h	/^#define FIRQ_DATA_CORRUPT /;"	d
+FIRQ_ECC_FAIL	include/flash.h	/^#define FIRQ_ECC_FAIL /;"	d
+FIRQ_MISMATCH	include/flash.h	/^#define FIRQ_MISMATCH /;"	d
+FISTYPE_BIST_ACTIVATE	include/sata.h	/^	FISTYPE_BIST_ACTIVATE	= 0x58,$/;"	e	enum:__anon9
+FISTYPE_DATA	include/sata.h	/^	FISTYPE_DATA			= 0x46,$/;"	e	enum:__anon9
+FISTYPE_DMA_ACTIVATE	include/sata.h	/^	FISTYPE_DMA_ACTIVATE	= 0x39,$/;"	e	enum:__anon9
+FISTYPE_DMA_SETUP	include/sata.h	/^	FISTYPE_DMA_SETUP		= 0x41,$/;"	e	enum:__anon9
+FISTYPE_PIO_SETUP	include/sata.h	/^	FISTYPE_PIO_SETUP		= 0x5F,$/;"	e	enum:__anon9
+FISTYPE_REGISTER_D2H	include/sata.h	/^	FISTYPE_REGISTER_D2H	= 0x34,$/;"	e	enum:__anon9
+FISTYPE_REGISTER_H2D	include/sata.h	/^	FISTYPE_REGISTER_H2D	= 0x27,$/;"	e	enum:__anon9
+FISTYPE_SET_DEVICE_BITS	include/sata.h	/^	FISTYPE_SET_DEVICE_BITS	= 0xA1$/;"	e	enum:__anon9
+FLASH_ADL	include/flash.h	/^#define FLASH_ADL(/;"	d
+FLASH_CLE_ALE_DLY	include/flash.h	/^#define FLASH_CLE_ALE_DLY(/;"	d
+FLASH_ECC_ENABLE	include/flash.h	/^#define FLASH_ECC_ENABLE /;"	d
+FLASH_H	include/flash.h	/^#define FLASH_H$/;"	d
+FLASH_HOLD	include/flash.h	/^#define FLASH_HOLD(/;"	d
+FLASH_ID_BYTES	include/jasmine.h	/^#define    FLASH_ID_BYTES /;"	d
+FLASH_ID_ERROR	installer/installer-linux.c	/^enum { FLASH_ID_OK, FLASH_ID_VOID, FLASH_ID_ERROR };$/;"	e	enum:__anon15	file:
+FLASH_ID_ERROR	installer/installer.c	/^enum { FLASH_ID_OK, FLASH_ID_VOID, FLASH_ID_ERROR };$/;"	e	enum:__anon18	file:
+FLASH_ID_OK	installer/installer-linux.c	/^enum { FLASH_ID_OK, FLASH_ID_VOID, FLASH_ID_ERROR };$/;"	e	enum:__anon15	file:
+FLASH_ID_OK	installer/installer.c	/^enum { FLASH_ID_OK, FLASH_ID_VOID, FLASH_ID_ERROR };$/;"	e	enum:__anon18	file:
+FLASH_ID_VOID	installer/installer-linux.c	/^enum { FLASH_ID_OK, FLASH_ID_VOID, FLASH_ID_ERROR };$/;"	e	enum:__anon15	file:
+FLASH_ID_VOID	installer/installer.c	/^enum { FLASH_ID_OK, FLASH_ID_VOID, FLASH_ID_ERROR };$/;"	e	enum:__anon18	file:
+FLASH_ISSUE	include/flash.h	/^#define FLASH_ISSUE /;"	d
+FLASH_OUT_ENA_DLY	include/flash.h	/^#define FLASH_OUT_ENA_DLY(/;"	d
+FLASH_PARAM_75_HOLD	include/flash.h	/^#define FLASH_PARAM_75_HOLD /;"	d
+FLASH_PARAM_75_READ_CYCLE	include/flash.h	/^#define FLASH_PARAM_75_READ_CYCLE /;"	d
+FLASH_PARAM_75_SETUP	include/flash.h	/^#define FLASH_PARAM_75_SETUP /;"	d
+FLASH_PARAM_HOLD_MAX	include/flash.h	/^#define FLASH_PARAM_HOLD_MAX /;"	d
+FLASH_PARAM_READ_CYCLE_MAX	include/flash.h	/^#define FLASH_PARAM_READ_CYCLE_MAX /;"	d
+FLASH_PARAM_SETUP	target_spw/target.h	/^#define FLASH_PARAM_SETUP	/;"	d
+FLASH_PARAM_SETUP_MAX	include/flash.h	/^#define FLASH_PARAM_SETUP_MAX /;"	d
+FLASH_PARAM_TIMECYCLE_SAFE	include/flash.h	/^#define FLASH_PARAM_TIMECYCLE_SAFE /;"	d
+FLASH_POLL_WR	include/flash.h	/^#define FLASH_POLL_WR(/;"	d
+FLASH_READ_CYCLE_A	include/flash.h	/^#define FLASH_READ_CYCLE_A(/;"	d
+FLASH_READ_CYCLE_B	include/flash.h	/^#define FLASH_READ_CYCLE_B(/;"	d
+FLASH_READ_CYCLE_C	include/flash.h	/^#define FLASH_READ_CYCLE_C(/;"	d
+FLASH_READ_CYCLE_D	include/flash.h	/^#define FLASH_READ_CYCLE_D(/;"	d
+FLASH_RHW	include/flash.h	/^#define FLASH_RHW(/;"	d
+FLASH_SETUP	include/flash.h	/^#define FLASH_SETUP(/;"	d
+FLASH_TYPE	include/jasmine.h	/^#define FLASH_TYPE /;"	d
+FLASH_WHR	include/flash.h	/^#define FLASH_WHR(/;"	d
+FLIP_BITMAP_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define FLIP_BITMAP_BYTES /;"	d
+FLUSH_CACHE	installer/ata_7.h	/^#define FLUSH_CACHE	/;"	d
+FLUSH_CACHE_EXT	installer/ata_7.h	/^#define FLUSH_CACHE_EXT	/;"	d
+FLUSH_NCQ	include/sata_registers.h	/^#define FLUSH_NCQ	/;"	d
+FO_B_SATA_R	include/flash.h	/^#define FO_B_SATA_R /;"	d
+FO_B_SATA_W	include/flash.h	/^#define FO_B_SATA_W /;"	d
+FO_B_W_DRDY	include/flash.h	/^#define FO_B_W_DRDY /;"	d
+FO_E	include/flash.h	/^#define FO_E /;"	d
+FO_H	include/flash.h	/^#define FO_H /;"	d
+FO_L	include/flash.h	/^#define FO_L /;"	d
+FO_P	include/flash.h	/^#define FO_P /;"	d
+FO_SCRAMBLE	include/flash.h	/^#define FO_SCRAMBLE /;"	d
+FPDMA_READ	include/sata_registers.h	/^#define FPDMA_READ	/;"	d
+FPDMA_WRITE	include/sata_registers.h	/^#define FPDMA_WRITE	/;"	d
+FREG_BASE	target_spw/target.h	/^#define FREG_BASE	/;"	d
+FTL	build_gnu/Makefile	/^FTL = page_mapped$/;"	m
+FTL_BMT_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define FTL_BMT_BYTES /;"	d
+FTL_BUF	ftl_page_mapped/dram_layout.h	/^#define FTL_BUF(/;"	d
+FTL_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define FTL_BUF_ADDR /;"	d
+FTL_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define FTL_BUF_BYTES /;"	d
+FTL_H	ftl_page_mapped/ftl.h	/^#define FTL_H$/;"	d
+FTL_METADATA_H	ftl_page_mapped/ftl_metadata.h	/^#define FTL_METADATA_H$/;"	d
+FTL_PARAMETERS_H	ftl_page_mapped/ftl_parameters.h	/^#define FTL_PARAMETERS_H$/;"	d
+FTL_READ_PTR	include/flash.h	/^#define FTL_READ_PTR /;"	d
+FW_BUF_BYTES	installer/installer-linux.c	/^#define FW_BUF_BYTES	/;"	d	file:
+FW_BUF_BYTES	installer/installer.c	/^#define FW_BUF_BYTES	/;"	d	file:
+FW_PAGE_OFFSET	include/jasmine.h	/^#define FW_PAGE_OFFSET /;"	d
+FW_REV	sata/sata_identify.c	/^#define FW_REV /;"	d	file:
+F_BIT	target_spw/init_rvds.s	/^F_BIT           EQU     0x40$/;"	d
+Flags	installer/ntddstor.h	/^    ULONG Flags;$/;"	m	struct:_TAPE_STATISTICS
+FlashWLog	ftl_page_mapped/ftl_parameters.h	/^typedef enum {Invalid, FlashWLog, FlashWLogEncoded, DRAMHotLog, DRAMColdLog} chunkLocation;$/;"	e	enum:__anon1
+FlashWLogEncoded	ftl_page_mapped/ftl_parameters.h	/^typedef enum {Invalid, FlashWLog, FlashWLogEncoded, DRAMHotLog, DRAMColdLog} chunkLocation;$/;"	e	enum:__anon1
+FlipBytesPerBlk	ftl_page_mapped/ftl_parameters.h	/^#define FlipBytesPerBlk /;"	d
+FloppyClassGuid	installer/ntddstor.h	/^#define FloppyClassGuid /;"	d
+GARBAGE_COLLECTOR_H	ftl_page_mapped/garbage_collection.h	/^#define GARBAGE_COLLECTOR_H$/;"	d
+GC_BUF	ftl_page_mapped/dram_layout.h	/^#define GC_BUF(/;"	d
+GC_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define GC_BUF_ADDR /;"	d
+GC_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define GC_BUF_BYTES /;"	d
+GETCH	installer/installer-linux.c	/^UINT8 GETCH(char* msg, char* list)$/;"	f
+GETCH	installer/installer.c	/^UINT8 GETCH(char* msg, char* list)$/;"	f
+GETREG	target_spw/target.h	/^#define GETREG(/;"	d
+GET_DATA_FIS	include/sata_registers.h	/^#define GET_DATA_FIS	/;"	d
+GET_MEDIA_STATUS	installer/ata_7.h	/^#define GET_MEDIA_STATUS	/;"	d
+GET_MEDIA_TYPES	installer/ntddstor.h	/^} GET_MEDIA_TYPES, *PGET_MEDIA_TYPES;$/;"	t	typeref:struct:_GET_MEDIA_TYPES
+GET_TIMER_VALUE	include/peri.h	/^#define	GET_TIMER_VALUE(/;"	d
+GPIODIR_B	include/peri.h	/^#define GPIODIR_B	/;"	d
+GPIODIR_C	include/peri.h	/^#define GPIODIR_C	/;"	d
+GPIODIR_D	include/peri.h	/^#define GPIODIR_D	/;"	d
+GPIODIR_E	include/peri.h	/^#define GPIODIR_E	/;"	d
+GPIODIR_F	include/peri.h	/^#define GPIODIR_F	/;"	d
+GPIODIR_G	include/peri.h	/^#define GPIODIR_G	/;"	d
+GPIODIR_H	include/peri.h	/^#define GPIODIR_H	/;"	d
+GPIODIR_I	include/peri.h	/^#define GPIODIR_I	/;"	d
+GPIODIR_J	include/peri.h	/^#define GPIODIR_J	/;"	d
+GPIODIR_K	include/peri.h	/^#define GPIODIR_K	/;"	d
+GPIODIR_L	include/peri.h	/^#define GPIODIR_L	/;"	d
+GPIODIR_M	include/peri.h	/^#define GPIODIR_M	/;"	d
+GPIODIR_N	include/peri.h	/^#define GPIODIR_N	/;"	d
+GPIO_B	include/peri.h	/^#define GPIO_B	/;"	d
+GPIO_BASE	target_spw/target.h	/^#define GPIO_BASE	/;"	d
+GPIO_C	include/peri.h	/^#define GPIO_C	/;"	d
+GPIO_D	include/peri.h	/^#define GPIO_D	/;"	d
+GPIO_DIR	include/peri.h	/^#define	GPIO_DIR	/;"	d
+GPIO_E	include/peri.h	/^#define GPIO_E	/;"	d
+GPIO_F	include/peri.h	/^#define GPIO_F	/;"	d
+GPIO_G	include/peri.h	/^#define GPIO_G	/;"	d
+GPIO_H	include/peri.h	/^#define GPIO_H	/;"	d
+GPIO_I	include/peri.h	/^#define GPIO_I	/;"	d
+GPIO_J	include/peri.h	/^#define GPIO_J	/;"	d
+GPIO_K	include/peri.h	/^#define GPIO_K	/;"	d
+GPIO_L	include/peri.h	/^#define GPIO_L	/;"	d
+GPIO_M	include/peri.h	/^#define GPIO_M	/;"	d
+GPIO_MOD	include/peri.h	/^#define	GPIO_MOD	/;"	d
+GPIO_MON	include/peri.h	/^#define	GPIO_MON	/;"	d
+GPIO_N	include/peri.h	/^#define GPIO_N	/;"	d
+GPIO_REG	include/peri.h	/^#define	GPIO_REG	/;"	d
+GPIO_SIZE	include/peri.h	/^#define GPIO_SIZE	/;"	d
+GcIdle	ftl_page_mapped/ftl_metadata.h	/^#define GcIdle /;"	d
+GcMode	ftl_page_mapped/ftl_parameters.h	/^#define GcMode /;"	d
+GcRead	ftl_page_mapped/ftl_metadata.h	/^#define GcRead /;"	d
+GcWrite	ftl_page_mapped/ftl_metadata.h	/^#define GcWrite /;"	d
+HALF_CYCLE_PER_SETUP	target_spw/target.h	/^#define HALF_CYCLE_PER_SETUP	/;"	d
+HANDLE	installer/installer-linux.c	/^typedef int HANDLE;$/;"	t	file:
+HASH_METADATA_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define HASH_METADATA_BYTES /;"	d
+HDIO_GETGEO	installer/installer-linux.c	/^#define HDIO_GETGEO /;"	d	file:
+HDIO_GET_IDENTITY	installer/installer-linux.c	/^#define HDIO_GET_IDENTITY /;"	d	file:
+HEAP_H	ftl_page_mapped/heap.h	/^#define HEAP_H$/;"	d
+HEAP_VALID_CHUNKS_ADDR_COLD	ftl_page_mapped/dram_layout.h	/^#define HEAP_VALID_CHUNKS_ADDR_COLD /;"	d
+HEAP_VALID_CHUNKS_ADDR_FIRST_USAGE	ftl_page_mapped/dram_layout.h	/^#define HEAP_VALID_CHUNKS_ADDR_FIRST_USAGE /;"	d
+HEAP_VALID_CHUNKS_ADDR_SECOND_USAGE	ftl_page_mapped/dram_layout.h	/^#define HEAP_VALID_CHUNKS_ADDR_SECOND_USAGE /;"	d
+HEAP_VALID_CHUNKS_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define HEAP_VALID_CHUNKS_BYTES /;"	d
+HEAP_VALID_CHUNKS_POSITIONS_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define HEAP_VALID_CHUNKS_POSITIONS_BYTES /;"	d
+HEAP_VALID_CHUNKS_POSITIONS_COLD	ftl_page_mapped/dram_layout.h	/^#define HEAP_VALID_CHUNKS_POSITIONS_COLD /;"	d
+HEAP_VALID_CHUNKS_POSITIONS_FIRST_USAGE	ftl_page_mapped/dram_layout.h	/^#define HEAP_VALID_CHUNKS_POSITIONS_FIRST_USAGE /;"	d
+HEAP_VALID_CHUNKS_POSITIONS_SECOND_USAGE	ftl_page_mapped/dram_layout.h	/^#define HEAP_VALID_CHUNKS_POSITIONS_SECOND_USAGE /;"	d
+HIL_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define HIL_BUF_ADDR /;"	d
+HIL_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define HIL_BUF_BYTES /;"	d
+HITACHI_12_WO	installer/ntddstor.h	/^    HITACHI_12_WO,             \/\/ Opt_Disk - Hitachi 12" Write Once$/;"	e	enum:_STORAGE_MEDIA_TYPE
+HOT_LOG_BUF	ftl_page_mapped/dram_layout.h	/^#define HOT_LOG_BUF(/;"	d
+HOT_LOG_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define HOT_LOG_BUF_ADDR /;"	d
+HW_EQ_MARGIN	sata/sata_main.c	/^#define HW_EQ_MARGIN /;"	d	file:
+HW_EQ_SIZE	sata/sata_main.c	/^#define HW_EQ_SIZE /;"	d	file:
+HeapPositions	ftl_page_mapped/dram_layout.h	/^#define HeapPositions(/;"	d
+IBM_3480	installer/ntddstor.h	/^    IBM_3480,                  \/\/ Tape - IBM 3480$/;"	e	enum:_STORAGE_MEDIA_TYPE
+IBM_3490E	installer/ntddstor.h	/^    IBM_3490E,                 \/\/ Tape - IBM 3490E$/;"	e	enum:_STORAGE_MEDIA_TYPE
+IBM_Magstar_3590	installer/ntddstor.h	/^    IBM_Magstar_3590,          \/\/ Tape - IBM Magstar 3590$/;"	e	enum:_STORAGE_MEDIA_TYPE
+IBM_Magstar_MP	installer/ntddstor.h	/^    IBM_Magstar_MP,            \/\/ Tape - IBM Magstar MP$/;"	e	enum:_STORAGE_MEDIA_TYPE
+IDENTIFY_DEVICE	installer/ata_7.h	/^#define IDENTIFY_DEVICE	/;"	d
+IDENTIFY_PACKET_DEVICE	installer/ata_7.h	/^#define IDENTIFY_PACKET_DEVICE	/;"	d
+IDLE	installer/ata_7.h	/^#define IDLE	/;"	d
+IDLE_IMMEDIATE	installer/ata_7.h	/^#define IDLE_IMMEDIATE	/;"	d
+ID_FIRMWARE_REVISION	installer/ata_7.h	/^#define ID_FIRMWARE_REVISION	/;"	d
+ID_FIRMWARE_REVISION_SZ	installer/ata_7.h	/^#define ID_FIRMWARE_REVISION_SZ	/;"	d
+ID_MAJOR_VERSION	installer/ata_7.h	/^#define ID_MAJOR_VERSION	/;"	d
+ID_MODEL_NUMBER	installer/ata_7.h	/^#define	ID_MODEL_NUMBER	/;"	d
+ID_MODEL_NUMBER_SZ	installer/ata_7.h	/^#define ID_MODEL_NUMBER_SZ	/;"	d
+ID_SERIAL_NUMBER	installer/ata_7.h	/^#define ID_SERIAL_NUMBER	/;"	d
+ID_SERIAL_NUMBER_SZ	installer/ata_7.h	/^#define ID_SERIAL_NUMBER_SZ	/;"	d
+ID_USER_SECTORS_28	installer/ata_7.h	/^#define ID_USER_SECTORS_28	/;"	d
+ID_USER_SECTORS_48	installer/ata_7.h	/^#define ID_USER_SECTORS_48	/;"	d
+INCLUDES	build_gnu/Makefile	/^INCLUDES = -I..\/include -I..\/ftl_$(FTL) -I..\/sata -I..\/target_spw$/;"	m
+INITSRC	build_gnu/Makefile	/^INITSRC = ..\/target_spw\/init_gnu.s$/;"	m
+INTR_BSP	include/flash.h	/^#define INTR_BSP /;"	d
+INTR_EXT	include/peri.h	/^#define INTR_EXT	/;"	d
+INTR_FLASH	include/peri.h	/^#define INTR_FLASH	/;"	d
+INTR_MASK	include/flash.h	/^#define INTR_MASK /;"	d
+INTR_SATA	include/peri.h	/^#define INTR_SATA	/;"	d
+INTR_SDRAM	include/peri.h	/^#define INTR_SDRAM	/;"	d
+INTR_TIMER_1	include/peri.h	/^#define INTR_TIMER_1	/;"	d
+INTR_TIMER_2	include/peri.h	/^#define INTR_TIMER_2	/;"	d
+INTR_TIMER_3	include/peri.h	/^#define INTR_TIMER_3	/;"	d
+INTR_TIMER_4	include/peri.h	/^#define INTR_TIMER_4	/;"	d
+INTR_UART_RX	include/peri.h	/^#define INTR_UART_RX	/;"	d
+INTR_UART_TX	include/peri.h	/^#define INTR_UART_TX	/;"	d
+INTR_WATCH_DOG	include/peri.h	/^#define INTR_WATCH_DOG	/;"	d
+INVALID	include/jasmine.h	/^#define INVALID /;"	d
+INVALID16	include/jasmine.h	/^#define    INVALID16 /;"	d
+INVALID32	include/jasmine.h	/^#define    INVALID32 /;"	d
+INVALID8	include/jasmine.h	/^#define    INVALID8 /;"	d
+IOCTL_STORAGE_BASE	installer/ntddstor.h	/^#define IOCTL_STORAGE_BASE /;"	d
+IOCTL_STORAGE_BREAK_RESERVATION	installer/ntddstor.h	/^#define IOCTL_STORAGE_BREAK_RESERVATION /;"	d
+IOCTL_STORAGE_CHECK_VERIFY	installer/ntddstor.h	/^#define IOCTL_STORAGE_CHECK_VERIFY /;"	d
+IOCTL_STORAGE_CHECK_VERIFY2	installer/ntddstor.h	/^#define IOCTL_STORAGE_CHECK_VERIFY2 /;"	d
+IOCTL_STORAGE_EJECTION_CONTROL	installer/ntddstor.h	/^#define IOCTL_STORAGE_EJECTION_CONTROL /;"	d
+IOCTL_STORAGE_EJECT_MEDIA	installer/ntddstor.h	/^#define IOCTL_STORAGE_EJECT_MEDIA /;"	d
+IOCTL_STORAGE_FIND_NEW_DEVICES	installer/ntddstor.h	/^#define IOCTL_STORAGE_FIND_NEW_DEVICES /;"	d
+IOCTL_STORAGE_GET_DEVICE_NUMBER	installer/ntddstor.h	/^#define IOCTL_STORAGE_GET_DEVICE_NUMBER /;"	d
+IOCTL_STORAGE_GET_HOTPLUG_INFO	installer/ntddstor.h	/^#define IOCTL_STORAGE_GET_HOTPLUG_INFO /;"	d
+IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER	installer/ntddstor.h	/^#define IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER /;"	d
+IOCTL_STORAGE_GET_MEDIA_TYPES	installer/ntddstor.h	/^#define IOCTL_STORAGE_GET_MEDIA_TYPES /;"	d
+IOCTL_STORAGE_GET_MEDIA_TYPES_EX	installer/ntddstor.h	/^#define IOCTL_STORAGE_GET_MEDIA_TYPES_EX /;"	d
+IOCTL_STORAGE_LOAD_MEDIA	installer/ntddstor.h	/^#define IOCTL_STORAGE_LOAD_MEDIA /;"	d
+IOCTL_STORAGE_LOAD_MEDIA2	installer/ntddstor.h	/^#define IOCTL_STORAGE_LOAD_MEDIA2 /;"	d
+IOCTL_STORAGE_MCN_CONTROL	installer/ntddstor.h	/^#define IOCTL_STORAGE_MCN_CONTROL /;"	d
+IOCTL_STORAGE_MEDIA_REMOVAL	installer/ntddstor.h	/^#define IOCTL_STORAGE_MEDIA_REMOVAL /;"	d
+IOCTL_STORAGE_PREDICT_FAILURE	installer/ntddstor.h	/^#define IOCTL_STORAGE_PREDICT_FAILURE /;"	d
+IOCTL_STORAGE_QUERY_PROPERTY	installer/ntddstor.h	/^#define IOCTL_STORAGE_QUERY_PROPERTY /;"	d
+IOCTL_STORAGE_RELEASE	installer/ntddstor.h	/^#define IOCTL_STORAGE_RELEASE /;"	d
+IOCTL_STORAGE_RESERVE	installer/ntddstor.h	/^#define IOCTL_STORAGE_RESERVE /;"	d
+IOCTL_STORAGE_RESET_BUS	installer/ntddstor.h	/^#define IOCTL_STORAGE_RESET_BUS /;"	d
+IOCTL_STORAGE_RESET_DEVICE	installer/ntddstor.h	/^#define IOCTL_STORAGE_RESET_DEVICE /;"	d
+IOCTL_STORAGE_SET_HOTPLUG_INFO	installer/ntddstor.h	/^#define IOCTL_STORAGE_SET_HOTPLUG_INFO /;"	d
+IOMEGA_JAZ	installer/ntddstor.h	/^    IOMEGA_JAZ,                \/\/ Mag_Disk - Iomega Jaz$/;"	e	enum:_STORAGE_MEDIA_TYPE
+IOMEGA_ZIP	installer/ntddstor.h	/^    IOMEGA_ZIP,                \/\/ Mag_Disk - Iomega Zip$/;"	e	enum:_STORAGE_MEDIA_TYPE
+IO_LIMIT	tc/tc_synth.c	/^#define IO_LIMIT /;"	d	file:
+I_BIT	target_spw/init_rvds.s	/^I_BIT           EQU     0x80$/;"	d
+Identifier	installer/ntddstor.h	/^    UCHAR Identifier[1];$/;"	m	struct:_STORAGE_IDENTIFIER
+IdentifierSize	installer/ntddstor.h	/^    USHORT IdentifierSize;$/;"	m	struct:_STORAGE_IDENTIFIER
+Identifiers	installer/ntddstor.h	/^    UCHAR Identifiers[1];$/;"	m	struct:_STORAGE_DEVICE_ID_DESCRIPTOR
+Invalid	ftl_page_mapped/ftl_parameters.h	/^typedef enum {Invalid, FlashWLog, FlashWLogEncoded, DRAMHotLog, DRAMColdLog} chunkLocation;$/;"	e	enum:__anon1
+JASMINE_H	include/jasmine.h	/^#define JASMINE_H$/;"	d
+K9LCG08U1M	include/nand.h	/^#define K9LCG08U1M	/;"	d
+KODAK_14_WO	installer/ntddstor.h	/^    KODAK_14_WO,               \/\/ Opt_Disk - Kodak 14" Write Once$/;"	e	enum:_STORAGE_MEDIA_TYPE
+L63B_OVER_DRIVE	target_spw/flash.c	/^    #define L63B_OVER_DRIVE /;"	d	file:
+LD	build_gnu/Makefile	/^LD = $(PREFIX)ld$/;"	m
+LDFLAGS	build_gnu/Makefile	/^LDFLAGS = -static -nostartfiles -ffreestanding -T ld_script -Wl,-O3,-Map=list.txt$/;"	m
+LIBS	build_gnu/Makefile	/^LIBS = -lgcc$/;"	m
+LOG_BLK_PER_BANK	ftl_page_mapped/ftl_parameters.h	/^    #define LOG_BLK_PER_BANK /;"	d
+LOG_BLK_PER_BANK	ftl_page_mapped/ftl_parameters.h	/^#define LOG_BLK_PER_BANK /;"	d
+LOG_BMT_ADDR	ftl_page_mapped/dram_layout.h	/^#define LOG_BMT_ADDR /;"	d
+LOG_BMT_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define LOG_BMT_BYTES /;"	d
+LOG_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define LOG_BUF_BYTES /;"	d
+LOG_H	ftl_page_mapped/log.h	/^#define LOG_H$/;"	d
+LOG_METADATA_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define LOG_METADATA_BYTES /;"	d
+LPNS_BUF_BASE_1	ftl_page_mapped/dram_layout.h	/^#define LPNS_BUF_BASE_1(/;"	d
+LPNS_BUF_BASE_2	ftl_page_mapped/dram_layout.h	/^#define LPNS_BUF_BASE_2(/;"	d
+LPNS_BUF_BASE_3	ftl_page_mapped/dram_layout.h	/^#define LPNS_BUF_BASE_3(/;"	d
+LPNS_IN_LOG_1_ADDR	ftl_page_mapped/dram_layout.h	/^#define LPNS_IN_LOG_1_ADDR /;"	d
+LPNS_IN_LOG_2_ADDR	ftl_page_mapped/dram_layout.h	/^#define LPNS_IN_LOG_2_ADDR /;"	d
+LPNS_IN_LOG_3_ADDR	ftl_page_mapped/dram_layout.h	/^#define LPNS_IN_LOG_3_ADDR /;"	d
+LPNS_IN_LOG_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define LPNS_IN_LOG_BYTES /;"	d
+LTO_Accelis	installer/ntddstor.h	/^    LTO_Accelis,               \/\/ IBM, HP, Seagate LTO Accelis$/;"	e	enum:_STORAGE_MEDIA_TYPE
+LTO_Ultrium	installer/ntddstor.h	/^    LTO_Ultrium,               \/\/ IBM, HP, Seagate LTO Ultrium$/;"	e	enum:_STORAGE_MEDIA_TYPE
+LastPageInOwBlk	ftl_page_mapped/ftl_parameters.h	/^#define LastPageInOwBlk /;"	d
+LogCtrlBlock	ftl_page_mapped/ftl_metadata.h	/^typedef struct LogCtrlBlock$/;"	s
+LogCtrlBlock	ftl_page_mapped/ftl_metadata.h	/^} LogCtrlBlock;$/;"	t	typeref:struct:LogCtrlBlock
+LogPageToLogBlk	ftl_page_mapped/ftl_metadata.h	/^#define LogPageToLogBlk(/;"	d
+LogPageToOffset	ftl_page_mapped/ftl_metadata.h	/^#define LogPageToOffset(/;"	d
+MAP_BLK_PER_BANK	ftl_page_mapped/ftl_parameters.h	/^#define MAP_BLK_PER_BANK /;"	d
+MAX	include/jasmine.h	/^#define MAX(/;"	d
+MAXNUM_DRQ_SECTORS	include/sata_cmd.h	/^#define MAXNUM_DRQ_SECTORS	/;"	d
+MAX_LBA	include/sata.h	/^#define MAX_LBA	/;"	d
+MAX_SECTORS	installer/installer-linux.c	/^#define MAX_SECTORS /;"	d	file:
+MEDIA_CURRENTLY_MOUNTED	installer/ntddstor.h	/^#define MEDIA_CURRENTLY_MOUNTED /;"	d
+MEDIA_EJECT	installer/ata_7.h	/^#define MEDIA_EJECT	/;"	d
+MEDIA_ERASEABLE	installer/ntddstor.h	/^#define MEDIA_ERASEABLE /;"	d
+MEDIA_LOCK	installer/ata_7.h	/^#define MEDIA_LOCK	/;"	d
+MEDIA_READ_ONLY	installer/ntddstor.h	/^#define MEDIA_READ_ONLY /;"	d
+MEDIA_READ_WRITE	installer/ntddstor.h	/^#define MEDIA_READ_WRITE /;"	d
+MEDIA_UNLOCK	installer/ata_7.h	/^#define MEDIA_UNLOCK	/;"	d
+MEDIA_WRITE_ONCE	installer/ntddstor.h	/^#define MEDIA_WRITE_ONCE /;"	d
+MEDIA_WRITE_PROTECTED	installer/ntddstor.h	/^#define MEDIA_WRITE_PROTECTED /;"	d
+MEM_UTIL_H	include/mem_util.h	/^#define    MEM_UTIL_H$/;"	d
+MENU_ERASE_ALL	installer/installer-linux.c	/^	MENU_ERASE_ALL,$/;"	e	enum:__anon16	file:
+MENU_ERASE_ALL	installer/installer.c	/^	MENU_ERASE_ALL,$/;"	e	enum:__anon19	file:
+MENU_EXIT	installer/installer-linux.c	/^	MENU_EXIT,$/;"	e	enum:__anon16	file:
+MENU_EXIT	installer/installer.c	/^	MENU_EXIT,$/;"	e	enum:__anon19	file:
+MENU_INIT	installer/installer-linux.c	/^	MENU_INIT = 1,$/;"	e	enum:__anon16	file:
+MENU_INIT	installer/installer.c	/^	MENU_INIT = 1,$/;"	e	enum:__anon19	file:
+MENU_INSTALL	installer/installer-linux.c	/^	MENU_INSTALL,$/;"	e	enum:__anon16	file:
+MENU_INSTALL	installer/installer.c	/^	MENU_INSTALL,$/;"	e	enum:__anon19	file:
+MENU_LOAD_SCAN	installer/installer-linux.c	/^	MENU_LOAD_SCAN,$/;"	e	enum:__anon16	file:
+MENU_LOAD_SCAN	installer/installer.c	/^	MENU_LOAD_SCAN,$/;"	e	enum:__anon19	file:
+MENU_LOAD_SCAN_DEV	installer/installer-linux.c	/^	MENU_LOAD_SCAN_DEV,$/;"	e	enum:__anon16	file:
+MENU_LOAD_SCAN_DEV	installer/installer.c	/^	MENU_LOAD_SCAN_DEV,$/;"	e	enum:__anon19	file:
+MENU_SAVE_SCAN	installer/installer-linux.c	/^	MENU_SAVE_SCAN,$/;"	e	enum:__anon16	file:
+MENU_SAVE_SCAN	installer/installer.c	/^	MENU_SAVE_SCAN,$/;"	e	enum:__anon19	file:
+MENU_SCAN	installer/installer-linux.c	/^	MENU_SCAN,$/;"	e	enum:__anon16	file:
+MENU_SCAN	installer/installer.c	/^	MENU_SCAN,$/;"	e	enum:__anon19	file:
+META_BLKS_PER_BANK	ftl_page_mapped/ftl_metadata.h	/^#define META_BLKS_PER_BANK /;"	d
+MIN	include/jasmine.h	/^#define MIN(/;"	d
+MISCBLK_VBN	ftl_page_mapped/ftl_metadata.h	/^#define MISCBLK_VBN /;"	d
+MISC_H	target_spw/misc.h	/^#define MISC_H$/;"	d
+MODEL	sata/sata_identify.c	/^#define MODEL /;"	d	file:
+MODE_ABT	target_spw/init_rvds.s	/^MODE_ABT        EQU     0x17$/;"	d
+MODE_FIQ	target_spw/init_rvds.s	/^MODE_FIQ        EQU     0x11$/;"	d
+MODE_IRQ	target_spw/init_rvds.s	/^MODE_IRQ        EQU     0x12$/;"	d
+MODE_SVC	target_spw/init_rvds.s	/^MODE_SVC        EQU     0x13$/;"	d
+MODE_SYS	target_spw/init_rvds.s	/^MODE_SYS        EQU     0x1F$/;"	d
+MODE_UND	target_spw/init_rvds.s	/^MODE_UND        EQU     0x1B$/;"	d
+MODE_USR	target_spw/init_rvds.s	/^MODE_USR        EQU     0x10$/;"	d
+MONITOR_CTRL	include/flash.h	/^#define MONITOR_CTRL /;"	d
+MONSELECT	include/flash.h	/^#define MONSELECT /;"	d
+MON_CHABANKIDLE	include/flash.h	/^#define MON_CHABANKIDLE /;"	d
+MON_DATACOUNT	include/flash.h	/^#define MON_DATACOUNT /;"	d
+MON_DMACOUNT1	include/flash.h	/^#define MON_DMACOUNT1 /;"	d
+MON_DMACOUNT2	include/flash.h	/^#define MON_DMACOUNT2 /;"	d
+MON_TRANCOUNT	include/flash.h	/^#define MON_TRANCOUNT /;"	d
+MO_3_RW	installer/ntddstor.h	/^    MO_3_RW,                   \/\/ Opt_Disk - 3.5" Rewriteable MO Disk$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MO_5_LIMDOW	installer/ntddstor.h	/^    MO_5_LIMDOW,               \/\/ Opt_Disk - MO 5.25" Rewriteable (LIMDOW)$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MO_5_RW	installer/ntddstor.h	/^    MO_5_RW,                   \/\/ Opt_Disk - MO 5.25" Rewriteable (not LIMDOW)$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MO_5_WO	installer/ntddstor.h	/^    MO_5_WO,                   \/\/ Opt_Disk - MO 5.25" Write Once$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MO_NFR_525	installer/ntddstor.h	/^    MO_NFR_525,                \/\/ Opt_Disk - Near Field Recording (Terastor)$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MP2_8mm	installer/ntddstor.h	/^    MP2_8mm,                   \/\/ Tape - 8mm Hitachi$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MP_8mm	installer/ntddstor.h	/^    MP_8mm,                    \/\/ Tape - 8mm Exabyte Metal Particle$/;"	e	enum:_STORAGE_MEDIA_TYPE
+MREG_BASE	target_spw/target.h	/^#define MREG_BASE	/;"	d
+MREG_SIZE	include/peri.h	/^#define MREG_SIZE	/;"	d
+MT29F64G08CFABA	include/nand.h	/^#define MT29F64G08CFABA /;"	d
+MU_CMD	include/mem_util.h	/^#define MU_CMD /;"	d
+MU_CMD_COPY	include/mem_util.h	/^#define MU_CMD_COPY /;"	d
+MU_CMD_FIND_DRAM	include/mem_util.h	/^#define MU_CMD_FIND_DRAM /;"	d
+MU_CMD_FIND_SRAM	include/mem_util.h	/^#define MU_CMD_FIND_SRAM /;"	d
+MU_CMD_SEARCH_EQU_DRAM	include/mem_util.h	/^#define MU_CMD_SEARCH_EQU_DRAM /;"	d
+MU_CMD_SEARCH_EQU_SRAM	include/mem_util.h	/^#define MU_CMD_SEARCH_EQU_SRAM /;"	d
+MU_CMD_SEARCH_MAX_DRAM	include/mem_util.h	/^#define MU_CMD_SEARCH_MAX_DRAM /;"	d
+MU_CMD_SEARCH_MAX_SRAM	include/mem_util.h	/^#define MU_CMD_SEARCH_MAX_SRAM /;"	d
+MU_CMD_SEARCH_MIN_DRAM	include/mem_util.h	/^#define MU_CMD_SEARCH_MIN_DRAM /;"	d
+MU_CMD_SEARCH_MIN_SRAM	include/mem_util.h	/^#define MU_CMD_SEARCH_MIN_SRAM /;"	d
+MU_CMD_SET_INCR_16_DRAM	include/mem_util.h	/^#define MU_CMD_SET_INCR_16_DRAM /;"	d
+MU_CMD_SET_INCR_16_SRAM	include/mem_util.h	/^#define MU_CMD_SET_INCR_16_SRAM /;"	d
+MU_CMD_SET_INCR_32_DRAM	include/mem_util.h	/^#define MU_CMD_SET_INCR_32_DRAM /;"	d
+MU_CMD_SET_INCR_32_SRAM	include/mem_util.h	/^#define MU_CMD_SET_INCR_32_SRAM /;"	d
+MU_CMD_SET_INCR_8_DRAM	include/mem_util.h	/^#define MU_CMD_SET_INCR_8_DRAM /;"	d
+MU_CMD_SET_INCR_8_SRAM	include/mem_util.h	/^#define MU_CMD_SET_INCR_8_SRAM /;"	d
+MU_CMD_SET_REPT_DRAM	include/mem_util.h	/^#define MU_CMD_SET_REPT_DRAM /;"	d
+MU_CMD_SET_REPT_SRAM	include/mem_util.h	/^#define MU_CMD_SET_REPT_SRAM /;"	d
+MU_DST_ADDR	include/mem_util.h	/^#define MU_DST_ADDR /;"	d
+MU_MAX_BYTES	include/mem_util.h	/^#define MU_MAX_BYTES /;"	d
+MU_RESULT	include/mem_util.h	/^#define MU_RESULT /;"	d
+MU_SIZE	include/mem_util.h	/^#define MU_SIZE /;"	d
+MU_SRC_ADDR	include/mem_util.h	/^#define MU_SRC_ADDR /;"	d
+MU_UNITSTEP	include/mem_util.h	/^#define MU_UNITSTEP /;"	d
+MU_UNIT_16	include/mem_util.h	/^#define MU_UNIT_16 /;"	d
+MU_UNIT_32	include/mem_util.h	/^#define MU_UNIT_32 /;"	d
+MU_UNIT_8	include/mem_util.h	/^#define MU_UNIT_8 /;"	d
+MU_VALUE	include/mem_util.h	/^#define MU_VALUE /;"	d
+Main	sata/sata_main.c	/^void Main(void)$/;"	f
+MaxLowPage	ftl_page_mapped/ftl_parameters.h	/^#define MaxLowPage /;"	d
+MaxRecycledBlocks	ftl_page_mapped/ftl_parameters.h	/^#define MaxRecycledBlocks /;"	d
+MaximumPhysicalPages	installer/ntddstor.h	/^    ULONG MaximumPhysicalPages;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+MaximumTransferLength	installer/ntddstor.h	/^    ULONG MaximumTransferLength;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+MeasureDetailedOverwrite	include/jasmine.h	/^#define MeasureDetailedOverwrite /;"	d
+MeasureDramAbsorb	include/jasmine.h	/^#define MeasureDramAbsorb /;"	d
+MeasureGc	include/jasmine.h	/^#define MeasureGc /;"	d
+MeasureOwEfficiency	include/jasmine.h	/^#define MeasureOwEfficiency /;"	d
+MeasureW	include/jasmine.h	/^#define MeasureW /;"	d
+MediaCharacteristics	installer/ntddstor.h	/^            ULONG   MediaCharacteristics; \/\/ Bitmask of MEDIA_XXX values.$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23
+MediaCharacteristics	installer/ntddstor.h	/^            ULONG MediaCharacteristics; \/\/ Bitmask of MEDIA_XXX values.$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+MediaCharacteristics	installer/ntddstor.h	/^            ULONG MediaCharacteristics; \/\/ Bitmask of MEDIA_XXX values.$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+MediaHotplug	installer/ntddstor.h	/^    BOOLEAN MediaHotplug;   \/\/ ie. does the device succeed a lock even though its not lockable media?$/;"	m	struct:_STORAGE_HOTPLUG_INFO
+MediaInfo	installer/ntddstor.h	/^    DEVICE_MEDIA_INFO MediaInfo[1];$/;"	m	struct:_GET_MEDIA_TYPES
+MediaInfoCount	installer/ntddstor.h	/^    ULONG MediaInfoCount;$/;"	m	struct:_GET_MEDIA_TYPES
+MediaRemovable	installer/ntddstor.h	/^    BOOLEAN MediaRemovable; \/\/ ie. zip, jaz, cdrom, mo, etc. vs hdd$/;"	m	struct:_STORAGE_HOTPLUG_INFO
+MediaType	installer/ntddstor.h	/^            STORAGE_MEDIA_TYPE MediaType;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+MediaType	installer/ntddstor.h	/^            STORAGE_MEDIA_TYPE MediaType;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+MediaType	installer/ntddstor.h	/^            STORAGE_MEDIA_TYPE MediaType;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23
+MediumChangerClassGuid	installer/ntddstor.h	/^#define MediumChangerClassGuid /;"	d
+MediumType	installer/ntddstor.h	/^                    UCHAR MediumType;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon23::__anon24::__anon25
+MiniQic	installer/ntddstor.h	/^    MiniQic,                   \/\/ Tape - miniQIC Tape$/;"	e	enum:_STORAGE_MEDIA_TYPE
+NAND_H	include/nand.h	/^#define	NAND_H$/;"	d
+NAND_SPEC_CELL	include/nand.h	/^	#define NAND_SPEC_CELL	/;"	d
+NAND_SPEC_CELL_MLC	include/nand.h	/^#define NAND_SPEC_CELL_MLC	/;"	d
+NAND_SPEC_CELL_SLC	include/nand.h	/^#define NAND_SPEC_CELL_SLC	/;"	d
+NAND_SPEC_DIE	include/nand.h	/^	#define NAND_SPEC_DIE	/;"	d
+NAND_SPEC_DIE_1	include/nand.h	/^#define NAND_SPEC_DIE_1	/;"	d
+NAND_SPEC_DIE_2	include/nand.h	/^#define NAND_SPEC_DIE_2	/;"	d
+NAND_SPEC_DULL	include/nand.h	/^#define NAND_SPEC_DULL	/;"	d
+NAND_SPEC_FAST	include/nand.h	/^#define NAND_SPEC_FAST	/;"	d
+NAND_SPEC_HYNIX	include/nand.h	/^#define NAND_SPEC_HYNIX	/;"	d
+NAND_SPEC_ID	include/nand.h	/^	#define NAND_SPEC_ID	/;"	d
+NAND_SPEC_ID_MASK	include/nand.h	/^	#define NAND_SPEC_ID_MASK	/;"	d
+NAND_SPEC_INTEL	include/nand.h	/^#define NAND_SPEC_INTEL	/;"	d
+NAND_SPEC_MF	include/nand.h	/^	#define NAND_SPEC_MF	/;"	d
+NAND_SPEC_MICRON	include/nand.h	/^#define NAND_SPEC_MICRON	/;"	d
+NAND_SPEC_MLC	include/nand.h	/^	#define NAND_SPEC_MLC	/;"	d
+NAND_SPEC_MLC_TYPE_1	include/nand.h	/^#define NAND_SPEC_MLC_TYPE_1	/;"	d
+NAND_SPEC_MLC_TYPE_2	include/nand.h	/^#define NAND_SPEC_MLC_TYPE_2	/;"	d
+NAND_SPEC_MLC_TYPE_3	include/nand.h	/^#define NAND_SPEC_MLC_TYPE_3	/;"	d
+NAND_SPEC_PLANE	include/nand.h	/^	#define NAND_SPEC_PLANE /;"	d
+NAND_SPEC_PLANE_1	include/nand.h	/^#define NAND_SPEC_PLANE_1	/;"	d
+NAND_SPEC_PLANE_2	include/nand.h	/^#define NAND_SPEC_PLANE_2	/;"	d
+NAND_SPEC_PLANE_3	include/nand.h	/^#define NAND_SPEC_PLANE_3	/;"	d
+NAND_SPEC_READ	include/nand.h	/^	#define NAND_SPEC_READ	/;"	d
+NAND_SPEC_READ_CYCLE_1	include/nand.h	/^#define NAND_SPEC_READ_CYCLE_1	/;"	d
+NAND_SPEC_READ_CYCLE_2	include/nand.h	/^#define NAND_SPEC_READ_CYCLE_2	/;"	d
+NAND_SPEC_READ_CYCLE_3	include/nand.h	/^#define NAND_SPEC_READ_CYCLE_3	/;"	d
+NAND_SPEC_SAMSUNG	include/nand.h	/^#define NAND_SPEC_SAMSUNG	/;"	d
+NAND_SPEC_SANDISK	include/nand.h	/^#define NAND_SPEC_SANDISK	/;"	d
+NAND_SPEC_SLOW	include/nand.h	/^#define NAND_SPEC_SLOW	/;"	d
+NAND_SPEC_SPEED	include/nand.h	/^	#define NAND_SPEC_SPEED /;"	d
+NAND_SPEC_TOSHIBA	include/nand.h	/^#define NAND_SPEC_TOSHIBA	/;"	d
+NAND_SPEC_VERY_FAST	include/nand.h	/^#define NAND_SPEC_VERY_FAST	/;"	d
+NCQ_CMD_ERR	include/sata_registers.h	/^#define	NCQ_CMD_ERR	/;"	d
+NCQ_CMD_RECV	include/sata_registers.h	/^#define	NCQ_CMD_RECV	/;"	d
+NCQ_INVALID_LBA	include/sata_registers.h	/^#define NCQ_INVALID_LBA	/;"	d
+NCQ_SIZE	include/sata.h	/^#define NCQ_SIZE	/;"	d
+NCTP	installer/ntddstor.h	/^    NCTP,                      \/\/ Tape - Philips NCTP$/;"	e	enum:_STORAGE_MEDIA_TYPE
+NIKON_12_RW	installer/ntddstor.h	/^    NIKON_12_RW,               \/\/ Opt_Disk - Nikon 12" Rewriteable$/;"	e	enum:_STORAGE_MEDIA_TYPE
+NOP	installer/ata_7.h	/^#define NOP	/;"	d
+NO_FLASH_OPS	include/jasmine.h	/^#define NO_FLASH_OPS /;"	d
+NO_PARITY	include/uart.h	/^#define NO_PARITY	/;"	d
+NULL	include/jasmine.h	/^#define    NULL /;"	d
+NULL	include/jasmine.h	/^#undef NULL$/;"	d
+NUM_BANKS	include/bank.h	/^    #define NUM_BANKS /;"	d
+NUM_BANKS_MAX	include/jasmine.h	/^#define    NUM_BANKS_MAX /;"	d
+NUM_CHANNELS	include/jasmine.h	/^    #define NUM_CHANNELS /;"	d
+NUM_CHANNELS	include/jasmine.h	/^    #undef NUM_CHANNELS$/;"	d
+NUM_CHANNELS	include/jasmine.h	/^#define NUM_CHANNELS /;"	d
+NUM_CHNLS_MAX	include/jasmine.h	/^#define NUM_CHNLS_MAX /;"	d
+NUM_COPY_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_COPY_BUFFERS /;"	d
+NUM_DATA_BLK	ftl_page_mapped/ftl_parameters.h	/^    #define NUM_DATA_BLK /;"	d
+NUM_FAC_MENU_ITEMS	installer/installer-linux.c	/^	NUM_FAC_MENU_ITEMS$/;"	e	enum:__anon16	file:
+NUM_FAC_MENU_ITEMS	installer/installer.c	/^	NUM_FAC_MENU_ITEMS$/;"	e	enum:__anon19	file:
+NUM_FTL_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_FTL_BUFFERS /;"	d
+NUM_GC_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_GC_BUFFERS /;"	d
+NUM_HIL_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_HIL_BUFFERS /;"	d
+NUM_LOG_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_LOG_BUFFERS /;"	d
+NUM_LPAGES	include/jasmine.h	/^#define NUM_LPAGES /;"	d
+NUM_LSECTORS	include/jasmine.h	/^#define NUM_LSECTORS /;"	d
+NUM_MAP_BLK	ftl_page_mapped/ftl_parameters.h	/^#define NUM_MAP_BLK /;"	d
+NUM_OW_LOG_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_OW_LOG_BUFFERS /;"	d
+NUM_PLANES	include/nand.h	/^#define NUM_PLANES	/;"	d
+NUM_PSECTORS	include/jasmine.h	/^#define NUM_PSECTORS /;"	d
+NUM_PSECTORS_128GB	include/jasmine.h	/^#define NUM_PSECTORS_128GB /;"	d
+NUM_PSECTORS_128KB	tc/tc_synth.c	/^#define NUM_PSECTORS_128KB /;"	d	file:
+NUM_PSECTORS_160GB	include/jasmine.h	/^#define NUM_PSECTORS_160GB /;"	d
+NUM_PSECTORS_16GB	include/jasmine.h	/^#define NUM_PSECTORS_16GB /;"	d
+NUM_PSECTORS_16KB	tc/tc_synth.c	/^#define NUM_PSECTORS_16KB /;"	d	file:
+NUM_PSECTORS_192GB	include/jasmine.h	/^#define NUM_PSECTORS_192GB /;"	d
+NUM_PSECTORS_256GB	include/jasmine.h	/^#define NUM_PSECTORS_256GB /;"	d
+NUM_PSECTORS_256KB	tc/tc_synth.c	/^#define NUM_PSECTORS_256KB /;"	d	file:
+NUM_PSECTORS_320GB	include/jasmine.h	/^#define NUM_PSECTORS_320GB /;"	d
+NUM_PSECTORS_32GB	include/jasmine.h	/^#define NUM_PSECTORS_32GB /;"	d
+NUM_PSECTORS_32KB	tc/tc_synth.c	/^#define NUM_PSECTORS_32KB /;"	d	file:
+NUM_PSECTORS_384GB	include/jasmine.h	/^#define NUM_PSECTORS_384GB /;"	d
+NUM_PSECTORS_40GB	include/jasmine.h	/^#define NUM_PSECTORS_40GB /;"	d
+NUM_PSECTORS_48GB	include/jasmine.h	/^#define NUM_PSECTORS_48GB /;"	d
+NUM_PSECTORS_4KB	tc/tc_synth.c	/^#define NUM_PSECTORS_4KB /;"	d	file:
+NUM_PSECTORS_512GB	include/jasmine.h	/^#define NUM_PSECTORS_512GB /;"	d
+NUM_PSECTORS_64GB	include/jasmine.h	/^#define NUM_PSECTORS_64GB /;"	d
+NUM_PSECTORS_64KB	tc/tc_synth.c	/^#define NUM_PSECTORS_64KB /;"	d	file:
+NUM_PSECTORS_80GB	include/jasmine.h	/^#define NUM_PSECTORS_80GB /;"	d
+NUM_PSECTORS_8GB	include/jasmine.h	/^#define NUM_PSECTORS_8GB /;"	d
+NUM_PSECTORS_8KB	tc/tc_synth.c	/^#define NUM_PSECTORS_8KB /;"	d	file:
+NUM_PSECTORS_96GB	include/jasmine.h	/^#define NUM_PSECTORS_96GB /;"	d
+NUM_RD_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_RD_BUFFERS /;"	d
+NUM_REMAP_REG	include/flash.h	/^#define NUM_REMAP_REG /;"	d
+NUM_RW_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_RW_BUFFERS /;"	d
+NUM_TEMP_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_TEMP_BUFFERS /;"	d
+NUM_VBLKS	include/jasmine.h	/^#define NUM_VBLKS /;"	d
+NUM_VPAGES	include/jasmine.h	/^#define NUM_VPAGES /;"	d
+NUM_WR_BUFFERS	ftl_page_mapped/ftl_parameters.h	/^#define NUM_WR_BUFFERS /;"	d
+NextOffset	installer/ntddstor.h	/^    USHORT NextOffset;$/;"	m	struct:_STORAGE_IDENTIFIER
+NumberMediaSides	installer/ntddstor.h	/^            ULONG NumberMediaSides;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+NumberMediaSides	installer/ntddstor.h	/^            ULONG NumberMediaSides;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+NumberOfIdentifiers	installer/ntddstor.h	/^    ULONG NumberOfIdentifiers;$/;"	m	struct:_STORAGE_DEVICE_ID_DESCRIPTOR
+OBJCOPY	build_gnu/Makefile	/^OBJCOPY = $(PREFIX)objcopy$/;"	m
+OBJS	build_gnu/Makefile	/^OBJS = $(SRCS:.c=.o) init.o $/;"	m
+OBSOLETE_IOCTL_STORAGE_RESET_BUS	installer/ntddstor.h	/^#define OBSOLETE_IOCTL_STORAGE_RESET_BUS /;"	d
+OBSOLETE_IOCTL_STORAGE_RESET_DEVICE	installer/ntddstor.h	/^#define OBSOLETE_IOCTL_STORAGE_RESET_DEVICE /;"	d
+ODD_PARITY	include/uart.h	/^#define ODD_PARITY	/;"	d
+OK	include/jasmine.h	/^#define    OK /;"	d
+ONE_STOPBIT	include/uart.h	/^#define ONE_STOPBIT	/;"	d
+OPERATION_ERR	include/sata_registers.h	/^#define	OPERATION_ERR	/;"	d
+OPERATION_OK	include/sata_registers.h	/^#define	OPERATION_OK	/;"	d
+OPTION_2_PLANE	include/jasmine.h	/^#define OPTION_2_PLANE /;"	d
+OPTION_DEBUG_DRAM	include/jasmine.h	/^#define OPTION_DEBUG_DRAM /;"	d
+OPTION_DEBUG_GARBAGE_COLLECTION	include/jasmine.h	/^#define OPTION_DEBUG_GARBAGE_COLLECTION /;"	d
+OPTION_DEBUG_HASH	include/jasmine.h	/^#define OPTION_DEBUG_HASH /;"	d
+OPTION_DEBUG_HEAP	include/jasmine.h	/^#define OPTION_DEBUG_HEAP /;"	d
+OPTION_DEBUG_WRITE	include/jasmine.h	/^#define OPTION_DEBUG_WRITE /;"	d
+OPTION_ENABLE_ASSERT	include/jasmine.h	/^#define OPTION_ENABLE_ASSERT /;"	d
+OPTION_FTL_TEST	include/jasmine.h	/^#define OPTION_FTL_TEST /;"	d
+OPTION_HYBRID	include/jasmine.h	/^#define OPTION_HYBRID /;"	d
+OPTION_NO_DRAM_ABSORB	include/jasmine.h	/^#define OPTION_NO_DRAM_ABSORB /;"	d
+OPTION_OUT_OF_ORDER_WRITES	include/jasmine.h	/^#define OPTION_OUT_OF_ORDER_WRITES /;"	d
+OPTION_REDUCED_CAPACITY	include/jasmine.h	/^#define OPTION_REDUCED_CAPACITY /;"	d
+OPTION_SLOW_SATA	include/jasmine.h	/^#define OPTION_SLOW_SATA /;"	d
+OPTION_SUPPORT_NCQ	include/jasmine.h	/^#define OPTION_SUPPORT_NCQ /;"	d
+OPTION_SUPPORT_TRIM	include/jasmine.h	/^#define OPTION_SUPPORT_TRIM /;"	d
+OPTION_UART_DEBUG	include/jasmine.h	/^#define OPTION_UART_DEBUG /;"	d
+OPTION_UART_DEBUG_DRAM	include/jasmine.h	/^#define OPTION_UART_DEBUG_DRAM /;"	d
+OPTION_UART_DEBUG_HEAP	include/jasmine.h	/^#define OPTION_UART_DEBUG_HEAP /;"	d
+OPTION_UART_DEBUG_LIST	include/jasmine.h	/^#define OPTION_UART_DEBUG_LIST /;"	d
+OVERHEAD_PER_SECTOR	include/nand.h	/^#define OVERHEAD_PER_SECTOR	/;"	d
+OVERWRITE_H	ftl_page_mapped/overwrite.h	/^#define OVERWRITE_H$/;"	d
+OVER_DRIVE_1	target_spw/flash.c	/^    #define OVER_DRIVE_1 /;"	d	file:
+OVER_DRIVE_2	target_spw/flash.c	/^    #define OVER_DRIVE_2 /;"	d	file:
+OW_COUNT_ADDR	ftl_page_mapped/dram_layout.h	/^#define OW_COUNT_ADDR /;"	d
+OW_COUNT_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define OW_COUNT_BYTES /;"	d
+Operation	installer/ntddstor.h	/^    ULONG Operation;$/;"	m	struct:_TAPE_GET_STATISTICS
+Overwrite	include/jasmine.h	/^#define Overwrite /;"	d
+OwCounter	ftl_page_mapped/dram_layout.h	/^#define OwCounter(/;"	d
+OwCountersPerBlk	ftl_page_mapped/ftl_parameters.h	/^#define OwCountersPerBlk /;"	d
+PACKET	installer/ata_7.h	/^#define PACKET	/;"	d
+PAGES_PER_BANK	include/jasmine.h	/^#define PAGES_PER_BANK /;"	d
+PAGES_PER_BLK	include/jasmine.h	/^#define PAGES_PER_BLK /;"	d
+PAGES_PER_VBLK	include/nand.h	/^	#define PAGES_PER_VBLK	/;"	d
+PAUSE	installer/installer-linux.c	/^#define PAUSE	/;"	d	file:
+PAUSE	installer/installer.c	/^#define PAUSE	/;"	d	file:
+PBLKS_PER_BANK	include/nand.h	/^#define PBLKS_PER_BANK	/;"	d
+PC_5_RW	installer/ntddstor.h	/^    PC_5_RW,                   \/\/ Opt_Disk - Phase Change 5.25" Rewriteable$/;"	e	enum:_STORAGE_MEDIA_TYPE
+PC_5_WO	installer/ntddstor.h	/^    PC_5_WO,                   \/\/ Opt_Disk - Phase Change 5.25" Write Once Optical$/;"	e	enum:_STORAGE_MEDIA_TYPE
+PDEVICE_MEDIA_INFO	installer/ntddstor.h	/^} DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO;$/;"	t	typeref:struct:_DEVICE_MEDIA_INFO
+PD_5_RW	installer/ntddstor.h	/^    PD_5_RW,                   \/\/ Opt_Disk - PhaseChange Dual Rewriteable$/;"	e	enum:_STORAGE_MEDIA_TYPE
+PERI_H	include/peri.h	/^#define	PERI_H$/;"	d
+PGET_MEDIA_TYPES	installer/ntddstor.h	/^} GET_MEDIA_TYPES, *PGET_MEDIA_TYPES;$/;"	t	typeref:struct:_GET_MEDIA_TYPES
+PGSIZE	installer/installer-linux.c	/^#define PGSIZE /;"	d	file:
+PG_SIZE	include/flash.h	/^#define PG_SIZE(/;"	d
+PHILIPS_12_WO	installer/ntddstor.h	/^    PHILIPS_12_WO,             \/\/ Opt_Disk - Philips\/LMS 12" Write Once$/;"	e	enum:_STORAGE_MEDIA_TYPE
+PHYPAGES_PER_PAGE	include/jasmine.h	/^#define PHYPAGES_PER_PAGE /;"	d
+PHY_DEBUG	include/peri.h	/^#define	PHY_DEBUG	/;"	d
+PHY_MON	include/peri.h	/^#define	PHY_MON	/;"	d
+PHY_OFFLINE	include/sata_registers.h	/^#define	PHY_OFFLINE	/;"	d
+PHY_ONLINE	include/sata_registers.h	/^#define	PHY_ONLINE	/;"	d
+PHY_PWR	include/peri.h	/^#define	PHY_PWR	/;"	d
+PHY_TXCTRL	include/peri.h	/^#define	PHY_TXCTRL	/;"	d
+PINNACLE_APEX_5_RW	installer/ntddstor.h	/^    PINNACLE_APEX_5_RW,        \/\/ Opt_Disk - Pinnacle Apex 4.6GB Rewriteable Optical$/;"	e	enum:_STORAGE_MEDIA_TYPE
+PIO_D2H	include/sata.h	/^	PIO_D2H = 0x01,$/;"	e	enum:__anon10
+PIO_H2D	include/sata.h	/^	PIO_H2D	= 0x00,$/;"	e	enum:__anon10
+PIO_READ	include/sata_registers.h	/^#define PIO_READ	/;"	d
+PIO_WRITE	include/sata_registers.h	/^#define PIO_WRITE	/;"	d
+PLL_100MHZ	target_spw/target.h	/^#define PLL_100MHZ	/;"	d
+PLL_133MHZ	target_spw/target.h	/^#define PLL_133MHZ	/;"	d
+PLL_150MHZ	target_spw/target.h	/^#define PLL_150MHZ	/;"	d
+PLL_155MHZ	target_spw/target.h	/^#define PLL_155MHZ	/;"	d
+PLL_160MHZ	target_spw/target.h	/^#define PLL_160MHZ	/;"	d
+PLL_165MHZ	target_spw/target.h	/^#define PLL_165MHZ	/;"	d
+PLL_170MHZ	target_spw/target.h	/^#define PLL_170MHZ	/;"	d
+PLL_175MHZ	target_spw/target.h	/^#define PLL_175MHZ	/;"	d
+PLL_180MHZ	target_spw/target.h	/^#define PLL_180MHZ	/;"	d
+PLL_25MHZ	target_spw/target.h	/^#define PLL_25MHZ	/;"	d
+PLL_30MHZ	target_spw/target.h	/^#define PLL_30MHZ	/;"	d
+PLL_50MHZ	target_spw/target.h	/^#define PLL_50MHZ	/;"	d
+PLL_60MHZ	target_spw/target.h	/^#define PLL_60MHZ	/;"	d
+PLL_75MHZ	target_spw/target.h	/^#define PLL_75MHZ	/;"	d
+PLL_BP	include/peri.h	/^#define PLL_BP	/;"	d
+PLL_CLK_CONFIG	target_spw/target.h	/^	#define	PLL_CLK_CONFIG	/;"	d
+PLL_CLK_CONFIG	target_spw/target.h	/^	#define	PLL_CLK_CONFIG /;"	d
+PLL_CLK_CONFIG	target_spw/target.h	/^	#define PLL_CLK_CONFIG	/;"	d
+PLL_F	include/peri.h	/^#define PLL_F(/;"	d
+PLL_LD	include/peri.h	/^#define PLL_LD	/;"	d
+PLL_OD	include/peri.h	/^#define PLL_OD(/;"	d
+PLL_PD	include/peri.h	/^#define PLL_PD	/;"	d
+PLL_R	include/peri.h	/^#define PLL_R(/;"	d
+PMU_ResetCon	include/peri.h	/^#define PMU_ResetCon	/;"	d
+PPREVENT_MEDIA_REMOVAL	installer/ntddstor.h	/^} PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL;$/;"	t	typeref:struct:_PREVENT_MEDIA_REMOVAL
+PRECACHE_FOR_ENCODING	ftl_page_mapped/dram_layout.h	/^#define PRECACHE_FOR_ENCODING /;"	d
+PRECACHE_FOR_ENCODING_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define PRECACHE_FOR_ENCODING_BYTES /;"	d
+PREFIX	build_gnu/Makefile	/^PREFIX = arm-none-eabi-$/;"	m
+PRESCALE_TO_DIV	include/peri.h	/^#define	PRESCALE_TO_DIV(/;"	d
+PREVENT_MEDIA_REMOVAL	installer/ntddstor.h	/^} PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL;$/;"	t	typeref:struct:_PREVENT_MEDIA_REMOVAL
+PROC_PARTITIONS	installer/installer-linux.c	/^#define PROC_PARTITIONS /;"	d	file:
+PSTORAGE_ADAPTER_DESCRIPTOR	installer/ntddstor.h	/^} STORAGE_ADAPTER_DESCRIPTOR, *PSTORAGE_ADAPTER_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_ADAPTER_DESCRIPTOR
+PSTORAGE_ASSOCIATION_TYPE	installer/ntddstor.h	/^} STORAGE_ASSOCIATION_TYPE, *PSTORAGE_ASSOCIATION_TYPE;$/;"	t	typeref:enum:_STORAGE_ASSOCIATION_TYPE
+PSTORAGE_BUS_RESET_REQUEST	installer/ntddstor.h	/^} STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST;$/;"	t	typeref:struct:_STORAGE_BUS_RESET_REQUEST
+PSTORAGE_BUS_TYPE	installer/ntddstor.h	/^} STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE;$/;"	t	typeref:enum:_STORAGE_BUS_TYPE
+PSTORAGE_DESCRIPTOR_HEADER	installer/ntddstor.h	/^} STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER;$/;"	t	typeref:struct:_STORAGE_DESCRIPTOR_HEADER
+PSTORAGE_DEVICE_DESCRIPTOR	installer/ntddstor.h	/^} STORAGE_DEVICE_DESCRIPTOR, *PSTORAGE_DEVICE_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_DEVICE_DESCRIPTOR
+PSTORAGE_DEVICE_ID_DESCRIPTOR	installer/ntddstor.h	/^} STORAGE_DEVICE_ID_DESCRIPTOR, *PSTORAGE_DEVICE_ID_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_DEVICE_ID_DESCRIPTOR
+PSTORAGE_DEVICE_NUMBER	installer/ntddstor.h	/^} STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER;$/;"	t	typeref:struct:_STORAGE_DEVICE_NUMBER
+PSTORAGE_HOTPLUG_INFO	installer/ntddstor.h	/^} STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO;$/;"	t	typeref:struct:_STORAGE_HOTPLUG_INFO
+PSTORAGE_IDENTIFIER	installer/ntddstor.h	/^} STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER;$/;"	t	typeref:struct:_STORAGE_IDENTIFIER
+PSTORAGE_IDENTIFIER_CODE_SET	installer/ntddstor.h	/^} STORAGE_IDENTIFIER_CODE_SET, *PSTORAGE_IDENTIFIER_CODE_SET;$/;"	t	typeref:enum:_STORAGE_IDENTIFIER_CODE_SET
+PSTORAGE_IDENTIFIER_TYPE	installer/ntddstor.h	/^} STORAGE_IDENTIFIER_TYPE, *PSTORAGE_IDENTIFIER_TYPE;$/;"	t	typeref:enum:_STORAGE_IDENTIFIER_TYPE
+PSTORAGE_MEDIA_SERIAL_NUMBER_DATA	installer/ntddstor.h	/^} STORAGE_MEDIA_SERIAL_NUMBER_DATA, *PSTORAGE_MEDIA_SERIAL_NUMBER_DATA;$/;"	t	typeref:struct:_STORAGE_MEDIA_SERIAL_NUMBER_DATA
+PSTORAGE_MEDIA_TYPE	installer/ntddstor.h	/^} STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE;$/;"	t	typeref:enum:_STORAGE_MEDIA_TYPE
+PSTORAGE_PREDICT_FAILURE	installer/ntddstor.h	/^} STORAGE_PREDICT_FAILURE, *PSTORAGE_PREDICT_FAILURE;$/;"	t	typeref:struct:_STORAGE_PREDICT_FAILURE
+PSTORAGE_PROPERTY_ID	installer/ntddstor.h	/^} STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID;$/;"	t	typeref:enum:_STORAGE_PROPERTY_ID
+PSTORAGE_PROPERTY_QUERY	installer/ntddstor.h	/^} STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY;$/;"	t	typeref:struct:_STORAGE_PROPERTY_QUERY
+PSTORAGE_QUERY_TYPE	installer/ntddstor.h	/^} STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE;$/;"	t	typeref:enum:_STORAGE_QUERY_TYPE
+PS_PER_CLOCK_CYCLE	target_spw/target.h	/^#define PS_PER_CLOCK_CYCLE	/;"	d
+PS_PER_FLASH_CYCLE	target_spw/target.h	/^#define PS_PER_FLASH_CYCLE	/;"	d
+PS_PER_FLASH_CYCLE	target_spw/target.h	/^#define PS_PER_FLASH_CYCLE /;"	d
+PS_PER_HALF_CYCLE	target_spw/target.h	/^#define PS_PER_HALF_CYCLE	/;"	d
+PS_PER_HOLD	target_spw/target.h	/^#define PS_PER_HOLD /;"	d
+PS_PER_SETUP	target_spw/target.h	/^#define PS_PER_SETUP	/;"	d
+PTAPE_GET_STATISTICS	installer/ntddstor.h	/^} TAPE_GET_STATISTICS, *PTAPE_GET_STATISTICS;$/;"	t	typeref:struct:_TAPE_GET_STATISTICS
+PTAPE_STATISTICS	installer/ntddstor.h	/^} TAPE_STATISTICS, *PTAPE_STATISTICS;$/;"	t	typeref:struct:_TAPE_STATISTICS
+PageToBank	ftl_page_mapped/ftl_metadata.h	/^#define PageToBank(/;"	d
+PartitionClassGuid	installer/ntddstor.h	/^#define PartitionClassGuid /;"	d
+PartitionNumber	installer/ntddstor.h	/^    ULONG       PartitionNumber;$/;"	m	struct:_STORAGE_DEVICE_NUMBER
+PathId	installer/ntddstor.h	/^    UCHAR PathId;$/;"	m	struct:_STORAGE_BUS_RESET_REQUEST
+PllCon	include/peri.h	/^#define PllCon	/;"	d
+PrecacheForEncoding	ftl_page_mapped/dram_layout.h	/^#define PrecacheForEncoding(/;"	d
+PredictFailure	installer/ntddstor.h	/^    ULONG PredictFailure;$/;"	m	struct:_STORAGE_PREDICT_FAILURE
+PreventMediaRemoval	installer/ntddstor.h	/^    BOOLEAN PreventMediaRemoval;$/;"	m	struct:_PREVENT_MEDIA_REMOVAL
+PrintStats	include/jasmine.h	/^#define PrintStats /;"	d
+ProductIdOffset	installer/ntddstor.h	/^    ULONG ProductIdOffset;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+ProductRevisionOffset	installer/ntddstor.h	/^    ULONG ProductRevisionOffset;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+PropertyExistsQuery	installer/ntddstor.h	/^    PropertyExistsQuery,                \/\/ Used to test whether the descriptor is supported$/;"	e	enum:_STORAGE_QUERY_TYPE
+PropertyId	installer/ntddstor.h	/^    STORAGE_PROPERTY_ID PropertyId;$/;"	m	struct:_STORAGE_PROPERTY_QUERY
+PropertyMaskQuery	installer/ntddstor.h	/^    PropertyMaskQuery,                  \/\/ Used to retrieve a mask of writeable fields in the descriptor$/;"	e	enum:_STORAGE_QUERY_TYPE
+PropertyQueryMaxDefined	installer/ntddstor.h	/^    PropertyQueryMaxDefined     \/\/ use to validate the value$/;"	e	enum:_STORAGE_QUERY_TYPE
+PropertyStandardQuery	installer/ntddstor.h	/^    PropertyStandardQuery = 0,          \/\/ Retrieves the descriptor$/;"	e	enum:_STORAGE_QUERY_TYPE
+QIC	installer/ntddstor.h	/^    QIC,                       \/\/ Tape - QIC$/;"	e	enum:_STORAGE_MEDIA_TYPE
+QueryType	installer/ntddstor.h	/^    STORAGE_QUERY_TYPE QueryType;$/;"	m	struct:_STORAGE_PROPERTY_QUERY
+RANDOM_SEED	tc/tc_synth.c	/^#define RANDOM_SEED /;"	d	file:
+RDCLK_DLY	include/sdram.h	/^	#define RDCLK_DLY	/;"	d
+RD_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define RD_BUF_ADDR /;"	d
+RD_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define RD_BUF_BYTES /;"	d
+RD_BUF_ID	ftl_page_mapped/dram_layout.h	/^#define RD_BUF_ID(/;"	d
+RD_BUF_PTR	ftl_page_mapped/dram_layout.h	/^#define RD_BUF_PTR(/;"	d
+READ	include/sata.h	/^#define READ /;"	d
+READ_BUFFER	installer/ata_7.h	/^#define READ_BUFFER	/;"	d
+READ_COMPRESSION_INFO_VALID	installer/ntddstor.h	/^#define READ_COMPRESSION_INFO_VALID /;"	d
+READ_DMA	installer/ata_7.h	/^#define READ_DMA	/;"	d
+READ_DMA_EXT	installer/ata_7.h	/^#define READ_DMA_EXT	/;"	d
+READ_DMA_QUEUED	installer/ata_7.h	/^#define READ_DMA_QUEUED	/;"	d
+READ_DMA_QUEUED_EXT	installer/ata_7.h	/^#define READ_DMA_QUEUED_EXT	/;"	d
+READ_H	ftl_page_mapped/read.h	/^#define READ_H$/;"	d
+READ_LOG_EXT	installer/ata_7.h	/^#define READ_LOG_EXT	/;"	d
+READ_MULTIPLE	installer/ata_7.h	/^#define READ_MULTIPLE	/;"	d
+READ_MULTIPLE_EXT	installer/ata_7.h	/^#define READ_MULTIPLE_EXT	/;"	d
+READ_NATIVE_MAX_ADDRESS	installer/ata_7.h	/^#define READ_NATIVE_MAX_ADDRESS	/;"	d
+READ_NATIVE_MAX_ADDRESS_EXT	installer/ata_7.h	/^#define READ_NATIVE_MAX_ADDRESS_EXT	/;"	d
+READ_REFRESH_THRESHOLD	include/nand.h	/^#define READ_REFRESH_THRESHOLD	/;"	d
+READ_SECTORS	installer/ata_7.h	/^#define READ_SECTORS	/;"	d
+READ_SECTORS_EXT	installer/ata_7.h	/^#define READ_SECTORS_EXT	/;"	d
+READ_STREAM_DMA_EXT	installer/ata_7.h	/^#define READ_STREAM_DMA_EXT	/;"	d
+READ_STREAM_EXT	installer/ata_7.h	/^#define READ_STREAM_EXT	/;"	d
+READ_VERIFY_SECTORS	installer/ata_7.h	/^#define READ_VERIFY_SECTORS	/;"	d
+READ_VERIFY_SECTORS_EXT	installer/ata_7.h	/^#define READ_VERIFY_SECTORS_EXT	/;"	d
+REAL_BANK	include/flash.h	/^#define REAL_BANK(/;"	d
+RECOVERED_READS_VALID	installer/ntddstor.h	/^#define RECOVERED_READS_VALID /;"	d
+RECOVERED_WRITES_VALID	installer/ntddstor.h	/^#define RECOVERED_WRITES_VALID /;"	d
+RECYCLED_CLEAN_LIST_NODES_ADDR	ftl_page_mapped/dram_layout.h	/^#define RECYCLED_CLEAN_LIST_NODES_ADDR /;"	d
+RECYCLED_CLEAN_LIST_NODES_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define RECYCLED_CLEAN_LIST_NODES_BYTES /;"	d
+REG_FIS_RECV	include/sata_registers.h	/^#define	REG_FIS_RECV	/;"	d
+REMAPBANK0	include/flash.h	/^#define REMAPBANK0 /;"	d
+REMAPBANK1	include/flash.h	/^#define REMAPBANK1 /;"	d
+REMAPBANK2	include/flash.h	/^#define REMAPBANK2 /;"	d
+REMAPBANK3	include/flash.h	/^#define REMAPBANK3 /;"	d
+REMAPBLOCK0	include/flash.h	/^#define REMAPBLOCK0 /;"	d
+REMAPBLOCK1	include/flash.h	/^#define REMAPBLOCK1 /;"	d
+REMAPBLOCK2	include/flash.h	/^#define REMAPBLOCK2 /;"	d
+REMAPBLOCK3	include/flash.h	/^#define REMAPBLOCK3 /;"	d
+REMAP_BANK_HIGH	include/flash.h	/^#define REMAP_BANK_HIGH /;"	d
+REMAP_BANK_INVALID	include/flash.h	/^#define REMAP_BANK_INVALID /;"	d
+REMAP_BANK_LOW	include/flash.h	/^#define REMAP_BANK_LOW /;"	d
+REMAP_BANK_MASK	include/flash.h	/^#define REMAP_BANK_MASK /;"	d
+REMAP_BANK_PLANE	include/flash.h	/^#define REMAP_BANK_PLANE /;"	d
+REMAP_BASE	include/flash.h	/^#define REMAP_BASE /;"	d
+RESET_ARM	include/peri.h	/^#define RESET_ARM	/;"	d
+RESET_BM	include/peri.h	/^#define RESET_BM	/;"	d
+RESET_FLASH	include/peri.h	/^#define RESET_FLASH	/;"	d
+RESET_GPIO	include/peri.h	/^#define RESET_GPIO	/;"	d
+RESET_PHYDOMAIN	include/peri.h	/^#define RESET_PHYDOMAIN	/;"	d
+RESET_PHYPOR	include/peri.h	/^#define RESET_PHYPOR	/;"	d
+RESET_PMCLK	include/peri.h	/^#define RESET_PMCLK	/;"	d
+RESET_SATA	include/peri.h	/^#define RESET_SATA	/;"	d
+RESET_SATADWCLK	include/peri.h	/^#define RESET_SATADWCLK	/;"	d
+RESET_SATAHCLK	include/peri.h	/^#define RESET_SATAHCLK	/;"	d
+RESET_SDRAM	include/peri.h	/^#define RESET_SDRAM	/;"	d
+RESET_TIMER	include/peri.h	/^#define RESET_TIMER	/;"	d
+RESET_UART	include/peri.h	/^#define RESET_UART	/;"	d
+RETURN_ON_ACCEPT	include/flash.h	/^#define RETURN_ON_ACCEPT /;"	d
+RETURN_ON_ISSUE	include/flash.h	/^#define RETURN_ON_ISSUE /;"	d
+RETURN_WHEN_DONE	include/flash.h	/^#define RETURN_WHEN_DONE /;"	d
+RM	build_gnu/Makefile	/^RM = rm$/;"	m
+ROM_BASE	target_spw/target.h	/^#define ROM_BASE	/;"	d
+ROM_BYTES_PER_PAGE	include/rom.h	/^#define ROM_BYTES_PER_PAGE	/;"	d
+ROM_CMD_DO_NOTHING	include/rom.h	/^#define ROM_CMD_DO_NOTHING	/;"	d
+ROM_CMD_FACTORY_MODE	include/rom.h	/^#define ROM_CMD_FACTORY_MODE	/;"	d
+ROM_CMD_FLASH_CMD	include/rom.h	/^#define ROM_CMD_FLASH_CMD	/;"	d
+ROM_CMD_FLASH_FINISH	include/rom.h	/^#define ROM_CMD_FLASH_FINISH	/;"	d
+ROM_CMD_MU_CMD	include/rom.h	/^#define ROM_CMD_MU_CMD	/;"	d
+ROM_CMD_READ_MEM	include/rom.h	/^#define ROM_CMD_READ_MEM	/;"	d
+ROM_CMD_RESET	include/rom.h	/^#define ROM_CMD_RESET	/;"	d
+ROM_CMD_RESET_FLASH	include/rom.h	/^#define ROM_CMD_RESET_FLASH	/;"	d
+ROM_CMD_RUN_CODE	include/rom.h	/^#define ROM_CMD_RUN_CODE	/;"	d
+ROM_CMD_SCAN	include/rom.h	/^#define ROM_CMD_SCAN	/;"	d
+ROM_CMD_WRITE_MEM	include/rom.h	/^#define ROM_CMD_WRITE_MEM	/;"	d
+ROM_DRAM_BUF_ADDR	include/rom.h	/^#define ROM_DRAM_BUF_ADDR	/;"	d
+ROM_DRAM_BUF_LBA	include/rom.h	/^#define ROM_DRAM_BUF_LBA	/;"	d
+ROM_H	include/rom.h	/^#define ROM_H$/;"	d
+ROM_SCAN_BUF_SIZE	include/rom.h	/^#define	ROM_SCAN_BUF_SIZE	/;"	d
+ROM_SRAM_BUF_SIZE	include/rom.h	/^#define ROM_SRAM_BUF_SIZE	/;"	d
+ROWS_PER_BANK	include/jasmine.h	/^#define ROWS_PER_BANK /;"	d
+ROWS_PER_PBLK	include/jasmine.h	/^#define ROWS_PER_PBLK /;"	d
+RXFIFO_PENDING_CNT	target_spw/uart.c	/^#define RXFIFO_PENDING_CNT /;"	d	file:
+RawDeviceProperties	installer/ntddstor.h	/^    UCHAR RawDeviceProperties[1];$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+RawPropertiesLength	installer/ntddstor.h	/^    ULONG RawPropertiesLength;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+ReadMode	ftl_page_mapped/ftl_parameters.h	/^#define ReadMode /;"	d
+Read_log_bmt	ftl_page_mapped/log.c	/^#define Read_log_bmt(/;"	d	file:
+RecoveredReads	installer/ntddstor.h	/^    LARGE_INTEGER RecoveredReads;$/;"	m	struct:_TAPE_STATISTICS
+RecoveredWrites	installer/ntddstor.h	/^    LARGE_INTEGER RecoveredWrites;$/;"	m	struct:_TAPE_STATISTICS
+RemapCon	include/peri.h	/^#define RemapCon	/;"	d
+RemovableDiskInfo	installer/ntddstor.h	/^        } RemovableDiskInfo;$/;"	m	union:_DEVICE_MEDIA_INFO::__anon20	typeref:struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+RemovableMedia	installer/ntddstor.h	/^    BOOLEAN RemovableMedia;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+Reserved	installer/ntddstor.h	/^    USHORT Reserved;$/;"	m	struct:_STORAGE_MEDIA_SERIAL_NUMBER_DATA
+SAIT	installer/ntddstor.h	/^    SAIT                       \/\/ SAIT Tapes$/;"	e	enum:_STORAGE_MEDIA_TYPE
+SATA_BUF_PAGE_SIZE	include/sata_registers.h	/^#define SATA_BUF_PAGE_SIZE	/;"	d
+SATA_CFG_1	include/sata_registers.h	/^#define SATA_CFG_1	/;"	d
+SATA_CFG_10	include/sata_registers.h	/^#define SATA_CFG_10	/;"	d
+SATA_CFG_2	include/sata_registers.h	/^#define SATA_CFG_2	/;"	d
+SATA_CFG_3	include/sata_registers.h	/^#define SATA_CFG_3	/;"	d
+SATA_CFG_4	include/sata_registers.h	/^#define SATA_CFG_4	/;"	d
+SATA_CFG_5	include/sata_registers.h	/^#define SATA_CFG_5	/;"	d
+SATA_CFG_6	include/sata_registers.h	/^#define SATA_CFG_6	/;"	d
+SATA_CFG_7	include/sata_registers.h	/^#define SATA_CFG_7	/;"	d
+SATA_CFG_8	include/sata_registers.h	/^#define SATA_CFG_8	/;"	d
+SATA_CFG_9	include/sata_registers.h	/^#define SATA_CFG_9	/;"	d
+SATA_CMD_H	include/sata_cmd.h	/^#define SATA_CMD_H$/;"	d
+SATA_CTRL_1	include/sata_registers.h	/^#define SATA_CTRL_1	/;"	d
+SATA_CTRL_2	include/sata_registers.h	/^#define SATA_CTRL_2	/;"	d
+SATA_CTRL_3	include/sata_registers.h	/^#define SATA_CTRL_3	/;"	d
+SATA_EQ_CFG_1	include/sata_registers.h	/^#define SATA_EQ_CFG_1	/;"	d
+SATA_EQ_CFG_2	include/sata_registers.h	/^#define SATA_EQ_CFG_2	/;"	d
+SATA_EQ_CTRL	include/sata_registers.h	/^#define SATA_EQ_CTRL	/;"	d
+SATA_EQ_DATA_0	include/sata_registers.h	/^#define SATA_EQ_DATA_0	/;"	d
+SATA_EQ_DATA_1	include/sata_registers.h	/^#define SATA_EQ_DATA_1	/;"	d
+SATA_EQ_DATA_2	include/sata_registers.h	/^#define SATA_EQ_DATA_2	/;"	d
+SATA_EQ_PTR	include/sata_registers.h	/^#define SATA_EQ_PTR	/;"	d
+SATA_EQ_STATUS	include/sata_registers.h	/^#define SATA_EQ_STATUS	/;"	d
+SATA_ERROR	include/sata_registers.h	/^#define SATA_ERROR	/;"	d
+SATA_FIFO_1_STATUS	include/sata_registers.h	/^#define SATA_FIFO_1_STATUS	/;"	d
+SATA_FIFO_2_STATUS	include/sata_registers.h	/^#define SATA_FIFO_2_STATUS	/;"	d
+SATA_FIFO_S_STATUS	include/sata_registers.h	/^#define SATA_FIFO_S_STATUS	/;"	d
+SATA_FIS_D2H_0	include/sata_registers.h	/^#define SATA_FIS_D2H_0	/;"	d
+SATA_FIS_D2H_1	include/sata_registers.h	/^#define SATA_FIS_D2H_1	/;"	d
+SATA_FIS_D2H_2	include/sata_registers.h	/^#define SATA_FIS_D2H_2	/;"	d
+SATA_FIS_D2H_3	include/sata_registers.h	/^#define SATA_FIS_D2H_3	/;"	d
+SATA_FIS_D2H_4	include/sata_registers.h	/^#define SATA_FIS_D2H_4	/;"	d
+SATA_FIS_D2H_5	include/sata_registers.h	/^#define SATA_FIS_D2H_5	/;"	d
+SATA_FIS_D2H_6	include/sata_registers.h	/^#define SATA_FIS_D2H_6	/;"	d
+SATA_FIS_D2H_7	include/sata_registers.h	/^#define SATA_FIS_D2H_7	/;"	d
+SATA_FIS_D2H_LEN	include/sata_registers.h	/^#define SATA_FIS_D2H_LEN	/;"	d
+SATA_FIS_H2D_0	include/sata_registers.h	/^#define SATA_FIS_H2D_0	/;"	d
+SATA_FIS_H2D_1	include/sata_registers.h	/^#define SATA_FIS_H2D_1	/;"	d
+SATA_FIS_H2D_2	include/sata_registers.h	/^#define SATA_FIS_H2D_2	/;"	d
+SATA_FIS_H2D_3	include/sata_registers.h	/^#define SATA_FIS_H2D_3	/;"	d
+SATA_FIS_H2D_4	include/sata_registers.h	/^#define SATA_FIS_H2D_4	/;"	d
+SATA_FIS_H2D_5	include/sata_registers.h	/^#define SATA_FIS_H2D_5	/;"	d
+SATA_FIS_H2D_6	include/sata_registers.h	/^#define SATA_FIS_H2D_6	/;"	d
+SATA_FIS_H2D_7	include/sata_registers.h	/^#define SATA_FIS_H2D_7	/;"	d
+SATA_H	include/sata.h	/^#define SATA_H$/;"	d
+SATA_INSERT_EQ_R	include/sata_registers.h	/^#define SATA_INSERT_EQ_R	/;"	d
+SATA_INSERT_EQ_W	include/sata_registers.h	/^#define SATA_INSERT_EQ_W	/;"	d
+SATA_INT_ENABLE	include/sata_registers.h	/^#define SATA_INT_ENABLE	/;"	d
+SATA_INT_STAT	include/sata_registers.h	/^#define SATA_INT_STAT	/;"	d
+SATA_LBA	include/sata_registers.h	/^#define SATA_LBA	/;"	d
+SATA_MANUAL_MODE_ADDR	include/sata_registers.h	/^#define SATA_MANUAL_MODE_ADDR	/;"	d
+SATA_MAX_LBA	include/sata_registers.h	/^#define SATA_MAX_LBA	/;"	d
+SATA_NCQ_BASE	include/sata_registers.h	/^#define SATA_NCQ_BASE	/;"	d
+SATA_NCQ_BMP_1	include/sata_registers.h	/^#define SATA_NCQ_BMP_1	/;"	d
+SATA_NCQ_BMP_2	include/sata_registers.h	/^#define SATA_NCQ_BMP_2	/;"	d
+SATA_NCQ_CTRL	include/sata_registers.h	/^#define SATA_NCQ_CTRL	/;"	d
+SATA_NCQ_ORDER	include/sata_registers.h	/^#define SATA_NCQ_ORDER	/;"	d
+SATA_PHY_CTRL	include/sata_registers.h	/^#define SATA_PHY_CTRL	/;"	d
+SATA_PHY_STATUS	include/sata_registers.h	/^#define SATA_PHY_STATUS	/;"	d
+SATA_RBUF_BASE	include/sata_registers.h	/^#define SATA_RBUF_BASE	/;"	d
+SATA_RBUF_PENDING	include/sata_registers.h	/^#define SATA_RBUF_PENDING	/;"	d
+SATA_RBUF_PTR	include/sata_registers.h	/^#define SATA_RBUF_PTR	/;"	d
+SATA_RBUF_SIZE	include/sata_registers.h	/^#define SATA_RBUF_SIZE	/;"	d
+SATA_REGISTERS_H	include/sata_registers.h	/^#define SATA_REGISTERS_H$/;"	d
+SATA_RESET_FIFO_1	include/sata_registers.h	/^#define SATA_RESET_FIFO_1	/;"	d
+SATA_RESET_RBUF_PTR	include/sata_registers.h	/^#define SATA_RESET_RBUF_PTR	/;"	d
+SATA_RESET_WBUF_PTR	include/sata_registers.h	/^#define SATA_RESET_WBUF_PTR	/;"	d
+SATA_SACTIVE	include/sata_registers.h	/^#define SATA_SACTIVE	/;"	d
+SATA_SECT_CNT	include/sata_registers.h	/^#define SATA_SECT_CNT	/;"	d
+SATA_SECT_OFFSET	include/sata_registers.h	/^#define SATA_SECT_OFFSET	/;"	d
+SATA_STATUS	include/sata_registers.h	/^#define SATA_STATUS	/;"	d
+SATA_WBUF_BASE	include/sata_registers.h	/^#define SATA_WBUF_BASE	/;"	d
+SATA_WBUF_FREE	include/sata_registers.h	/^#define SATA_WBUF_FREE	/;"	d
+SATA_WBUF_MARGIN	include/sata_registers.h	/^#define SATA_WBUF_MARGIN	/;"	d
+SATA_WBUF_PTR	include/sata_registers.h	/^#define SATA_WBUF_PTR	/;"	d
+SATA_WBUF_SIZE	include/sata_registers.h	/^#define SATA_WBUF_SIZE	/;"	d
+SATA_XFER_BYTES	include/sata_registers.h	/^#define SATA_XFER_BYTES	/;"	d
+SATA_XFER_BYTES_REMAIN	include/sata_registers.h	/^#define SATA_XFER_BYTES_REMAIN	/;"	d
+SATA_XFER_SECTORS_REMAIN	include/sata_registers.h	/^#define SATA_XFER_SECTORS_REMAIN	/;"	d
+SCAN_LIST_ITEMS	include/jasmine.h	/^#define SCAN_LIST_ITEMS /;"	d
+SCAN_LIST_NEW	installer/installer-linux.c	/^#define SCAN_LIST_NEW	/;"	d	file:
+SCAN_LIST_NEW	installer/installer.c	/^#define SCAN_LIST_NEW	/;"	d	file:
+SCAN_LIST_NOT_LOADED	installer/installer-linux.c	/^#define SCAN_LIST_NOT_LOADED	/;"	d	file:
+SCAN_LIST_NOT_LOADED	installer/installer.c	/^#define SCAN_LIST_NOT_LOADED	/;"	d	file:
+SCAN_LIST_OLD	installer/installer-linux.c	/^#define SCAN_LIST_OLD	/;"	d	file:
+SCAN_LIST_OLD	installer/installer.c	/^#define SCAN_LIST_OLD	/;"	d	file:
+SCAN_LIST_PAGE_OFFSET	include/jasmine.h	/^#define SCAN_LIST_PAGE_OFFSET /;"	d
+SCAN_LIST_SIZE	include/jasmine.h	/^#define SCAN_LIST_SIZE /;"	d
+SCRAMSEED_BASE	include/flash.h	/^#define SCRAMSEED_BASE /;"	d
+SDCLK_DLY	include/sdram.h	/^	#define SDCLK_DLY	/;"	d
+SDRAM_16MB	include/peri.h	/^#define SDRAM_16MB	/;"	d
+SDRAM_32MB	include/peri.h	/^#define SDRAM_32MB	/;"	d
+SDRAM_64MB	include/peri.h	/^#define SDRAM_64MB	/;"	d
+SDRAM_AUTO_WAKE_UP	include/peri.h	/^#define SDRAM_AUTO_WAKE_UP	/;"	d
+SDRAM_CAP_CLK_SEL	include/peri.h	/^#define SDRAM_CAP_CLK_SEL(/;"	d
+SDRAM_CL_2	include/peri.h	/^#define SDRAM_CL_2	/;"	d
+SDRAM_CL_3	include/peri.h	/^#define SDRAM_CL_3	/;"	d
+SDRAM_CTRL	include/peri.h	/^#define SDRAM_CTRL	/;"	d
+SDRAM_DEEP_POWER_DOWN	include/peri.h	/^#define SDRAM_DEEP_POWER_DOWN	/;"	d
+SDRAM_DP_WAKE_UP	include/peri.h	/^#define SDRAM_DP_WAKE_UP	/;"	d
+SDRAM_ECC_DISABLE	include/peri.h	/^#define SDRAM_ECC_DISABLE	/;"	d
+SDRAM_ECC_MON	include/peri.h	/^#define SDRAM_ECC_MON	/;"	d
+SDRAM_ECC_UNIT	include/mem_util.h	/^#define SDRAM_ECC_UNIT /;"	d
+SDRAM_EMRS_KEY	include/peri.h	/^#define SDRAM_EMRS_KEY(/;"	d
+SDRAM_FORCE_REFRESH	include/peri.h	/^#define SDRAM_FORCE_REFRESH	/;"	d
+SDRAM_H	include/sdram.h	/^#define SDRAM_H$/;"	d
+SDRAM_INIT	include/peri.h	/^#define SDRAM_INIT	/;"	d
+SDRAM_INITIALIZE	include/peri.h	/^#define SDRAM_INITIALIZE	/;"	d
+SDRAM_INIT_PERIOD	include/peri.h	/^#define SDRAM_INIT_PERIOD(/;"	d
+SDRAM_INTCTRL	include/peri.h	/^#define SDRAM_INTCTRL	/;"	d
+SDRAM_INTSTATUS	include/peri.h	/^#define SDRAM_INTSTATUS	/;"	d
+SDRAM_INT_ADDR_OF	include/peri.h	/^#define SDRAM_INT_ADDR_OF	/;"	d
+SDRAM_INT_ECC_CORR	include/peri.h	/^#define SDRAM_INT_ECC_CORR	/;"	d
+SDRAM_INT_ECC_FAIL	include/peri.h	/^#define SDRAM_INT_ECC_FAIL	/;"	d
+SDRAM_INT_ENABLE	include/peri.h	/^#define SDRAM_INT_ENABLE	/;"	d
+SDRAM_MRS	include/peri.h	/^#define SDRAM_MRS	/;"	d
+SDRAM_MRS_KEY	include/peri.h	/^#define SDRAM_MRS_KEY(/;"	d
+SDRAM_PARAM_100_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_100_64_INIT	/;"	d
+SDRAM_PARAM_100_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_100_64_MRS	/;"	d
+SDRAM_PARAM_100_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_100_64_REFRESH	/;"	d
+SDRAM_PARAM_100_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_100_64_TIMING	/;"	d
+SDRAM_PARAM_133_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_133_16_INIT	/;"	d
+SDRAM_PARAM_133_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_133_16_MRS	/;"	d
+SDRAM_PARAM_133_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_133_16_REFRESH	/;"	d
+SDRAM_PARAM_133_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_133_16_TIMING	/;"	d
+SDRAM_PARAM_133_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_133_32_INIT	/;"	d
+SDRAM_PARAM_133_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_133_32_MRS	/;"	d
+SDRAM_PARAM_133_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_133_32_REFRESH	/;"	d
+SDRAM_PARAM_133_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_133_32_TIMING	/;"	d
+SDRAM_PARAM_133_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_133_64_INIT	/;"	d
+SDRAM_PARAM_133_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_133_64_MRS	/;"	d
+SDRAM_PARAM_133_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_133_64_REFRESH	/;"	d
+SDRAM_PARAM_133_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_133_64_TIMING	/;"	d
+SDRAM_PARAM_150_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_150_16_INIT	/;"	d
+SDRAM_PARAM_150_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_150_16_MRS	/;"	d
+SDRAM_PARAM_150_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_150_16_REFRESH	/;"	d
+SDRAM_PARAM_150_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_150_16_TIMING	/;"	d
+SDRAM_PARAM_150_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_150_32_INIT	/;"	d
+SDRAM_PARAM_150_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_150_32_MRS	/;"	d
+SDRAM_PARAM_150_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_150_32_REFRESH	/;"	d
+SDRAM_PARAM_150_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_150_32_TIMING	/;"	d
+SDRAM_PARAM_150_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_150_64_INIT	/;"	d
+SDRAM_PARAM_150_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_150_64_MRS	/;"	d
+SDRAM_PARAM_150_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_150_64_REFRESH	/;"	d
+SDRAM_PARAM_150_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_150_64_TIMING	/;"	d
+SDRAM_PARAM_155_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_155_16_INIT	/;"	d
+SDRAM_PARAM_155_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_155_16_MRS	/;"	d
+SDRAM_PARAM_155_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_155_16_REFRESH	/;"	d
+SDRAM_PARAM_155_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_155_16_TIMING	/;"	d
+SDRAM_PARAM_155_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_155_32_INIT	/;"	d
+SDRAM_PARAM_155_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_155_32_MRS	/;"	d
+SDRAM_PARAM_155_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_155_32_REFRESH	/;"	d
+SDRAM_PARAM_155_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_155_32_TIMING	/;"	d
+SDRAM_PARAM_155_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_155_64_INIT	/;"	d
+SDRAM_PARAM_155_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_155_64_MRS	/;"	d
+SDRAM_PARAM_155_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_155_64_REFRESH	/;"	d
+SDRAM_PARAM_155_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_155_64_TIMING	/;"	d
+SDRAM_PARAM_160_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_160_16_INIT	/;"	d
+SDRAM_PARAM_160_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_160_16_MRS	/;"	d
+SDRAM_PARAM_160_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_160_16_REFRESH	/;"	d
+SDRAM_PARAM_160_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_160_16_TIMING	/;"	d
+SDRAM_PARAM_160_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_160_32_INIT	/;"	d
+SDRAM_PARAM_160_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_160_32_MRS	/;"	d
+SDRAM_PARAM_160_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_160_32_REFRESH	/;"	d
+SDRAM_PARAM_160_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_160_32_TIMING	/;"	d
+SDRAM_PARAM_160_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_160_64_INIT	/;"	d
+SDRAM_PARAM_160_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_160_64_MRS	/;"	d
+SDRAM_PARAM_160_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_160_64_REFRESH	/;"	d
+SDRAM_PARAM_160_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_160_64_TIMING	/;"	d
+SDRAM_PARAM_165_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_165_16_INIT	/;"	d
+SDRAM_PARAM_165_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_165_16_MRS	/;"	d
+SDRAM_PARAM_165_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_165_16_REFRESH	/;"	d
+SDRAM_PARAM_165_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_165_16_TIMING	/;"	d
+SDRAM_PARAM_165_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_165_32_INIT	/;"	d
+SDRAM_PARAM_165_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_165_32_MRS	/;"	d
+SDRAM_PARAM_165_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_165_32_REFRESH	/;"	d
+SDRAM_PARAM_165_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_165_32_TIMING	/;"	d
+SDRAM_PARAM_165_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_165_64_INIT	/;"	d
+SDRAM_PARAM_165_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_165_64_MRS	/;"	d
+SDRAM_PARAM_165_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_165_64_REFRESH	/;"	d
+SDRAM_PARAM_165_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_165_64_TIMING	/;"	d
+SDRAM_PARAM_170_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_170_64_INIT	/;"	d
+SDRAM_PARAM_170_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_170_64_MRS	/;"	d
+SDRAM_PARAM_170_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_170_64_REFRESH	/;"	d
+SDRAM_PARAM_170_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_170_64_TIMING	/;"	d
+SDRAM_PARAM_175_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_175_16_INIT	/;"	d
+SDRAM_PARAM_175_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_175_16_MRS	/;"	d
+SDRAM_PARAM_175_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_175_16_REFRESH	/;"	d
+SDRAM_PARAM_175_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_175_16_TIMING	/;"	d
+SDRAM_PARAM_175_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_175_32_INIT	/;"	d
+SDRAM_PARAM_175_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_175_32_MRS	/;"	d
+SDRAM_PARAM_175_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_175_32_REFRESH	/;"	d
+SDRAM_PARAM_175_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_175_32_TIMING	/;"	d
+SDRAM_PARAM_175_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_175_64_INIT	/;"	d
+SDRAM_PARAM_175_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_175_64_MRS	/;"	d
+SDRAM_PARAM_175_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_175_64_REFRESH	/;"	d
+SDRAM_PARAM_175_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_175_64_TIMING	/;"	d
+SDRAM_PARAM_180_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_180_16_INIT	/;"	d
+SDRAM_PARAM_180_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_180_16_MRS	/;"	d
+SDRAM_PARAM_180_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_180_16_REFRESH	/;"	d
+SDRAM_PARAM_180_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_180_16_TIMING	/;"	d
+SDRAM_PARAM_180_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_180_32_INIT	/;"	d
+SDRAM_PARAM_180_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_180_32_MRS	/;"	d
+SDRAM_PARAM_180_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_180_32_REFRESH	/;"	d
+SDRAM_PARAM_180_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_180_32_TIMING	/;"	d
+SDRAM_PARAM_180_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_180_64_INIT	/;"	d
+SDRAM_PARAM_180_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_180_64_MRS	/;"	d
+SDRAM_PARAM_180_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_180_64_REFRESH	/;"	d
+SDRAM_PARAM_180_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_180_64_TIMING	/;"	d
+SDRAM_PARAM_50_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_50_16_INIT	/;"	d
+SDRAM_PARAM_50_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_50_16_MRS	/;"	d
+SDRAM_PARAM_50_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_50_16_REFRESH	/;"	d
+SDRAM_PARAM_50_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_50_16_TIMING	/;"	d
+SDRAM_PARAM_50_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_50_32_INIT	/;"	d
+SDRAM_PARAM_50_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_50_32_MRS	/;"	d
+SDRAM_PARAM_50_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_50_32_REFRESH	/;"	d
+SDRAM_PARAM_50_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_50_32_TIMING	/;"	d
+SDRAM_PARAM_50_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_50_64_INIT	/;"	d
+SDRAM_PARAM_50_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_50_64_MRS	/;"	d
+SDRAM_PARAM_50_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_50_64_REFRESH	/;"	d
+SDRAM_PARAM_50_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_50_64_TIMING	/;"	d
+SDRAM_PARAM_60_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_60_16_INIT	/;"	d
+SDRAM_PARAM_60_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_60_16_MRS	/;"	d
+SDRAM_PARAM_60_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_60_16_REFRESH	/;"	d
+SDRAM_PARAM_60_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_60_16_TIMING	/;"	d
+SDRAM_PARAM_60_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_60_32_INIT	/;"	d
+SDRAM_PARAM_60_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_60_32_MRS	/;"	d
+SDRAM_PARAM_60_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_60_32_REFRESH	/;"	d
+SDRAM_PARAM_60_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_60_32_TIMING	/;"	d
+SDRAM_PARAM_60_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_60_64_INIT	/;"	d
+SDRAM_PARAM_60_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_60_64_MRS	/;"	d
+SDRAM_PARAM_60_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_60_64_REFRESH	/;"	d
+SDRAM_PARAM_60_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_60_64_TIMING	/;"	d
+SDRAM_PARAM_60_SAFE_INIT	include/sdram.h	/^#define SDRAM_PARAM_60_SAFE_INIT	/;"	d
+SDRAM_PARAM_60_SAFE_MRS	include/sdram.h	/^#define SDRAM_PARAM_60_SAFE_MRS	/;"	d
+SDRAM_PARAM_60_SAFE_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_60_SAFE_REFRESH	/;"	d
+SDRAM_PARAM_60_SAFE_TIMING	include/sdram.h	/^#define SDRAM_PARAM_60_SAFE_TIMING	/;"	d
+SDRAM_PARAM_75_16_INIT	include/sdram.h	/^#define SDRAM_PARAM_75_16_INIT	/;"	d
+SDRAM_PARAM_75_16_MRS	include/sdram.h	/^#define SDRAM_PARAM_75_16_MRS /;"	d
+SDRAM_PARAM_75_16_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_75_16_REFRESH /;"	d
+SDRAM_PARAM_75_16_TIMING	include/sdram.h	/^#define SDRAM_PARAM_75_16_TIMING /;"	d
+SDRAM_PARAM_75_32_INIT	include/sdram.h	/^#define SDRAM_PARAM_75_32_INIT /;"	d
+SDRAM_PARAM_75_32_MRS	include/sdram.h	/^#define SDRAM_PARAM_75_32_MRS /;"	d
+SDRAM_PARAM_75_32_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_75_32_REFRESH /;"	d
+SDRAM_PARAM_75_32_TIMING	include/sdram.h	/^#define SDRAM_PARAM_75_32_TIMING /;"	d
+SDRAM_PARAM_75_64_INIT	include/sdram.h	/^#define SDRAM_PARAM_75_64_INIT	/;"	d
+SDRAM_PARAM_75_64_MRS	include/sdram.h	/^#define SDRAM_PARAM_75_64_MRS	/;"	d
+SDRAM_PARAM_75_64_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_75_64_REFRESH	/;"	d
+SDRAM_PARAM_75_64_TIMING	include/sdram.h	/^#define SDRAM_PARAM_75_64_TIMING	/;"	d
+SDRAM_PARAM_75_SAFE_INIT	include/sdram.h	/^#define SDRAM_PARAM_75_SAFE_INIT	/;"	d
+SDRAM_PARAM_75_SAFE_MRS	include/sdram.h	/^#define SDRAM_PARAM_75_SAFE_MRS	/;"	d
+SDRAM_PARAM_75_SAFE_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_75_SAFE_REFRESH	/;"	d
+SDRAM_PARAM_75_SAFE_TIMING	include/sdram.h	/^#define SDRAM_PARAM_75_SAFE_TIMING	/;"	d
+SDRAM_PARAM_MAIN_FW_INIT	include/sdram.h	/^#define SDRAM_PARAM_MAIN_FW_INIT	/;"	d
+SDRAM_PARAM_MAIN_FW_MRS	include/sdram.h	/^#define SDRAM_PARAM_MAIN_FW_MRS	/;"	d
+SDRAM_PARAM_MAIN_FW_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_MAIN_FW_REFRESH	/;"	d
+SDRAM_PARAM_MAIN_FW_TIMING	include/sdram.h	/^#define SDRAM_PARAM_MAIN_FW_TIMING	/;"	d
+SDRAM_PARAM_ROM_CODE_INIT	include/sdram.h	/^#define SDRAM_PARAM_ROM_CODE_INIT	/;"	d
+SDRAM_PARAM_ROM_CODE_MRS	include/sdram.h	/^#define SDRAM_PARAM_ROM_CODE_MRS	/;"	d
+SDRAM_PARAM_ROM_CODE_REFRESH	include/sdram.h	/^#define SDRAM_PARAM_ROM_CODE_REFRESH	/;"	d
+SDRAM_PARAM_ROM_CODE_TIMING	include/sdram.h	/^#define SDRAM_PARAM_ROM_CODE_TIMING	/;"	d
+SDRAM_PARAM_SIGNATURE	include/sdram.h	/^#define SDRAM_PARAM_SIGNATURE	/;"	d
+SDRAM_RAS	include/peri.h	/^#define SDRAM_RAS(/;"	d
+SDRAM_RDCLK_DLY	include/peri.h	/^#define SDRAM_RDCLK_DLY(/;"	d
+SDRAM_RD_CAP_DLY_0	include/peri.h	/^#define SDRAM_RD_CAP_DLY_0(/;"	d
+SDRAM_RD_CAP_DLY_1	include/peri.h	/^#define SDRAM_RD_CAP_DLY_1(/;"	d
+SDRAM_REFRESH	include/peri.h	/^#define SDRAM_REFRESH	/;"	d
+SDRAM_RF_PERIOD	include/peri.h	/^#define SDRAM_RF_PERIOD(/;"	d
+SDRAM_SDCLK_DLY	include/peri.h	/^#define SDRAM_SDCLK_DLY(/;"	d
+SDRAM_SELF_REFRESH	include/peri.h	/^#define SDRAM_SELF_REFRESH	/;"	d
+SDRAM_SIZE_16_TEST_BASE	installer/installer-linux.c	/^#define SDRAM_SIZE_16_TEST_BASE /;"	d	file:
+SDRAM_SIZE_16_TEST_BASE	installer/installer.c	/^#define SDRAM_SIZE_16_TEST_BASE /;"	d	file:
+SDRAM_SIZE_32_TEST_BASE	installer/installer-linux.c	/^#define SDRAM_SIZE_32_TEST_BASE /;"	d	file:
+SDRAM_SIZE_32_TEST_BASE	installer/installer.c	/^#define SDRAM_SIZE_32_TEST_BASE /;"	d	file:
+SDRAM_SIZE_TEST_16_VAL	installer/installer-linux.c	/^#define SDRAM_SIZE_TEST_16_VAL	/;"	d	file:
+SDRAM_SIZE_TEST_16_VAL	installer/installer.c	/^#define SDRAM_SIZE_TEST_16_VAL	/;"	d	file:
+SDRAM_SIZE_TEST_32_VAL	installer/installer-linux.c	/^#define SDRAM_SIZE_TEST_32_VAL	/;"	d	file:
+SDRAM_SIZE_TEST_32_VAL	installer/installer.c	/^#define SDRAM_SIZE_TEST_32_VAL	/;"	d	file:
+SDRAM_SIZE_TEST_BASE	installer/installer-linux.c	/^#define SDRAM_SIZE_TEST_BASE	/;"	d	file:
+SDRAM_SIZE_TEST_BASE	installer/installer.c	/^#define SDRAM_SIZE_TEST_BASE	/;"	d	file:
+SDRAM_SR_WAKE_UP	include/peri.h	/^#define SDRAM_SR_WAKE_UP	/;"	d
+SDRAM_STATUS	include/peri.h	/^#define SDRAM_STATUS	/;"	d
+SDRAM_TIMING	include/peri.h	/^#define SDRAM_TIMING	/;"	d
+SDRAM_TRC	include/peri.h	/^#define SDRAM_TRC(/;"	d
+SDRAM_TRP	include/peri.h	/^#define SDRAM_TRP(/;"	d
+SECTORS_PER_BANK	include/jasmine.h	/^#define SECTORS_PER_BANK /;"	d
+SECTORS_PER_CHUNK	ftl_page_mapped/ftl_parameters.h	/^#define SECTORS_PER_CHUNK /;"	d
+SECTORS_PER_ENCODED_CHUNK	ftl_page_mapped/ftl_parameters.h	/^#define SECTORS_PER_ENCODED_CHUNK /;"	d
+SECTORS_PER_FW_PAGE	include/jasmine.h	/^#define SECTORS_PER_FW_PAGE /;"	d
+SECTORS_PER_OW_VBLK	ftl_page_mapped/ftl_parameters.h	/^#define SECTORS_PER_OW_VBLK /;"	d
+SECTORS_PER_PAGE	include/jasmine.h	/^#define SECTORS_PER_PAGE /;"	d
+SECTORS_PER_PHYPAGE	include/nand.h	/^	#define SECTORS_PER_PHYPAGE /;"	d
+SECTORS_PER_SMALL_PAGE	include/jasmine.h	/^#define SECTORS_PER_SMALL_PAGE /;"	d
+SECTORS_PER_VBLK	include/jasmine.h	/^#define SECTORS_PER_VBLK /;"	d
+SECURITY_DISABLE_PASSWORD	installer/ata_7.h	/^#define SECURITY_DISABLE_PASSWORD	/;"	d
+SECURITY_ERASE_PREPARE	installer/ata_7.h	/^#define SECURITY_ERASE_PREPARE	/;"	d
+SECURITY_ERASE_UNIT	installer/ata_7.h	/^#define SECURITY_ERASE_UNIT	/;"	d
+SECURITY_FREEZE_LOCK	installer/ata_7.h	/^#define SECURITY_FREEZE_LOCK	/;"	d
+SECURITY_SET_PASSWORD	installer/ata_7.h	/^#define SECURITY_SET_PASSWORD	/;"	d
+SECURITY_UNLOCK	installer/ata_7.h	/^#define SECURITY_UNLOCK	/;"	d
+SEG_CTRL	include/peri.h	/^#define SEG_CTRL	/;"	d
+SEG_SETVAL	include/peri.h	/^#define SEG_SETVAL	/;"	d
+SEG_TIME	include/peri.h	/^#define SEG_TIME	/;"	d
+SEND_DATA_FIS	include/sata_registers.h	/^#define SEND_DATA_FIS	/;"	d
+SEND_GOOD_RESP	include/sata_registers.h	/^#define SEND_GOOD_RESP	/;"	d
+SEND_NON_DATA_FIS	include/sata_registers.h	/^#define SEND_NON_DATA_FIS	/;"	d
+SEND_R_ERR	include/sata_registers.h	/^#define SEND_R_ERR	/;"	d
+SEND_R_OK	include/sata_registers.h	/^#define SEND_R_OK	/;"	d
+SEND_SACTIVE	include/sata_registers.h	/^#define SEND_SACTIVE	/;"	d
+SERIAL	sata/sata_identify.c	/^#define SERIAL /;"	d	file:
+SERVICE	installer/ata_7.h	/^#define SERVICE	/;"	d
+SETREG	target_spw/target.h	/^#define SETREG(/;"	d
+SETREGBND	include/sata.h	/^#define SETREGBND(/;"	d
+SETREGBOR	include/sata.h	/^#define SETREGBOR(/;"	d
+SET_FEATURES	installer/ata_7.h	/^#define SET_FEATURES	/;"	d
+SET_MAX	installer/ata_7.h	/^#define SET_MAX	/;"	d
+SET_MAX_ADDRESS_EXT	installer/ata_7.h	/^#define SET_MAX_ADDRESS_EXT	/;"	d
+SET_MULTIPLE_MODE	installer/ata_7.h	/^#define SET_MULTIPLE_MODE	/;"	d
+SET_TIMER_BG_LOAD	include/peri.h	/^#define	SET_TIMER_BG_LOAD(/;"	d
+SET_TIMER_CONTROL	include/peri.h	/^#define	SET_TIMER_CONTROL(/;"	d
+SET_TIMER_LOAD	include/peri.h	/^#define	SET_TIMER_LOAD(/;"	d
+SIZE_OF_BSP	include/flash.h	/^#define SIZE_OF_BSP /;"	d
+SLEEP	installer/ata_7.h	/^#define SLEEP	/;"	d
+SLOW_CMD_STATUS_BUSY	include/sata.h	/^#define SLOW_CMD_STATUS_BUSY	/;"	d
+SLOW_CMD_STATUS_NONE	include/sata.h	/^#define SLOW_CMD_STATUS_NONE	/;"	d
+SLOW_CMD_STATUS_PENDING	include/sata.h	/^#define SLOW_CMD_STATUS_PENDING	/;"	d
+SONY_12_WO	installer/ntddstor.h	/^    SONY_12_WO,                \/\/ Opt_Disk - Sony 12" Write Once$/;"	e	enum:_STORAGE_MEDIA_TYPE
+SONY_D2	installer/ntddstor.h	/^    SONY_D2,                   \/\/ Tape - Sony D2S and D2L$/;"	e	enum:_STORAGE_MEDIA_TYPE
+SONY_DTF	installer/ntddstor.h	/^    SONY_DTF,                  \/\/ Tape - Sony DTF$/;"	e	enum:_STORAGE_MEDIA_TYPE
+SPARE_PBLKS_PER_BANK	include/nand.h	/^	#define SPARE_PBLKS_PER_BANK	/;"	d
+SPARE_PER_PHYPAGE	include/nand.h	/^	#define SPARE_PER_PHYPAGE	/;"	d
+SPARE_VBLKS_PER_BANK	include/jasmine.h	/^#define SPARE_VBLKS_PER_BANK /;"	d
+SRAM_BASE	target_spw/target.h	/^#define SRAM_BASE	/;"	d
+SRAM_SIZE	target_spw/target.h	/^#define SRAM_SIZE	/;"	d
+SRCS	build_gnu/Makefile	/^SRCS = ftl.c sata_identify.c sata_cmd.c sata_isr.c sata_main.c sata_table.c initialize.c mem_util.c flash.c flash_wrapper.c misc.c uart.c syscalls.c log.c garbage_collection.c ftl_metadata.c heap.c cleanList.c write.c read.c$/;"	m
+STAMP_PAGE_OFFSET	include/jasmine.h	/^#define STAMP_PAGE_OFFSET /;"	d
+STANDBY	installer/ata_7.h	/^#define STANDBY	/;"	d
+STANDBY_IMMEDIATE	installer/ata_7.h	/^#define STANDBY_IMMEDIATE	/;"	d
+STK_9840	installer/ntddstor.h	/^    STK_9840,                  \/\/ STK 9840$/;"	e	enum:_STORAGE_MEDIA_TYPE
+STK_9940	installer/ntddstor.h	/^    STK_9940,                  \/\/ STK 9940$/;"	e	enum:_STORAGE_MEDIA_TYPE
+STK_DATA_D3	installer/ntddstor.h	/^    STK_DATA_D3,               \/\/ Tape - STK Data D3$/;"	e	enum:_STORAGE_MEDIA_TYPE
+STORAGE_ADAPTER_DESCRIPTOR	installer/ntddstor.h	/^} STORAGE_ADAPTER_DESCRIPTOR, *PSTORAGE_ADAPTER_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_ADAPTER_DESCRIPTOR
+STORAGE_ASSOCIATION_TYPE	installer/ntddstor.h	/^} STORAGE_ASSOCIATION_TYPE, *PSTORAGE_ASSOCIATION_TYPE;$/;"	t	typeref:enum:_STORAGE_ASSOCIATION_TYPE
+STORAGE_BUS_RESET_REQUEST	installer/ntddstor.h	/^} STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST;$/;"	t	typeref:struct:_STORAGE_BUS_RESET_REQUEST
+STORAGE_BUS_TYPE	installer/ntddstor.h	/^} STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE;$/;"	t	typeref:enum:_STORAGE_BUS_TYPE
+STORAGE_DESCRIPTOR_HEADER	installer/ntddstor.h	/^} STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER;$/;"	t	typeref:struct:_STORAGE_DESCRIPTOR_HEADER
+STORAGE_DEVICE_DESCRIPTOR	installer/ntddstor.h	/^} STORAGE_DEVICE_DESCRIPTOR, *PSTORAGE_DEVICE_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_DEVICE_DESCRIPTOR
+STORAGE_DEVICE_ID_DESCRIPTOR	installer/ntddstor.h	/^} STORAGE_DEVICE_ID_DESCRIPTOR, *PSTORAGE_DEVICE_ID_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_DEVICE_ID_DESCRIPTOR
+STORAGE_DEVICE_NUMBER	installer/ntddstor.h	/^} STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER;$/;"	t	typeref:struct:_STORAGE_DEVICE_NUMBER
+STORAGE_HOTPLUG_INFO	installer/ntddstor.h	/^} STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO;$/;"	t	typeref:struct:_STORAGE_HOTPLUG_INFO
+STORAGE_IDENTIFIER	installer/ntddstor.h	/^} STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER;$/;"	t	typeref:struct:_STORAGE_IDENTIFIER
+STORAGE_IDENTIFIER_CODE_SET	installer/ntddstor.h	/^} STORAGE_IDENTIFIER_CODE_SET, *PSTORAGE_IDENTIFIER_CODE_SET;$/;"	t	typeref:enum:_STORAGE_IDENTIFIER_CODE_SET
+STORAGE_IDENTIFIER_TYPE	installer/ntddstor.h	/^} STORAGE_IDENTIFIER_TYPE, *PSTORAGE_IDENTIFIER_TYPE;$/;"	t	typeref:enum:_STORAGE_IDENTIFIER_TYPE
+STORAGE_MEDIA_SERIAL_NUMBER_DATA	installer/ntddstor.h	/^} STORAGE_MEDIA_SERIAL_NUMBER_DATA, *PSTORAGE_MEDIA_SERIAL_NUMBER_DATA;$/;"	t	typeref:struct:_STORAGE_MEDIA_SERIAL_NUMBER_DATA
+STORAGE_MEDIA_TYPE	installer/ntddstor.h	/^} STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE;$/;"	t	typeref:enum:_STORAGE_MEDIA_TYPE
+STORAGE_PREDICT_FAILURE	installer/ntddstor.h	/^} STORAGE_PREDICT_FAILURE, *PSTORAGE_PREDICT_FAILURE;$/;"	t	typeref:struct:_STORAGE_PREDICT_FAILURE
+STORAGE_PROPERTY_ID	installer/ntddstor.h	/^} STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID;$/;"	t	typeref:enum:_STORAGE_PROPERTY_ID
+STORAGE_PROPERTY_QUERY	installer/ntddstor.h	/^} STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY;$/;"	t	typeref:struct:_STORAGE_PROPERTY_QUERY
+STORAGE_QUERY_TYPE	installer/ntddstor.h	/^} STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE;$/;"	t	typeref:enum:_STORAGE_QUERY_TYPE
+STOSD	installer/installer.c	/^#define STOSD(/;"	d	file:
+SW_LOG_LBN	ftl_page_mapped/ftl_metadata.h	/^#define SW_LOG_LBN /;"	d
+SYQUEST_EZ135	installer/ntddstor.h	/^    SYQUEST_EZ135,             \/\/ Mag_Disk - Syquest EZ135$/;"	e	enum:_STORAGE_MEDIA_TYPE
+SYQUEST_EZFLYER	installer/ntddstor.h	/^    SYQUEST_EZFLYER,           \/\/ Mag_Disk - Syquest EzFlyer$/;"	e	enum:_STORAGE_MEDIA_TYPE
+SYQUEST_SYJET	installer/ntddstor.h	/^    SYQUEST_SYJET,             \/\/ Mag_Disk - Syquest SyJet$/;"	e	enum:_STORAGE_MEDIA_TYPE
+ScsiInformation	installer/ntddstor.h	/^                } ScsiInformation;$/;"	m	union:_DEVICE_MEDIA_INFO::__anon20::__anon23::__anon24	typeref:struct:_DEVICE_MEDIA_INFO::__anon20::__anon23::__anon24::__anon25
+SectorsPerTrack	installer/ntddstor.h	/^            ULONG SectorsPerTrack;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+SectorsPerTrack	installer/ntddstor.h	/^            ULONG SectorsPerTrack;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+SerialNumber	installer/ntddstor.h	/^    UCHAR SerialNumber[0];$/;"	m	struct:_STORAGE_MEDIA_SERIAL_NUMBER_DATA
+SerialNumberLength	installer/ntddstor.h	/^    USHORT SerialNumberLength;$/;"	m	struct:_STORAGE_MEDIA_SERIAL_NUMBER_DATA
+SerialNumberOffset	installer/ntddstor.h	/^    ULONG SerialNumberOffset;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+Size	installer/ntddstor.h	/^    ULONG Size; \/\/ version$/;"	m	struct:_STORAGE_HOTPLUG_INFO
+Size	installer/ntddstor.h	/^    ULONG Size;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+Size	installer/ntddstor.h	/^    ULONG Size;$/;"	m	struct:_STORAGE_DESCRIPTOR_HEADER
+Size	installer/ntddstor.h	/^    ULONG Size;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+Size	installer/ntddstor.h	/^    ULONG Size;$/;"	m	struct:_STORAGE_DEVICE_ID_DESCRIPTOR
+SizeSRAMMetadata	ftl_page_mapped/ftl_metadata.h	/^#define SizeSRAMMetadata /;"	d
+StartLogLpn	ftl_page_mapped/ftl_parameters.h	/^#define StartLogLpn /;"	d
+StartOwLogLpn	ftl_page_mapped/ftl_parameters.h	/^#define StartOwLogLpn /;"	d
+StorageAdapterProperty	installer/ntddstor.h	/^    StorageAdapterProperty,$/;"	e	enum:_STORAGE_PROPERTY_ID
+StorageDeviceIdProperty	installer/ntddstor.h	/^    StorageDeviceIdProperty$/;"	e	enum:_STORAGE_PROPERTY_ID
+StorageDeviceProperty	installer/ntddstor.h	/^    StorageDeviceProperty = 0,$/;"	e	enum:_STORAGE_PROPERTY_ID
+StorageIdAssocDevice	installer/ntddstor.h	/^    StorageIdAssocDevice = 0,$/;"	e	enum:_STORAGE_ASSOCIATION_TYPE
+StorageIdAssocPort	installer/ntddstor.h	/^    StorageIdAssocPort = 1$/;"	e	enum:_STORAGE_ASSOCIATION_TYPE
+StorageIdCodeSetAscii	installer/ntddstor.h	/^    StorageIdCodeSetAscii = 2$/;"	e	enum:_STORAGE_IDENTIFIER_CODE_SET
+StorageIdCodeSetBinary	installer/ntddstor.h	/^    StorageIdCodeSetBinary = 1,$/;"	e	enum:_STORAGE_IDENTIFIER_CODE_SET
+StorageIdCodeSetReserved	installer/ntddstor.h	/^    StorageIdCodeSetReserved = 0,$/;"	e	enum:_STORAGE_IDENTIFIER_CODE_SET
+StorageIdTypeEUI64	installer/ntddstor.h	/^    StorageIdTypeEUI64 = 2,$/;"	e	enum:_STORAGE_IDENTIFIER_TYPE
+StorageIdTypeFCPHName	installer/ntddstor.h	/^    StorageIdTypeFCPHName = 3,$/;"	e	enum:_STORAGE_IDENTIFIER_TYPE
+StorageIdTypePortRelative	installer/ntddstor.h	/^    StorageIdTypePortRelative = 4$/;"	e	enum:_STORAGE_IDENTIFIER_TYPE
+StorageIdTypeVendorId	installer/ntddstor.h	/^    StorageIdTypeVendorId = 1,$/;"	e	enum:_STORAGE_IDENTIFIER_TYPE
+StorageIdTypeVendorSpecific	installer/ntddstor.h	/^    StorageIdTypeVendorSpecific = 0,$/;"	e	enum:_STORAGE_IDENTIFIER_TYPE
+StoragePortClassGuid	installer/ntddstor.h	/^#define StoragePortClassGuid /;"	d
+TAKEDATAMON	include/flash.h	/^#define TAKEDATAMON /;"	d
+TAPE_GET_STATISTICS	installer/ntddstor.h	/^} TAPE_GET_STATISTICS, *PTAPE_GET_STATISTICS;$/;"	t	typeref:struct:_TAPE_GET_STATISTICS
+TAPE_RESET_STATISTICS	installer/ntddstor.h	/^#define TAPE_RESET_STATISTICS /;"	d
+TAPE_RETURN_ENV_INFO	installer/ntddstor.h	/^#define TAPE_RETURN_ENV_INFO /;"	d
+TAPE_RETURN_STATISTICS	installer/ntddstor.h	/^#define TAPE_RETURN_STATISTICS /;"	d
+TAPE_STATISTICS	installer/ntddstor.h	/^} TAPE_STATISTICS, *PTAPE_STATISTICS;$/;"	t	typeref:struct:_TAPE_STATISTICS
+TARGET	build_gnu/Makefile	/^TARGET = firmware$/;"	m
+TARGETBIN	build_gnu/Makefile	/^TARGETBIN = $(TARGET).bin$/;"	m
+TARGETELF	build_gnu/Makefile	/^TARGETELF = $(TARGET).elf$/;"	m
+TARGET_H	target_spw/target.h	/^#define TARGET_H$/;"	d
+TEMP_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define TEMP_BUF_ADDR /;"	d
+TEMP_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define TEMP_BUF_BYTES /;"	d
+TIMER_BASE	include/peri.h	/^#define TIMER_BASE	/;"	d
+TIMER_CH1	include/peri.h	/^#define	TIMER_CH1	/;"	d
+TIMER_CH2	include/peri.h	/^#define	TIMER_CH2	/;"	d
+TIMER_CH3	include/peri.h	/^#define	TIMER_CH3	/;"	d
+TIMER_CH4	include/peri.h	/^#define	TIMER_CH4	/;"	d
+TIMER_PRESCALE_0	include/peri.h	/^#define	TIMER_PRESCALE_0	/;"	d
+TIMER_PRESCALE_1	include/peri.h	/^#define	TIMER_PRESCALE_1	/;"	d
+TIMER_PRESCALE_2	include/peri.h	/^#define	TIMER_PRESCALE_2	/;"	d
+TM_1_BG_LOAD	include/peri.h	/^#define TM_1_BG_LOAD	/;"	d
+TM_1_CONTROL	include/peri.h	/^#define TM_1_CONTROL	/;"	d
+TM_1_INT_CLR	include/peri.h	/^#define TM_1_INT_CLR	/;"	d
+TM_1_LOAD	include/peri.h	/^#define TM_1_LOAD	/;"	d
+TM_1_MIS	include/peri.h	/^#define TM_1_MIS	/;"	d
+TM_1_RIS	include/peri.h	/^#define TM_1_RIS	/;"	d
+TM_1_VALUE	include/peri.h	/^#define TM_1_VALUE	/;"	d
+TM_2_BG_LOAD	include/peri.h	/^#define TM_2_BG_LOAD	/;"	d
+TM_2_CONTROL	include/peri.h	/^#define TM_2_CONTROL	/;"	d
+TM_2_INT_CLR	include/peri.h	/^#define TM_2_INT_CLR	/;"	d
+TM_2_LOAD	include/peri.h	/^#define TM_2_LOAD	/;"	d
+TM_2_MIS	include/peri.h	/^#define TM_2_MIS	/;"	d
+TM_2_RIS	include/peri.h	/^#define TM_2_RIS	/;"	d
+TM_2_VALUE	include/peri.h	/^#define TM_2_VALUE	/;"	d
+TM_3_BG_LOAD	include/peri.h	/^#define TM_3_BG_LOAD	/;"	d
+TM_3_CONTROL	include/peri.h	/^#define TM_3_CONTROL	/;"	d
+TM_3_INT_CLR	include/peri.h	/^#define TM_3_INT_CLR	/;"	d
+TM_3_LOAD	include/peri.h	/^#define TM_3_LOAD	/;"	d
+TM_3_MIS	include/peri.h	/^#define TM_3_MIS	/;"	d
+TM_3_RIS	include/peri.h	/^#define TM_3_RIS	/;"	d
+TM_3_VALUE	include/peri.h	/^#define TM_3_VALUE	/;"	d
+TM_4_BG_LOAD	include/peri.h	/^#define TM_4_BG_LOAD	/;"	d
+TM_4_CONTROL	include/peri.h	/^#define TM_4_CONTROL	/;"	d
+TM_4_INT_CLR	include/peri.h	/^#define TM_4_INT_CLR	/;"	d
+TM_4_LOAD	include/peri.h	/^#define TM_4_LOAD	/;"	d
+TM_4_MIS	include/peri.h	/^#define TM_4_MIS	/;"	d
+TM_4_RIS	include/peri.h	/^#define TM_4_RIS	/;"	d
+TM_4_VALUE	include/peri.h	/^#define TM_4_VALUE	/;"	d
+TM_BIT_32	include/peri.h	/^#define TM_BIT_32	/;"	d
+TM_ENABLE	include/peri.h	/^#define TM_ENABLE	/;"	d
+TM_INTR	include/peri.h	/^#define TM_INTR /;"	d
+TM_INTR_DIS	include/peri.h	/^#define TM_INTR_DIS	/;"	d
+TM_MODE_PRD	include/peri.h	/^#define TM_MODE_PRD /;"	d
+TM_PRESCALE_0	include/peri.h	/^#define TM_PRESCALE_0	/;"	d
+TM_PRESCALE_4	include/peri.h	/^#define TM_PRESCALE_4	/;"	d
+TM_PRESCALE_8	include/peri.h	/^#define TM_PRESCALE_8	/;"	d
+TM_SHOT	include/peri.h	/^#define TM_SHOT /;"	d
+TM_TCR	include/peri.h	/^#define TM_TCR	/;"	d
+TM_TOP	include/peri.h	/^#define TM_TOP	/;"	d
+TRUE	include/jasmine.h	/^#define    TRUE /;"	d
+TRUE	include/jasmine.h	/^#undef TRUE$/;"	d
+TWO_STOPBIT	include/uart.h	/^#define TWO_STOPBIT	/;"	d
+TXFIFO_FREE_CNT	target_spw/uart.c	/^#define TXFIFO_FREE_CNT /;"	d	file:
+T_FISTYPES	include/sata.h	/^} T_FISTYPES;$/;"	t	typeref:enum:__anon9
+T_PROTOCOLS	include/sata.h	/^} T_PROTOCOLS;$/;"	t	typeref:enum:__anon10
+TapeClassGuid	installer/ntddstor.h	/^#define TapeClassGuid /;"	d
+TapeInfo	installer/ntddstor.h	/^        } TapeInfo;$/;"	m	union:_DEVICE_MEDIA_INFO::__anon20	typeref:struct:_DEVICE_MEDIA_INFO::__anon20::__anon23
+TracksPerCylinder	installer/ntddstor.h	/^            ULONG TracksPerCylinder;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon21
+TracksPerCylinder	installer/ntddstor.h	/^            ULONG TracksPerCylinder;$/;"	m	struct:_DEVICE_MEDIA_INFO::__anon20::__anon22
+Travan	installer/ntddstor.h	/^    Travan,                    \/\/ Tape - Travan TR-1,2,3,...$/;"	e	enum:_STORAGE_MEDIA_TYPE
+Type	installer/ntddstor.h	/^    STORAGE_IDENTIFIER_TYPE Type;$/;"	m	struct:_STORAGE_IDENTIFIER
+UART_BAUDRATE	include/peri.h	/^#define UART_BAUDRATE	/;"	d
+UART_COMMBAUDRATE	include/uart.h	/^#define UART_COMMBAUDRATE	/;"	d
+UART_CTRL	include/peri.h	/^#define UART_CTRL	/;"	d
+UART_FIFOCNT	include/peri.h	/^#define UART_FIFOCNT	/;"	d
+UART_FIFOCTRL	include/peri.h	/^#define UART_FIFOCTRL	/;"	d
+UART_FIFODATA	include/peri.h	/^#define UART_FIFODATA	/;"	d
+UART_H	include/uart.h	/^#define UART_H$/;"	d
+UART_RXFIFO_EMPTY	include/uart.h	/^#define UART_RXFIFO_EMPTY	/;"	d
+UART_TXFIFO_EMPTY	include/uart.h	/^#define UART_TXFIFO_EMPTY	/;"	d
+UART_TXFIFO_FULL	include/uart.h	/^#define UART_TXFIFO_FULL	/;"	d
+UART_WAITINFINITE	include/uart.h	/^#define UART_WAITINFINITE	/;"	d
+UART_WAITTIME	include/uart.h	/^#define UART_WAITTIME	/;"	d
+UINT16	include/jasmine.h	/^typedef    unsigned short        UINT16;$/;"	t
+UINT32	include/jasmine.h	/^typedef    unsigned int        UINT32;$/;"	t
+UINT64	include/jasmine.h	/^typedef unsigned long long    UINT64;$/;"	t
+UINT8	include/jasmine.h	/^typedef    unsigned char        UINT8;$/;"	t
+UNDER_DRIVE	target_spw/flash.c	/^    #define UNDER_DRIVE /;"	d	file:
+UNRECOVERED_READS_VALID	installer/ntddstor.h	/^#define UNRECOVERED_READS_VALID /;"	d
+UNRECOVERED_WRITES_VALID	installer/ntddstor.h	/^#define UNRECOVERED_WRITES_VALID /;"	d
+USE_BYPASS_CLK	include/peri.h	/^#define	USE_BYPASS_CLK	/;"	d
+USE_PLL_CLK	include/peri.h	/^#define	USE_PLL_CLK	/;"	d
+UnrecoveredReads	installer/ntddstor.h	/^    LARGE_INTEGER UnrecoveredReads;$/;"	m	struct:_TAPE_STATISTICS
+UnrecoveredWrites	installer/ntddstor.h	/^    LARGE_INTEGER UnrecoveredWrites;$/;"	m	struct:_TAPE_STATISTICS
+UsedPagesPerLogBlk	ftl_page_mapped/ftl_parameters.h	/^#define UsedPagesPerLogBlk /;"	d
+UsedPagesPerOwLogBlk	ftl_page_mapped/ftl_parameters.h	/^#define UsedPagesPerOwLogBlk /;"	d
+UsedPagesPerRecycledLogBlk	ftl_page_mapped/ftl_parameters.h	/^#define UsedPagesPerRecycledLogBlk /;"	d
+VBLKS_PER_BANK	include/jasmine.h	/^#define VBLKS_PER_BANK /;"	d
+VC_BITMAP_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define VC_BITMAP_BYTES /;"	d
+VICTIM_LPN_LIST	ftl_page_mapped/dram_layout.h	/^#define VICTIM_LPN_LIST(/;"	d
+VICTIM_LPN_LIST_ADDR	ftl_page_mapped/dram_layout.h	/^#define VICTIM_LPN_LIST_ADDR /;"	d
+VICTIM_LPN_LIST_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define VICTIM_LPN_LIST_BYTES /;"	d
+VPATH	build_gnu/Makefile	/^VPATH = ..\/ftl_$(FTL):..\/sata:..:..\/target_spw$/;"	m
+VPageToOffset	ftl_page_mapped/ftl_metadata.h	/^#define VPageToOffset(/;"	d
+VPageToVBlk	ftl_page_mapped/ftl_metadata.h	/^#define VPageToVBlk(/;"	d
+VXATape_1	installer/ntddstor.h	/^    VXATape_1,                 \/\/ Ecrix 8mm Tape$/;"	e	enum:_STORAGE_MEDIA_TYPE
+VXATape_2	installer/ntddstor.h	/^    VXATape_2,                 \/\/ Ecrix 8mm Tape$/;"	e	enum:_STORAGE_MEDIA_TYPE
+ValidChunksAddr	ftl_page_mapped/dram_layout.h	/^#define ValidChunksAddr(/;"	d
+ValidChunksHeapInit	ftl_page_mapped/heap.c	/^void ValidChunksHeapInit(heapData * data, UINT32 blksPerBank, UINT32 firstLbn, UINT16 initialValue)$/;"	f
+VendorIdOffset	installer/ntddstor.h	/^    ULONG VendorIdOffset;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+VendorSpecific	installer/ntddstor.h	/^    UCHAR VendorSpecific[512];$/;"	m	struct:_STORAGE_PREDICT_FAILURE
+Version	installer/ntddstor.h	/^    ULONG Version;$/;"	m	struct:_STORAGE_ADAPTER_DESCRIPTOR
+Version	installer/ntddstor.h	/^    ULONG Version;$/;"	m	struct:_STORAGE_DESCRIPTOR_HEADER
+Version	installer/ntddstor.h	/^    ULONG Version;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR
+Version	installer/ntddstor.h	/^    ULONG Version;$/;"	m	struct:_STORAGE_DEVICE_ID_DESCRIPTOR
+Version	installer/ntddstor.h	/^    ULONG Version;$/;"	m	struct:_TAPE_STATISTICS
+VolumeClassGuid	installer/ntddstor.h	/^#define VolumeClassGuid /;"	d
+WATCHDOG_BASE	include/peri.h	/^#define WATCHDOG_BASE	/;"	d
+WINVER	installer/installer.c	/^#define WINVER /;"	d	file:
+WOMCanFail	include/jasmine.h	/^#define WOMCanFail /;"	d
+WORDLEN_5BIT	include/uart.h	/^#define WORDLEN_5BIT	/;"	d
+WORDLEN_6BIT	include/uart.h	/^#define WORDLEN_6BIT	/;"	d
+WORDLEN_7BIT	include/uart.h	/^#define WORDLEN_7BIT	/;"	d
+WORDLEN_8BIT	include/uart.h	/^#define WORDLEN_8BIT	/;"	d
+WRITE	include/sata.h	/^#define WRITE /;"	d
+WRITE_BUFFER	installer/ata_7.h	/^#define WRITE_BUFFER	/;"	d
+WRITE_COMPRESSION_INFO_VALID	installer/ntddstor.h	/^#define WRITE_COMPRESSION_INFO_VALID /;"	d
+WRITE_DMA	installer/ata_7.h	/^#define WRITE_DMA	/;"	d
+WRITE_DMA_EXT	installer/ata_7.h	/^#define WRITE_DMA_EXT	/;"	d
+WRITE_DMA_FUA_EXT	installer/ata_7.h	/^#define WRITE_DMA_FUA_EXT	/;"	d
+WRITE_DMA_QUEUED	installer/ata_7.h	/^#define WRITE_DMA_QUEUED	/;"	d
+WRITE_DMA_QUEUED_EXT	installer/ata_7.h	/^#define WRITE_DMA_QUEUED_EXT	/;"	d
+WRITE_DMA_QUEUED_FUA_EXT	installer/ata_7.h	/^#define WRITE_DMA_QUEUED_FUA_EXT	/;"	d
+WRITE_H	ftl_page_mapped/write.h	/^#define WRITE_H$/;"	d
+WRITE_LOG_EXT	installer/ata_7.h	/^#define WRITE_LOG_EXT	/;"	d
+WRITE_MULTIPLE	installer/ata_7.h	/^#define WRITE_MULTIPLE	/;"	d
+WRITE_MULTIPLE_EXT	installer/ata_7.h	/^#define WRITE_MULTIPLE_EXT	/;"	d
+WRITE_MULTIPLE_FUA_EXT	installer/ata_7.h	/^#define WRITE_MULTIPLE_FUA_EXT	/;"	d
+WRITE_SECTORS	installer/ata_7.h	/^#define WRITE_SECTORS	/;"	d
+WRITE_SECTORS_EXT	installer/ata_7.h	/^#define WRITE_SECTORS_EXT	/;"	d
+WRITE_STREAM_DMA_EXT	installer/ata_7.h	/^#define WRITE_STREAM_DMA_EXT	/;"	d
+WRITE_STREAM_EXT	installer/ata_7.h	/^#define WRITE_STREAM_EXT	/;"	d
+WR_BANK	include/flash.h	/^#define WR_BANK /;"	d
+WR_BUF_ADDR	ftl_page_mapped/dram_layout.h	/^#define WR_BUF_ADDR /;"	d
+WR_BUF_BYTES	ftl_page_mapped/ftl_parameters.h	/^#define WR_BUF_BYTES /;"	d
+WR_BUF_ID	ftl_page_mapped/dram_layout.h	/^#define WR_BUF_ID(/;"	d
+WR_BUF_PTR	ftl_page_mapped/dram_layout.h	/^#define WR_BUF_PTR(/;"	d
+WR_STAT	include/flash.h	/^#define WR_STAT /;"	d
+WT_CONTROL	include/peri.h	/^#define WT_CONTROL	/;"	d
+WT_ENABLE_INT	include/peri.h	/^#define WT_ENABLE_INT	/;"	d
+WT_ENABLE_RESET	include/peri.h	/^#define WT_ENABLE_RESET /;"	d
+WT_INT_CLR	include/peri.h	/^#define WT_INT_CLR	/;"	d
+WT_LOAD	include/peri.h	/^#define WT_LOAD /;"	d
+WT_LOCK	include/peri.h	/^#define WT_LOCK /;"	d
+WT_MIS	include/peri.h	/^#define WT_MIS	/;"	d
+WT_RIS	include/peri.h	/^#define WT_RIS	/;"	d
+WT_TCR	include/peri.h	/^#define WT_TCR	/;"	d
+WT_TOP	include/peri.h	/^#define WT_TOP	/;"	d
+WT_VALUE	include/peri.h	/^#define WT_VALUE	/;"	d
+WriteCacheEnableOverride	installer/ntddstor.h	/^    BOOLEAN WriteCacheEnableOverride; \/\/ This field should not be relied upon because it is no longer used$/;"	m	struct:_STORAGE_HOTPLUG_INFO
+WriteOnceDiskClassGuid	installer/ntddstor.h	/^#define WriteOnceDiskClassGuid /;"	d
+Write_log_bmt	ftl_page_mapped/log.c	/^#define Write_log_bmt(/;"	d	file:
+_ATL_CSTRING_EXPLICIT_CONSTRUCTORS	installer/installer.c	/^#define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS	/;"	d	file:
+_BSP_CMD	include/flash.h	/^#define _BSP_CMD(/;"	d
+_BSP_CMD_ID	include/flash.h	/^#define _BSP_CMD_ID(/;"	d
+_BSP_COL	include/flash.h	/^#define _BSP_COL(/;"	d
+_BSP_DMA_ADDR	include/flash.h	/^#define _BSP_DMA_ADDR(/;"	d
+_BSP_DMA_CNT	include/flash.h	/^#define _BSP_DMA_CNT(/;"	d
+_BSP_DST_COL	include/flash.h	/^#define _BSP_DST_COL(/;"	d
+_BSP_DST_ROW_H	include/flash.h	/^#define _BSP_DST_ROW_H(/;"	d
+_BSP_DST_ROW_L	include/flash.h	/^#define _BSP_DST_ROW_L(/;"	d
+_BSP_ECCNUM	include/flash.h	/^#define _BSP_ECCNUM(/;"	d
+_BSP_FSM	include/flash.h	/^#define _BSP_FSM(/;"	d
+_BSP_INTR	include/flash.h	/^#define _BSP_INTR(/;"	d
+_BSP_OPTION	include/flash.h	/^#define _BSP_OPTION(/;"	d
+_BSP_ROW_H	include/flash.h	/^#define _BSP_ROW_H(/;"	d
+_BSP_ROW_L	include/flash.h	/^#define _BSP_ROW_L(/;"	d
+_CLR_BSP_INTR	include/flash.h	/^#define _CLR_BSP_INTR(/;"	d
+_COPY_BUF	ftl_page_mapped/dram_layout.h	/^#define _COPY_BUF(/;"	d
+_CRT_SECURE_NO_DEPRECATE	installer/installer.c	/^#define _CRT_SECURE_NO_DEPRECATE$/;"	d	file:
+_CRT_SECURE_NO_WARNINGS	installer/installer.c	/^#define _CRT_SECURE_NO_WARNINGS$/;"	d	file:
+_DEVICE_MEDIA_INFO	installer/ntddstor.h	/^typedef struct _DEVICE_MEDIA_INFO {$/;"	s
+_FCP_ROW_H	include/flash.h	/^#define _FCP_ROW_H(/;"	d
+_FCP_ROW_L	include/flash.h	/^#define _FCP_ROW_L(/;"	d
+_GET_MEDIA_TYPES	installer/ntddstor.h	/^typedef struct _GET_MEDIA_TYPES {$/;"	s
+_GNU_SOURCE	installer/installer-linux.c	/^#define _GNU_SOURCE$/;"	d	file:
+_HALF_CYCLE_PER_SETUP	target_spw/target.h	/^#define _HALF_CYCLE_PER_SETUP	/;"	d
+_NTDDSTOR_H_	installer/ntddstor.h	/^#define _NTDDSTOR_H_$/;"	d
+_PBLKS_PER_BANK	include/nand.h	/^	#define _PBLKS_PER_BANK /;"	d
+_PREVENT_MEDIA_REMOVAL	installer/ntddstor.h	/^typedef struct _PREVENT_MEDIA_REMOVAL {$/;"	s
+_STORAGE_ADAPTER_DESCRIPTOR	installer/ntddstor.h	/^typedef struct _STORAGE_ADAPTER_DESCRIPTOR {$/;"	s
+_STORAGE_ASSOCIATION_TYPE	installer/ntddstor.h	/^typedef enum _STORAGE_ASSOCIATION_TYPE {$/;"	g
+_STORAGE_BUS_RESET_REQUEST	installer/ntddstor.h	/^typedef struct _STORAGE_BUS_RESET_REQUEST {$/;"	s
+_STORAGE_BUS_TYPE	installer/ntddstor.h	/^typedef enum _STORAGE_BUS_TYPE {$/;"	g
+_STORAGE_DESCRIPTOR_HEADER	installer/ntddstor.h	/^typedef struct _STORAGE_DESCRIPTOR_HEADER {$/;"	s
+_STORAGE_DEVICE_DESCRIPTOR	installer/ntddstor.h	/^typedef struct _STORAGE_DEVICE_DESCRIPTOR {$/;"	s
+_STORAGE_DEVICE_ID_DESCRIPTOR	installer/ntddstor.h	/^typedef struct _STORAGE_DEVICE_ID_DESCRIPTOR {$/;"	s
+_STORAGE_DEVICE_NUMBER	installer/ntddstor.h	/^typedef struct _STORAGE_DEVICE_NUMBER {$/;"	s
+_STORAGE_HOTPLUG_INFO	installer/ntddstor.h	/^typedef struct _STORAGE_HOTPLUG_INFO {$/;"	s
+_STORAGE_IDENTIFIER	installer/ntddstor.h	/^typedef struct _STORAGE_IDENTIFIER {$/;"	s
+_STORAGE_IDENTIFIER_CODE_SET	installer/ntddstor.h	/^typedef enum _STORAGE_IDENTIFIER_CODE_SET {$/;"	g
+_STORAGE_IDENTIFIER_TYPE	installer/ntddstor.h	/^typedef enum _STORAGE_IDENTIFIER_TYPE {$/;"	g
+_STORAGE_MEDIA_SERIAL_NUMBER_DATA	installer/ntddstor.h	/^typedef struct _STORAGE_MEDIA_SERIAL_NUMBER_DATA {$/;"	s
+_STORAGE_MEDIA_TYPE	installer/ntddstor.h	/^typedef enum _STORAGE_MEDIA_TYPE {$/;"	g
+_STORAGE_PREDICT_FAILURE	installer/ntddstor.h	/^typedef struct _STORAGE_PREDICT_FAILURE$/;"	s
+_STORAGE_PROPERTY_ID	installer/ntddstor.h	/^typedef enum _STORAGE_PROPERTY_ID {$/;"	g
+_STORAGE_PROPERTY_QUERY	installer/ntddstor.h	/^typedef struct _STORAGE_PROPERTY_QUERY {$/;"	s
+_STORAGE_QUERY_TYPE	installer/ntddstor.h	/^typedef enum _STORAGE_QUERY_TYPE {$/;"	g
+_TAPE_GET_STATISTICS	installer/ntddstor.h	/^typedef struct _TAPE_GET_STATISTICS {$/;"	s
+_TAPE_STATISTICS	installer/ntddstor.h	/^typedef struct _TAPE_STATISTICS {$/;"	s
+_WIN32_IE	installer/installer.c	/^#define _WIN32_IE /;"	d	file:
+_WIN32_WINDOWS	installer/installer.c	/^#define _WIN32_WINDOWS /;"	d	file:
+_WIN32_WINNT	installer/installer.c	/^#define _WIN32_WINNT /;"	d	file:
+_X_	include/bank.h	/^#define _X_ /;"	d
+_close	target_spw/syscalls.c	/^int _close(int file) {$/;"	f
+_clr_bit_dram	target_spw/mem_util.c	/^void _clr_bit_dram(UINT32 const base_addr, UINT32 const bit_offset)$/;"	f
+_lseek	target_spw/syscalls.c	/^int _lseek(int file, int ptr, int dir) {$/;"	f
+_mem_bmp_find_dram	target_spw/mem_util.c	/^UINT32 _mem_bmp_find_dram(const void* const bitmap, UINT32 const num_bytes, UINT32 const val)$/;"	f
+_mem_bmp_find_sram	target_spw/mem_util.c	/^UINT32 _mem_bmp_find_sram(const void* const bitmap, UINT32 const num_bytes, UINT32 const val)$/;"	f
+_mem_cmp_dram	target_spw/mem_util.c	/^UINT32 _mem_cmp_dram(const void* const addr1, const void* const addr2, const UINT32 num_bytes)$/;"	f
+_mem_cmp_sram	target_spw/mem_util.c	/^UINT32 _mem_cmp_sram(const void* const addr1, const void* const addr2, const UINT32 num_bytes)$/;"	f
+_mem_copy	target_spw/mem_util.c	/^void _mem_copy(void* const dst, const void* const src, UINT32 const num_bytes)$/;"	f
+_mem_search_equ	target_spw/mem_util.c	/^UINT32 _mem_search_equ(const void* const addr, UINT32 const num_bytes_per_item, UINT32 const num_items, UINT32 const cmd, UINT32 const val)$/;"	f
+_mem_search_equ_4_bytes	target_spw/mem_util.c	/^UINT32 _mem_search_equ_4_bytes(const void* const addr,  UINT32 const num_items, UINT32 const cmd, UINT32 const val)$/;"	f
+_mem_search_min_max	target_spw/mem_util.c	/^UINT32 _mem_search_min_max(const void* const addr, UINT32 const num_bytes_per_item, UINT32 const num_items, UINT32 const cmd)$/;"	f
+_mem_set_dram	target_spw/mem_util.c	/^void _mem_set_dram(UINT32 addr, UINT32 const val, UINT32 num_bytes)$/;"	f
+_mem_set_sram	target_spw/mem_util.c	/^void _mem_set_sram(UINT32 addr, UINT32 const val, UINT32 num_bytes)$/;"	f
+_read	target_spw/syscalls.c	/^int _read(int file, char *ptr, int len) {$/;"	f
+_read_dram_16	target_spw/mem_util.c	/^UINT16 _read_dram_16(UINT32 const addr)$/;"	f
+_read_dram_32	target_spw/mem_util.c	/^UINT32 _read_dram_32(UINT32 const addr)$/;"	f
+_read_dram_8	target_spw/mem_util.c	/^UINT8 _read_dram_8(UINT32 const addr)$/;"	f
+_set_bit_dram	target_spw/mem_util.c	/^void _set_bit_dram(UINT32 const base_addr, UINT32 const bit_offset)$/;"	f
+_tst_bit_dram	target_spw/mem_util.c	/^BOOL32 _tst_bit_dram(UINT32 const base_addr, UINT32 const bit_offset)$/;"	f
+_write	target_spw/syscalls.c	/^int _write(int file, char *ptr, int len) {$/;"	f
+_write_dram_16	target_spw/mem_util.c	/^void _write_dram_16(UINT32 const addr, UINT16 const val)$/;"	f
+_write_dram_32	target_spw/mem_util.c	/^void _write_dram_32(UINT32 const addr, UINT32 const val)$/;"	f
+_write_dram_8	target_spw/mem_util.c	/^void _write_dram_8(UINT32 const addr, UINT8 const val)$/;"	f
+adaptiveStepDown	ftl_page_mapped/ftl_metadata.c	/^UINT32 adaptiveStepDown[NUM_BANKS];$/;"	v
+adaptiveStepUp	ftl_page_mapped/ftl_metadata.c	/^UINT32 adaptiveStepUp[NUM_BANKS];$/;"	v
+adaptiveWindow	ftl_page_mapped/ftl_metadata.c	/^UINT32 adaptiveWindow[NUM_BANKS][5];$/;"	v
+adaptiveWindowSize	ftl_page_mapped/ftl_metadata.c	/^UINT32 adaptiveWindowSize = 5;$/;"	v
+aging_with_rw	tc/tc_synth.c	/^static void aging_with_rw(UINT32 io_cnt)$/;"	f	file:
+allChunksInLogAreValid	ftl_page_mapped/ftl_metadata.h	/^    UINT8 allChunksInLogAreValid;$/;"	m	struct:LogCtrlBlock
+app	installer/installer.c	/^CWinApp app;$/;"	v
+ata_check_power_mode	sata/sata_cmd.c	/^void ata_check_power_mode(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_cmd_class_table	sata/sata_table.c	/^const UINT16 ata_cmd_class_table[256] = {$/;"	v
+ata_command_code_table	sata/sata_table.c	/^const UINT8 ata_command_code_table[] =$/;"	v
+ata_dsm	sata/sata_cmd.c	/^void ata_dsm(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_execute_drive_diagnostics	sata/sata_cmd.c	/^void ata_execute_drive_diagnostics(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_flush_cache	sata/sata_cmd.c	/^void ata_flush_cache(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_function_table	sata/sata_table.c	/^const ATA_FUNCTION_T ata_function_table[] =$/;"	v
+ata_identify_device	sata/sata_identify.c	/^void ata_identify_device(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_idle	sata/sata_cmd.c	/^void ata_idle(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_idle_immediate	sata/sata_cmd.c	/^void ata_idle_immediate(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_initialize_device_parameters	sata/sata_cmd.c	/^void ata_initialize_device_parameters(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_nop	sata/sata_cmd.c	/^void ata_nop(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_not_supported	sata/sata_cmd.c	/^void ata_not_supported(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_read_buffer	sata/sata_cmd.c	/^void ata_read_buffer(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_read_native_max_address	sata/sata_cmd.c	/^void ata_read_native_max_address(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_read_verify_sectors	sata/sata_cmd.c	/^void ata_read_verify_sectors(UINT32 const lba, UINT32 const sector_count)$/;"	f
+ata_recalibrate	sata/sata_cmd.c	/^void ata_recalibrate(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_seek	sata/sata_cmd.c	/^void ata_seek(UINT32 const lba, UINT32 const sector_count)$/;"	f
+ata_set_features	sata/sata_cmd.c	/^void ata_set_features(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_set_multiple_mode	sata/sata_cmd.c	/^void ata_set_multiple_mode(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_sleep	sata/sata_cmd.c	/^void ata_sleep(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_srst	sata/sata_cmd.c	/^void ata_srst(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_standby	sata/sata_cmd.c	/^void ata_standby(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_standby_immediate	sata/sata_cmd.c	/^void ata_standby_immediate(UINT32 lba, UINT32 sector_count)$/;"	f
+ata_write_buffer	sata/sata_cmd.c	/^void ata_write_buffer(UINT32 lba, UINT32 sector_count)$/;"	f
+autofc_enable	include/uart.h	/^	int		autofc_enable	: 1;$/;"	m	struct:__anon13
+backgroundCleaning	ftl_page_mapped/garbage_collection.c	/^void backgroundCleaning(const UINT32 bank_)$/;"	f
+bank	include/flash.h	/^    UINT32    bank;$/;"	m	struct:tag_fcp
+bank_	ftl_page_mapped/overwrite.c	/^static UINT32 bank_ = 1;$/;"	v	file:
+bank_	ftl_page_mapped/write.c	/^static UINT32 bank_;$/;"	v	file:
+bank_bmp	include/rom.h	/^	UINT32	bank_bmp;$/;"	m	struct:__anon4
+bank_read	installer/installer-linux.c	/^UINT32 bank_read(UINT32 rbank, UINT32 row, UINT32 num_bytes, UINT8* buf)$/;"	f
+bgCleaningColumn	ftl_page_mapped/garbage_collection.c	/^UINT32 bgCleaningColumn=0;$/;"	v
+blks_per_bank	include/rom.h	/^	UINT32	blks_per_bank;$/;"	m	struct:__anon4
+bsp_t	include/flash.h	/^} bsp_t;$/;"	t	typeref:struct:tag_bsp
+bubbleDown	ftl_page_mapped/heap.c	/^static void bubbleDown(heapData * data, UINT32 bank, UINT16 pos)$/;"	f	file:
+bubbleUp	ftl_page_mapped/heap.c	/^static void bubbleUp(heapData * data, UINT32 bank, UINT16 pos)$/;"	f	file:
+build_bad_blk_list	ftl_page_mapped/ftl.c	/^static void build_bad_blk_list (void) {$/;"	f	file:
+bytes	include/sdram.h	/^	UINT32	bytes;$/;"	m	struct:__anon12
+c_bank_map	installer/installer-linux.c	/^const UINT8 c_bank_map[NUM_BANKS] = BANK_MAP;$/;"	v
+c_bank_map	installer/installer.c	/^const UINT8 c_bank_map[NUM_BANKS] = BANK_MAP;$/;"	v
+c_bank_map	target_spw/flash.c	/^const UINT8 c_bank_map[NUM_BANKS] = BANK_MAP;$/;"	v
+canReuseLowPage	ftl_page_mapped/log.c	/^BOOL8 canReuseLowPage(const UINT32 bank, const UINT32 pageOffset, LogCtrlBlock * ctrlBlock)$/;"	f
+checkNoChunksAreValid	ftl_page_mapped/garbage_collection.c	/^void checkNoChunksAreValid(UINT32 bank, UINT32 lbn)$/;"	f
+check_flash_id	installer/installer-linux.c	/^UINT32 check_flash_id(UINT16* const id)$/;"	f
+check_flash_id	installer/installer.c	/^UINT32 check_flash_id(UINT16* const id)$/;"	f
+chooseNewBank	ftl_page_mapped/write.c	/^UINT32 chooseNewBank(UINT32 chunkNumber)$/;"	f
+chooseNewBank_	ftl_page_mapped/overwrite.c	/^static void chooseNewBank_() {$/;"	f	file:
+chs_cur_cylinders	include/sata.h	/^	UINT16	chs_cur_cylinders;$/;"	m	struct:__anon8
+chs_cur_heads	include/sata.h	/^	UINT8	chs_cur_heads;$/;"	m	struct:__anon8
+chs_cur_sectors	include/sata.h	/^	UINT8	chs_cur_sectors;$/;"	m	struct:__anon8
+chunkIdx	ftl_page_mapped/ftl_metadata.h	/^    UINT32 chunkIdx[CHUNKS_PER_PAGE];$/;"	m	struct:LogCtrlBlock
+chunkIdx	ftl_page_mapped/ftl_metadata.h	/^    UINT32 chunkIdx[CHUNKS_PER_PAGE];$/;"	m	struct:logBufMetaT
+chunkIdx_	ftl_page_mapped/read.c	/^UINT32 chunkIdx_;$/;"	v
+chunkInFlashLog	ftl_page_mapped/read.c	/^static void chunkInFlashLog()$/;"	f	file:
+chunkInFlashLogEncoded	ftl_page_mapped/read.c	/^static void chunkInFlashLogEncoded()$/;"	f	file:
+chunkInLpnsList	ftl_page_mapped/dram_layout.h	/^#define chunkInLpnsList(/;"	d
+chunkLocation	ftl_page_mapped/ftl_parameters.h	/^typedef enum {Invalid, FlashWLog, FlashWLogEncoded, DRAMHotLog, DRAMColdLog} chunkLocation;$/;"	t	typeref:enum:__anon1
+chunkPtr	ftl_page_mapped/ftl_metadata.h	/^    UINT32 chunkPtr;$/;"	m	struct:LogCtrlBlock
+chunksDone_	ftl_page_mapped/read.c	/^UINT8 chunksDone_[CHUNKS_PER_PAGE];$/;"	v
+chunksInSameFlashPage	ftl_page_mapped/read.c	/^static UINT8 chunksInSameFlashPage(const UINT32 chunkA, const UINT32 chunkB)$/;"	f	file:
+cleanBlksAfterGcHot	ftl_page_mapped/ftl_metadata.c	/^UINT32 cleanBlksAfterGcHot=2;$/;"	v
+cleanListDataWrite	ftl_page_mapped/ftl_metadata.c	/^listData cleanListDataWrite;$/;"	v
+cleanListHead	ftl_page_mapped/ftl_metadata.h	/^    logListNode* cleanListHead[NUM_BANKS];$/;"	m	struct:listData
+cleanListInit	ftl_page_mapped/cleanList.c	/^void cleanListInit(listData * data, UINT32 startAddr, UINT32 numNodesPerBank)$/;"	f
+cleanListPop	ftl_page_mapped/cleanList.c	/^UINT32 cleanListPop(listData * data, UINT32 bank)$/;"	f
+cleanListPush	ftl_page_mapped/cleanList.c	/^void cleanListPush(listData * data, UINT32 bank, UINT32 logLbn)$/;"	f
+cleanListSize	ftl_page_mapped/cleanList.h	/^#define cleanListSize(/;"	d
+cleanListTail	ftl_page_mapped/ftl_metadata.h	/^    logListNode* cleanListTail[NUM_BANKS];$/;"	m	struct:listData
+cleanListUnusedNodes	ftl_page_mapped/ftl_metadata.h	/^    logListNode* cleanListUnusedNodes[NUM_BANKS];$/;"	m	struct:listData
+cleanQueueElementT	ftl_page_mapped/ftl_metadata.h	/^typedef struct cleanQueueElementT$/;"	s
+cleanQueueElementT	ftl_page_mapped/ftl_metadata.h	/^} cleanQueueElementT;$/;"	t	typeref:struct:cleanQueueElementT
+clear	include/rom.h	/^	BOOL32	clear;$/;"	m	struct:__anon4
+clear_polarity	include/uart.h	/^	int		clear_polarity	: 1;$/;"	m	struct:__anon13
+clr_bit_dram	include/mem_util.h	/^#define clr_bit_dram(/;"	d
+clr_bit_sram	include/mem_util.h	/^#define clr_bit_sram(/;"	d
+cmd	include/flash.h	/^    UINT32    cmd;$/;"	m	struct:tag_bsp
+cmd	include/flash.h	/^    UINT32    cmd;$/;"	m	struct:tag_fcp
+cmd	include/rom.h	/^	UINT32	cmd;$/;"	m	struct:__anon4
+cmd_id	include/flash.h	/^    UINT32    cmd_id;$/;"	m	struct:tag_bsp
+cmd_id	include/flash.h	/^    UINT32    cmd_id;$/;"	m	struct:tag_fcp
+cmd_type	include/sata.h	/^	UINT32	cmd_type;$/;"	m	struct:__anon6
+code	include/sata.h	/^	UINT16	code;$/;"	m	struct:__anon7
+col	include/flash.h	/^    UINT32    col;$/;"	m	struct:tag_bsp
+col	include/flash.h	/^    UINT32    col;$/;"	m	struct:tag_fcp
+col	include/rom.h	/^	UINT32	col;$/;"	m	struct:__anon4
+coldLogCtrl	ftl_page_mapped/ftl_metadata.c	/^LogCtrlBlock coldLogCtrl[NUM_BANKS];$/;"	v
+copyReuseBufToColdBuf	ftl_page_mapped/write.c	/^static void copyReuseBufToColdBuf()$/;"	f	file:
+ctrlBlock_	ftl_page_mapped/write.c	/^static LogCtrlBlock * ctrlBlock_;$/;"	v	file:
+cylinders	installer/installer-linux.c	/^	unsigned short cylinders;	\/* truncated *\/$/;"	m	struct:hd_geometry	file:
+dataChunkOffsets	ftl_page_mapped/garbage_collection.c	/^UINT32 dataChunkOffsets[NUM_BANKS][CHUNKS_PER_PAGE];$/;"	v
+dataLpn	ftl_page_mapped/ftl_metadata.h	/^    UINT32 dataLpn;$/;"	m	struct:cleanQueueElementT
+dataLpn	ftl_page_mapped/ftl_metadata.h	/^    UINT32 dataLpn[CHUNKS_PER_PAGE];$/;"	m	struct:LogCtrlBlock
+dataLpn	ftl_page_mapped/ftl_metadata.h	/^    UINT32 dataLpn[CHUNKS_PER_PAGE];$/;"	m	struct:logBufMetaT
+dataLpns	ftl_page_mapped/garbage_collection.c	/^UINT32 dataLpns[NUM_BANKS][CHUNKS_PER_PAGE];$/;"	v
+decrementValidChunks	ftl_page_mapped/heap.c	/^void decrementValidChunks(heapData * data, UINT32 bank, UINT16 realLogLbn)$/;"	f
+decrementValidChunksAllByN	ftl_page_mapped/heap.c	/^void decrementValidChunksAllByN(heapData * data, UINT32 bank, UINT32 n)$/;"	f
+decrementValidChunksByN	ftl_page_mapped/heap.c	/^void decrementValidChunksByN(heapData * data, UINT32 bank, UINT16 realLogLbn, UINT16 n)$/;"	f
+delay	sata/sata_main.c	/^void delay(UINT32 const count)$/;"	f
+detect_sdram_size	installer/installer-linux.c	/^UINT32 detect_sdram_size(void)$/;"	f
+detect_sdram_size	installer/installer.c	/^UINT32 detect_sdram_size(void)$/;"	f
+disable_fiq	target_spw/init_gnu.s	/^disable_fiq:$/;"	l
+disable_fiq	target_spw/target.h	/^#define disable_fiq	/;"	d
+disable_interrupt	target_spw/init_gnu.s	/^disable_interrupt:$/;"	l
+disable_interrupt	target_spw/init_rvds.s	/^disable_interrupt$/;"	l
+disable_irq	target_spw/init_gnu.s	/^disable_irq:$/;"	l
+disable_irq	target_spw/target.h	/^#define disable_irq	/;"	d
+dma_addr	include/flash.h	/^    UINT32    dma_addr;$/;"	m	struct:tag_bsp
+dma_addr	include/flash.h	/^    UINT32    dma_addr;$/;"	m	struct:tag_fcp
+dma_addr	include/rom.h	/^	UINT32	dma_addr;$/;"	m	struct:__anon4
+dma_cnt	include/flash.h	/^    UINT32    dma_cnt;$/;"	m	struct:tag_bsp
+dma_cnt	include/flash.h	/^    UINT32    dma_cnt;$/;"	m	struct:tag_fcp
+dma_cnt	include/rom.h	/^	UINT32	dma_cnt;$/;"	m	struct:__anon4
+dma_setup_auto_activate	include/sata.h	/^	BOOL8	dma_setup_auto_activate;$/;"	m	struct:__anon8
+dramStartAddr	ftl_page_mapped/ftl_metadata.h	/^    UINT32 dramStartAddr;$/;"	m	struct:heapData
+dst_col	include/flash.h	/^    UINT32    dst_col;$/;"	m	struct:tag_bsp
+dst_col	include/flash.h	/^    UINT32    dst_col;$/;"	m	struct:tag_fcp
+dst_col	include/rom.h	/^	UINT32	dst_col;$/;"	m	struct:__anon4
+dst_row	include/flash.h	/^    UINT32    dst_row[CHN_WIDTH];$/;"	m	struct:tag_bsp
+dst_row	include/flash.h	/^    UINT32    dst_row[CHN_WIDTH];$/;"	m	struct:tag_fcp
+dst_row_h	include/rom.h	/^	UINT32	dst_row_h;$/;"	m	struct:__anon4
+dst_row_l	include/rom.h	/^	UINT32	dst_row_l;$/;"	m	struct:__anon4
+dumpBankStates	target_spw/flash.c	/^void dumpBankStates(UINT32 const bank){$/;"	f
+eccnum	include/flash.h	/^    UINT32    eccnum;$/;"	m	struct:tag_bsp
+enable_factory_mode	installer/installer-linux.c	/^void enable_factory_mode(UINT32 sdram_size)$/;"	f
+enable_factory_mode	installer/installer.c	/^void enable_factory_mode(UINT32 sdram_size)$/;"	f
+enable_fiq	target_spw/init_gnu.s	/^enable_fiq:$/;"	l
+enable_fiq	target_spw/target.h	/^#define enable_fiq	/;"	d
+enable_interrupt	target_spw/init_gnu.s	/^enable_interrupt:$/;"	l
+enable_interrupt	target_spw/init_rvds.s	/^enable_interrupt$/;"	l
+enable_irq	target_spw/init_gnu.s	/^enable_irq:$/;"	l
+enable_irq	target_spw/target.h	/^#define enable_irq	/;"	d
+end	build_rvds/build.bat	/^:end$/;"	l
+eq_full	include/sata.h	/^	volatile BOOL32 eq_full;$/;"	m	struct:__anon8
+erase_flash	installer/installer-linux.c	/^BOOL32 erase_flash(UINT32 start_pblk_offset, UINT32 end_pblk_offset)$/;"	f
+erase_flash	installer/installer.c	/^BOOL32 erase_flash(UINT32 start_pblk_offset, UINT32 end_pblk_offset)$/;"	f
+erase_prog_fail	target_spw/misc.c	/^    UINT32    erase_prog_fail;$/;"	m	struct:__anon26	file:
+error	build_rvds/build.bat	/^:error$/;"	l
+eventq_get	sata/sata_main.c	/^static void eventq_get(CMD_T* cmd)$/;"	f	file:
+eventq_get_count	sata/sata_main.c	/^static UINT32 eventq_get_count(void)$/;"	f	file:
+fac	installer/installer-linux.c	/^	factory_cmd_t fac;$/;"	m	struct:__anon14	file:
+fac	installer/installer-linux.c	/^factory_cmd_t* fac;$/;"	v
+fac	installer/installer.c	/^	factory_cmd_t fac;$/;"	m	struct:__anon17	file:
+fac	installer/installer.c	/^factory_cmd_t* fac;$/;"	v
+factory_cmd_t	include/rom.h	/^} factory_cmd_t;$/;"	t	typeref:struct:__anon4
+fcp_t	include/flash.h	/^} fcp_t;$/;"	t	typeref:struct:tag_fcp
+fillup_dataspace	tc/tc_synth.c	/^static void fillup_dataspace(void)$/;"	f	file:
+findChunkLocation	ftl_page_mapped/log.c	/^chunkLocation findChunkLocation(const UINT32 chunkAddr)$/;"	f
+findNewLpnForColdLog	ftl_page_mapped/log.c	/^static void findNewLpnForColdLog(const UINT32 bank, LogCtrlBlock * ctrlBlock)$/;"	f	file:
+findNewLpnForHotLog	ftl_page_mapped/log.c	/^void findNewLpnForHotLog(const UINT32 bank, LogCtrlBlock * ctrlBlock)$/;"	f
+finishGC	ftl_page_mapped/garbage_collection.c	/^void finishGC()$/;"	f
+fiq_handler	sata/sata_isr.c	/^void fiq_handler(void)$/;"	f
+firmware_image_buf	installer/installer-linux.c	/^	UINT8		firmware_image_buf[FW_BUF_BYTES];$/;"	m	struct:__anon14	file:
+firmware_image_buf	installer/installer.c	/^	UINT8		firmware_image_buf[FW_BUF_BYTES];$/;"	m	struct:__anon17	file:
+firmware_image_bytes	installer/installer-linux.c	/^	UINT32		firmware_image_bytes;$/;"	m	struct:__anon14	file:
+firmware_image_bytes	installer/installer.c	/^	UINT32		firmware_image_bytes;$/;"	m	struct:__anon17	file:
+firstLbn	ftl_page_mapped/ftl_metadata.h	/^    UINT32 firstLbn;$/;"	m	struct:heapData
+flash_clear_irq	target_spw/flash.c	/^void flash_clear_irq(void)$/;"	f
+flash_copy	target_spw/flash.c	/^void flash_copy(UINT32 const bank, UINT32 const dst_row, UINT32 const src_row)$/;"	f
+flash_erase	target_spw/flash.c	/^void flash_erase(UINT32 const bank, UINT16 const vblk_offset)$/;"	f
+flash_finish	target_spw/flash.c	/^void flash_finish(void)$/;"	f
+flash_issue_cmd	target_spw/flash.c	/^void flash_issue_cmd(UINT32 const bank, UINT32 const sync) {$/;"	f
+flash_modify_copy	target_spw/flash.c	/^void flash_modify_copy(UINT32 const bank, UINT32 const dst_row, UINT32 const src_row,$/;"	f
+flash_reset	target_spw/flash.c	/^void flash_reset(void) {$/;"	f
+flash_reset_one_bank	target_spw/flash.c	/^void flash_reset_one_bank(UINT32 bank) {$/;"	f
+flushLogBuffer	ftl_page_mapped/write.c	/^static void flushLogBuffer()$/;"	f	file:
+flushLogBufferDuringGC	ftl_page_mapped/write.c	/^static void flushLogBufferDuringGC(const UINT32 bank)$/;"	f	file:
+flushLogBufferRecycledPage	ftl_page_mapped/write.c	/^static void flushLogBufferRecycledPage()$/;"	f	file:
+flushOwLogBuffer	ftl_page_mapped/overwrite.c	/^static void flushOwLogBuffer()$/;"	f	file:
+format	ftl_page_mapped/ftl.c	/^static void format (void)$/;"	f	file:
+free_list_head	ftl_page_mapped/ftl_metadata.c	/^UINT32 free_list_head[NUM_BANKS];$/;"	v
+free_list_tail	ftl_page_mapped/ftl_metadata.c	/^UINT32 free_list_tail[NUM_BANKS];$/;"	v
+ftl_flush	ftl_page_mapped/ftl.c	/^void ftl_flush (void)$/;"	f
+ftl_isr	ftl_page_mapped/ftl.c	/^void ftl_isr (void)$/;"	f
+ftl_open	ftl_page_mapped/ftl.c	/^void ftl_open (void)$/;"	f
+ftl_overwrite	ftl_page_mapped/ftl.c	/^void ftl_overwrite (UINT32 const lba, UINT32 const nSects)$/;"	f
+ftl_read	ftl_page_mapped/ftl.c	/^void ftl_read (UINT32 const lba, UINT32 const num_sectors)$/;"	f
+ftl_test	tc/tc_synth.c	/^void ftl_test(void)$/;"	f
+ftl_trim	ftl_page_mapped/ftl.c	/^void ftl_trim (UINT32 const lba, UINT32 const num_sectors) {$/;"	f
+ftl_write	ftl_page_mapped/ftl.c	/^void ftl_write (UINT32 const lba, UINT32 const nSects)$/;"	f
+ftl_write_cold	ftl_page_mapped/ftl.c	/^void ftl_write_cold (UINT32 const lba, UINT32 const nSects)$/;"	f
+ftl_write_hot	ftl_page_mapped/ftl.c	/^void ftl_write_hot (UINT32 const lba, UINT32 const nSects)$/;"	f
+g_barrier2	target_spw/misc.c	/^volatile UINT32 g_barrier2;$/;"	v
+g_bsp_isr_flag	ftl_page_mapped/ftl_metadata.c	/^UINT32 g_bsp_isr_flag[NUM_BANKS];$/;"	v
+g_ftl_read_buf_id	ftl_page_mapped/ftl_metadata.c	/^UINT32 g_ftl_read_buf_id;$/;"	v
+g_ftl_write_buf_id	ftl_page_mapped/ftl_metadata.c	/^UINT32 g_ftl_write_buf_id;$/;"	v
+g_mem_to_clr	ftl_page_mapped/ftl_metadata.c	/^UINT8 g_mem_to_clr[PAGES_PER_BLK \/ 8];$/;"	v
+g_mem_to_set	ftl_page_mapped/ftl_metadata.c	/^UINT8 g_mem_to_set[PAGES_PER_BLK \/ 8];$/;"	v
+g_sata_action_flags	sata/sata_main.c	/^volatile UINT32        g_sata_action_flags;$/;"	v
+g_sata_context	sata/sata_main.c	/^sata_context_t        g_sata_context;$/;"	v
+g_sata_ncq	sata/sata_main.c	/^sata_ncq_t            g_sata_ncq;$/;"	v
+g_sdram_ecc_count	target_spw/misc.c	/^UINT32 g_sdram_ecc_count;$/;"	v
+g_sdram_ecc_fail_count	target_spw/misc.c	/^UINT32 g_sdram_ecc_fail_count;$/;"	v
+g_temp_mem	target_spw/mem_util.c	/^UINT8 g_temp_mem[BYTES_PER_SECTOR];    \/\/ scratch pad$/;"	v
+g_test_result	target_spw/misc.c	/^static test_result_t g_test_result[NUM_BANKS];$/;"	v	file:
+g_timer_interrupt_count	target_spw/misc.c	/^UINT32 g_timer_interrupt_count;$/;"	v
+garbageCollectLog	ftl_page_mapped/garbage_collection.c	/^void garbageCollectLog(const UINT32 bank_)$/;"	f
+gcOnRecycledPage	ftl_page_mapped/garbage_collection.c	/^UINT8 gcOnRecycledPage[NUM_BANKS];$/;"	v
+gcState	ftl_page_mapped/ftl_metadata.c	/^BOOL8 gcState[NUM_BANKS];$/;"	v
+getHeapEl	ftl_page_mapped/heap.c	/^static void getHeapEl(heapData * data, UINT32 bank, UINT16 pos, heapEl * res)$/;"	f	file:
+getLpnForCompletePage	ftl_page_mapped/log.c	/^UINT32 getLpnForCompletePage(const UINT32 bank, LogCtrlBlock * ctrlBlock)$/;"	f
+getRWLpn	ftl_page_mapped/log.h	/^#define getRWLpn(/;"	d
+getVictim	ftl_page_mapped/heap.c	/^UINT32 getVictim(heapData * data, UINT32 bank)$/;"	f
+getVictimValidPagesNumber	ftl_page_mapped/heap.c	/^UINT32 getVictimValidPagesNumber(heapData * data, UINT32 bank)$/;"	f
+get_bsp_intr	installer/installer-linux.c	/^UINT8* get_bsp_intr()$/;"	f
+get_bsp_intr	installer/installer.c	/^UINT8* get_bsp_intr()$/;"	f
+get_log_lbn	ftl_page_mapped/log.h	/^#define get_log_lbn(/;"	d
+get_log_vbn	ftl_page_mapped/log.c	/^UINT32 get_log_vbn (UINT32 const bank, UINT32 const logLbn)$/;"	f
+gtag	include/sata.h	/^	UINT32	gtag;$/;"	m	struct:__anon5
+handle	installer/installer-linux.c	/^	int		handle;			\/\/ device handle$/;"	m	struct:__anon14	file:
+handle	installer/installer.c	/^	HANDLE		handle;			\/\/ device handle$/;"	m	struct:__anon17	file:
+handle_got_cfis	sata/sata_isr.c	/^static __inline void handle_got_cfis(void)$/;"	f	file:
+handle_srst	sata/sata_isr.c	/^static __inline void handle_srst(void)$/;"	f	file:
+hc	installer/installer-linux.c	/^installer_context_t* hc;$/;"	v
+hc	installer/installer.c	/^installer_context_t* hc;$/;"	v
+hd_geometry	installer/installer-linux.c	/^struct hd_geometry {$/;"	s	file:
+heads	installer/installer-linux.c	/^	unsigned char heads;$/;"	m	struct:hd_geometry	file:
+heapData	ftl_page_mapped/ftl_metadata.h	/^typedef struct heapData$/;"	s
+heapData	ftl_page_mapped/ftl_metadata.h	/^} heapData;$/;"	t	typeref:struct:heapData
+heapDataCold	ftl_page_mapped/ftl_metadata.c	/^heapData heapDataCold;$/;"	v
+heapDataFirstUsage	ftl_page_mapped/ftl_metadata.c	/^heapData heapDataFirstUsage;$/;"	v
+heapDataSecondUsage	ftl_page_mapped/ftl_metadata.c	/^heapData heapDataSecondUsage;$/;"	v
+heapEl	ftl_page_mapped/ftl_parameters.h	/^typedef struct heapEl$/;"	s
+heapEl	ftl_page_mapped/ftl_parameters.h	/^}heapEl;$/;"	t	typeref:struct:heapEl
+hotFirstAccumulated	ftl_page_mapped/ftl_metadata.c	/^UINT32 hotFirstAccumulated[NUM_BANKS] = {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8}; \/\/ quarter when 32GB 7 OP$/;"	v
+hotLogCtrl	ftl_page_mapped/ftl_metadata.c	/^LogCtrlBlock hotLogCtrl[NUM_BANKS];$/;"	v
+ht_identify_data	sata/sata_identify.c	/^UINT16 ht_identify_data[256] __attribute__((aligned(4))) =$/;"	v
+increaseLpn	ftl_page_mapped/ftl_metadata.h	/^    void (*increaseLpn)(const UINT32 bank, struct LogCtrlBlock * ctrlBlock);$/;"	m	struct:LogCtrlBlock
+increaseLpnColdBlk	ftl_page_mapped/log.c	/^void increaseLpnColdBlk (UINT32 const bank, LogCtrlBlock * ctrlBlock)$/;"	f
+increaseLpnColdBlkReused	ftl_page_mapped/log.c	/^void increaseLpnColdBlkReused (UINT32 const bank, LogCtrlBlock * ctrlBlock)$/;"	f
+increaseLpnHotBlkFirstUsage	ftl_page_mapped/log.c	/^void increaseLpnHotBlkFirstUsage (UINT32 const bank, LogCtrlBlock * ctrlBlock)$/;"	f
+increaseLpnHotBlkSecondUsage	ftl_page_mapped/log.c	/^void increaseLpnHotBlkSecondUsage (UINT32 const bank, LogCtrlBlock * ctrlBlock)$/;"	f
+increaseOwCounter	ftl_page_mapped/overwrite.c	/^static void increaseOwCounter(UINT32 bank, UINT32 lbn, UINT32 pageOffset)$/;"	f	file:
+incrementValidChunksByN	ftl_page_mapped/heap.c	/^void incrementValidChunksByN(heapData * data, UINT32 bank, UINT16 realLogLbn, const UINT16 n)$/;"	f
+init	include/sdram.h	/^	UINT32	init;$/;"	m	struct:__anon12
+init	installer/installer-linux.c	/^BOOL32 init()$/;"	f
+init	installer/installer.c	/^BOOL32 init()$/;"	f
+initGC	ftl_page_mapped/garbage_collection.c	/^void initGC(UINT32 bank)$/;"	f
+initLog	ftl_page_mapped/log.c	/^void initLog()$/;"	f
+initRead	ftl_page_mapped/read.c	/^static void initRead(const UINT32 dataLpn, const UINT32 sectOffset, const UINT32 nSects, const UINT8 mode)$/;"	f	file:
+initStepDown	ftl_page_mapped/ftl_metadata.c	/^UINT32 initStepDown = 1;$/;"	v
+initStepUp	ftl_page_mapped/ftl_metadata.c	/^UINT32 initStepUp = 1;$/;"	v
+initWrite	ftl_page_mapped/overwrite.c	/^static void initWrite(const UINT32 dataLpn, const UINT32 sectOffset, const UINT32 nSects) {$/;"	f	file:
+initWrite	ftl_page_mapped/write.c	/^static void initWrite(LogCtrlBlock * ctrlBlock, const UINT32 dataLpn, const UINT32 sectOffset, const UINT32 nSects)$/;"	f	file:
+init_jasmine	target_spw/initialize.c	/^void init_jasmine(void)$/;"	f
+init_metadata_sram	ftl_page_mapped/ftl.c	/^static void init_metadata_sram (void)$/;"	f	file:
+insertBlkInHeap	ftl_page_mapped/heap.c	/^void insertBlkInHeap(heapData * data, UINT32 bank, UINT16 realLogLbn)$/;"	f
+install	installer/installer-linux.c	/^void install(void)$/;"	f
+install	installer/installer.c	/^void install(void)$/;"	f
+install_block_zero	installer/installer-linux.c	/^static BOOL32 install_block_zero(void)$/;"	f	file:
+install_block_zero	installer/installer.c	/^static BOOL32 install_block_zero(void)$/;"	f	file:
+installer_context_t	installer/installer-linux.c	/^} installer_context_t;$/;"	t	typeref:struct:__anon14	file:
+installer_context_t	installer/installer.c	/^} installer_context_t;$/;"	t	typeref:struct:__anon17	file:
+ir_mode_enable	include/uart.h	/^	int		ir_mode_enable	: 1;$/;"	m	struct:__anon13
+ir_rx_invmode	include/uart.h	/^	int		ir_rx_invmode	: 1;$/;"	m	struct:__anon13
+irq_handler	target_spw/misc.c	/^void irq_handler(void)$/;"	f
+isBankBusy	target_spw/flash.c	/^UINT8 isBankBusy(UINT32 const bank){$/;"	f
+is_bad_block	ftl_page_mapped/ftl.c	/^static BOOL32 is_bad_block (UINT32 const bank, UINT32 const vblk_offset)$/;"	f	file:
+is_jasmine	installer/installer-linux.c	/^int is_jasmine(const char *name)$/;"	f
+is_whole_disk	installer/installer-linux.c	/^int is_whole_disk(const char *name)$/;"	f
+is_whole_disk_fd	installer/installer-linux.c	/^int is_whole_disk_fd(int fd)$/;"	f
+issue	include/flash.h	/^    UINT32    issue;$/;"	m	struct:tag_fcp
+key_1	include/rom.h	/^	UINT32	key_1;$/;"	m	struct:__anon4
+key_2	include/rom.h	/^	UINT32	key_2;$/;"	m	struct:__anon4
+lastBankUsingFtlBuf1	ftl_page_mapped/overwrite.c	/^static UINT32 lastBankUsingFtlBuf1=INVALID;$/;"	v	file:
+lastChunk_	ftl_page_mapped/read.c	/^UINT32 lastChunk_;$/;"	v
+last_member	include/rom.h	/^	UINT32	last_member;$/;"	m	struct:__anon4
+lba	include/sata.h	/^	UINT32	lba;$/;"	m	struct:__anon6
+lba	include/sata.h	/^	UINT32	lba;$/;"	m	struct:__anon7
+lbaHotThreshold	ftl_page_mapped/ftl_metadata.c	/^UINT32 lbaHotThreshold = INVALID;$/;"	v
+lba_48_mode	include/sata.h	/^	BOOL8	lba_48_mode;$/;"	m	struct:__anon8
+lbn	ftl_page_mapped/ftl_parameters.h	/^    UINT16 lbn;$/;"	m	struct:heapEl
+lbn	ftl_page_mapped/ftl_parameters.h	/^    UINT32 lbn;$/;"	m	struct:logListNode
+led	target_spw/misc.c	/^void led(BOOL32 on)$/;"	f
+led_blink	target_spw/misc.c	/^void led_blink(void)$/;"	f
+list	include/jasmine.h	/^    UINT16    list[SCAN_LIST_ITEMS];$/;"	m	struct:__anon3
+listData	ftl_page_mapped/ftl_metadata.h	/^typedef struct listData$/;"	s
+listData	ftl_page_mapped/ftl_metadata.h	/^} listData;$/;"	t	typeref:struct:listData
+load_firmware_image	installer/installer-linux.c	/^static BOOL32 load_firmware_image(void)$/;"	f	file:
+load_firmware_image	installer/installer.c	/^static BOOL32 load_firmware_image(void)$/;"	f	file:
+load_scan_list_from_file	installer/installer-linux.c	/^BOOL32 load_scan_list_from_file()$/;"	f
+load_scan_list_from_file	installer/installer.c	/^BOOL32 load_scan_list_from_file()$/;"	f
+load_scan_list_from_nand	installer/installer-linux.c	/^BOOL32 load_scan_list_from_nand(void)$/;"	f
+load_scan_list_from_nand	installer/installer.c	/^BOOL32 load_scan_list_from_nand(void)$/;"	f
+logBlksPerBank	ftl_page_mapped/ftl_metadata.h	/^    UINT32 logBlksPerBank;$/;"	m	struct:heapData
+logBufMetaT	ftl_page_mapped/ftl_metadata.h	/^typedef struct logBufMetaT$/;"	s
+logBufMetaT	ftl_page_mapped/ftl_metadata.h	/^} logBufMetaT;$/;"	t	typeref:struct:logBufMetaT
+logBufferAddr	ftl_page_mapped/ftl_metadata.h	/^    UINT32 logBufferAddr;$/;"	m	struct:LogCtrlBlock
+logListNode	ftl_page_mapped/ftl_parameters.h	/^typedef struct logListNode$/;"	s
+logListNode	ftl_page_mapped/ftl_parameters.h	/^}logListNode;$/;"	t	typeref:struct:logListNode
+logLpn	ftl_page_mapped/ftl_metadata.h	/^    UINT32 logLpn;$/;"	m	struct:LogCtrlBlock
+lpn_	ftl_page_mapped/overwrite.c	/^static UINT32 lpn_;$/;"	v	file:
+lpn_	ftl_page_mapped/read.c	/^UINT32 lpn_;$/;"	v
+lpn_	ftl_page_mapped/write.c	/^static UINT32 lpn_;$/;"	v	file:
+lpnsListAddr	ftl_page_mapped/ftl_metadata.h	/^    UINT32 lpnsListAddr;$/;"	m	struct:LogCtrlBlock
+main	installer/installer-linux.c	/^int main() {$/;"	f
+main	installer/installer.c	/^int main()$/;"	f
+manageOldChunkForCompletePageWrite	ftl_page_mapped/overwrite.c	/^static void manageOldChunkForCompletePageWrite(int chunkIdx) {$/;"	f	file:
+manageOldChunkForCompletePageWrite	ftl_page_mapped/write.c	/^static void manageOldChunkForCompletePageWrite(const UINT32 oldChunkAddr)$/;"	f	file:
+manageOldCompletePage	ftl_page_mapped/overwrite.c	/^static void manageOldCompletePage() {$/;"	f	file:
+maxStepDowns	ftl_page_mapped/ftl_metadata.c	/^UINT32 maxStepDowns = 7;$/;"	v
+maxStepUps	ftl_page_mapped/ftl_metadata.c	/^UINT32 maxStepUps = 7;$/;"	v
+mem_addr	include/rom.h	/^	UINT32	mem_addr;$/;"	m	struct:__anon4
+mem_bmp_find_dram	include/mem_util.h	/^#define mem_bmp_find_dram(/;"	d
+mem_bmp_find_sram	include/mem_util.h	/^#define mem_bmp_find_sram(/;"	d
+mem_cmp_dram	include/mem_util.h	/^#define mem_cmp_dram(/;"	d
+mem_cmp_sram	include/mem_util.h	/^#define mem_cmp_sram(/;"	d
+mem_copy	include/mem_util.h	/^#define mem_copy(/;"	d
+mem_search_equ	include/mem_util.h	/^#define mem_search_equ(/;"	d
+mem_search_equ_4_bytes	include/mem_util.h	/^#define mem_search_equ_4_bytes(/;"	d
+mem_search_equ_dram	include/mem_util.h	/^#define mem_search_equ_dram(/;"	d
+mem_search_equ_dram_4_bytes	include/mem_util.h	/^#define mem_search_equ_dram_4_bytes(/;"	d
+mem_search_equ_sram	include/mem_util.h	/^#define mem_search_equ_sram(/;"	d
+mem_search_equ_sram_4_bytes	include/mem_util.h	/^#define mem_search_equ_sram_4_bytes(/;"	d
+mem_search_min_max	include/mem_util.h	/^#define mem_search_min_max(/;"	d
+mem_set_dram	include/mem_util.h	/^#define mem_set_dram(/;"	d
+mem_set_sram	include/mem_util.h	/^#define mem_set_sram(/;"	d
+mem_val	include/rom.h	/^	UINT32	mem_val;$/;"	m	struct:__anon4
+mode_	ftl_page_mapped/read.c	/^UINT8 mode_;$/;"	v
+mrs	include/sdram.h	/^	UINT32	mrs;$/;"	m	struct:__anon12
+mu_dst_addr	include/rom.h	/^	UINT32	mu_dst_addr;$/;"	m	struct:__anon4
+mu_size	include/rom.h	/^	UINT32	mu_size;$/;"	m	struct:__anon4
+mu_src_addr	include/rom.h	/^	UINT32	mu_src_addr;$/;"	m	struct:__anon4
+mu_value	include/rom.h	/^	UINT32	mu_value;$/;"	m	struct:__anon4
+nElInHeap	ftl_page_mapped/ftl_metadata.h	/^    UINT32 nElInHeap[NUM_BANKS];$/;"	m	struct:heapData
+nSectsHotThreshold	ftl_page_mapped/ftl_metadata.c	/^UINT32 nSectsHotThreshold = 128;$/;"	v
+nSects_	ftl_page_mapped/overwrite.c	/^static UINT32 nSects_;$/;"	v	file:
+nSects_	ftl_page_mapped/read.c	/^UINT32 nSects_;$/;"	v
+nSects_	ftl_page_mapped/write.c	/^static UINT32 nSects_;$/;"	v	file:
+nStepDowns	ftl_page_mapped/ftl_metadata.c	/^UINT32 nStepDowns[NUM_BANKS];$/;"	v
+nStepUps	ftl_page_mapped/ftl_metadata.c	/^UINT32 nStepUps[NUM_BANKS];$/;"	v
+nValidChunksFromHeap	ftl_page_mapped/garbage_collection.c	/^UINT32 nValidChunksFromHeap[NUM_BANKS];$/;"	v
+nValidChunksInBlk	ftl_page_mapped/garbage_collection.c	/^UINT32 nValidChunksInBlk[NUM_BANKS];$/;"	v
+nValidChunksInPage	ftl_page_mapped/garbage_collection.c	/^UINT32 nValidChunksInPage[NUM_BANKS];$/;"	v
+nValidChunksInPageToReuseThreshold	ftl_page_mapped/ftl_metadata.c	/^UINT32 nValidChunksInPageToReuseThreshold = 0;$/;"	v
+nand_block_erase	target_spw/flash_wrapper.c	/^void nand_block_erase(UINT32 const bank, UINT32 const vblock)$/;"	f
+nand_block_erase_sync	target_spw/flash_wrapper.c	/^void nand_block_erase_sync(UINT32 const bank, UINT32 const vblock)$/;"	f
+nand_cfg_1	include/rom.h	/^	UINT32	nand_cfg_1;$/;"	m	struct:__anon4
+nand_cfg_2	include/rom.h	/^	UINT32	nand_cfg_2;$/;"	m	struct:__anon4
+nand_page_copyback	target_spw/flash_wrapper.c	/^void nand_page_copyback(UINT32 const bank, UINT32 const src_vblock, UINT32 const src_page, UINT32 const dst_vblock, UINT32 const dst_page){$/;"	f
+nand_page_modified_copyback	target_spw/flash_wrapper.c	/^void nand_page_modified_copyback(UINT32 const bank, UINT32 const src_vblock, UINT32 const src_page, UINT32 const dst_vblock, UINT32 const dst_page, UINT32 const sect_offset, UINT32 dma_addr, UINT32 const dma_count) {$/;"	f
+nand_page_program	ftl_page_mapped/overwrite.c	/^#define nand_page_program(/;"	d	file:
+nand_page_program	target_spw/flash_wrapper.c	/^void nand_page_program(UINT32 const bank, UINT32 const vblock, UINT32 const page_num, UINT32 const buf_addr, UINT32 const issue_flag)$/;"	f
+nand_page_program_from_host	target_spw/flash_wrapper.c	/^void nand_page_program_from_host(UINT32 const bank, UINT32 const vblock, UINT32 const page_num)$/;"	f
+nand_page_ptprogram	ftl_page_mapped/overwrite.c	/^#define nand_page_ptprogram(/;"	d	file:
+nand_page_ptprogram	target_spw/flash_wrapper.c	/^void nand_page_ptprogram(UINT32 const bank, UINT32 const vblock, UINT32 const page_num, UINT32 const sect_offset, UINT32 const num_sectors, UINT32 const buf_addr, UINT32 const issue_flag)$/;"	f
+nand_page_ptprogram_from_host	ftl_page_mapped/overwrite.c	/^#define nand_page_ptprogram_from_host(/;"	d	file:
+nand_page_ptprogram_from_host	target_spw/flash_wrapper.c	/^void nand_page_ptprogram_from_host(UINT32 const bank, UINT32 const vblock, UINT32 const page_num, UINT32 const sect_offset, UINT32 const num_sectors)$/;"	f
+nand_page_ptread	ftl_page_mapped/overwrite.c	/^#define nand_page_ptread(/;"	d	file:
+nand_page_ptread	target_spw/flash_wrapper.c	/^void nand_page_ptread(UINT32 const bank, UINT32 const vblock, UINT32 const page_num, UINT32 const sect_offset, UINT32 const num_sectors, UINT32 const buf_addr, UINT32 const issue_flag)$/;"	f
+nand_page_ptread_to_host	target_spw/flash_wrapper.c	/^void nand_page_ptread_to_host(UINT32 const bank, UINT32 const vblock, UINT32 const page_num, UINT32 const sect_offset, UINT32 const num_sectors)$/;"	f
+nand_page_read	ftl_page_mapped/overwrite.c	/^#define nand_page_read(/;"	d	file:
+nand_page_read	target_spw/flash_wrapper.c	/^void nand_page_read(UINT32 const bank, UINT32 const vblock, UINT32 const page_num, UINT32 const buf_addr)$/;"	f
+nand_page_read_to_host	target_spw/flash_wrapper.c	/^void nand_page_read_to_host(UINT32 const bank, UINT32 const vblock, UINT32 const page_num)$/;"	f
+next	ftl_page_mapped/ftl_metadata.h	/^    struct cleanQueueElementT* next;$/;"	m	struct:cleanQueueElementT	typeref:struct:cleanQueueElementT::cleanQueueElementT
+next	ftl_page_mapped/ftl_parameters.h	/^    struct logListNode* next;$/;"	m	struct:logListNode	typeref:struct:logListNode::logListNode
+nextLowPageOffset	ftl_page_mapped/ftl_metadata.h	/^    UINT32 nextLowPageOffset;$/;"	m	struct:LogCtrlBlock
+num_entries	include/jasmine.h	/^    UINT16    num_entries;$/;"	m	struct:__anon3
+oldChunkAddr_	ftl_page_mapped/read.c	/^UINT32 oldChunkAddr_;$/;"	v
+oldVersionIsInOwLogInOrder	ftl_page_mapped/overwrite.c	/^static UINT8 oldVersionIsInOwLogInOrder()$/;"	f	file:
+open_target_drv	installer/installer-linux.c	/^BOOL32 open_target_drv()$/;"	f
+open_target_drv	installer/installer.c	/^BOOL32 open_target_drv()$/;"	f
+option	include/flash.h	/^    UINT32    option;$/;"	m	struct:tag_bsp
+option	include/flash.h	/^    UINT32    option;$/;"	m	struct:tag_fcp
+option	include/rom.h	/^	UINT32	option;$/;"	m	struct:__anon4
+overwriteBitMask	ftl_page_mapped/ftl.c	/^const UINT32 overwriteBitMask = ((0x00000001) << overwriteBitPosition);$/;"	v
+overwriteBitPosition	ftl_page_mapped/ftl_parameters.h	/^    #define overwriteBitPosition /;"	d
+overwriteChunkNew	ftl_page_mapped/overwrite.c	/^static void overwriteChunkNew()$/;"	f	file:
+overwriteChunkOldInOwBuf	ftl_page_mapped/overwrite.c	/^static void overwriteChunkOldInOwBuf(UINT32 chunkAddr) {$/;"	f	file:
+overwriteChunkOldInOwLog	ftl_page_mapped/overwrite.c	/^static void overwriteChunkOldInOwLog(UINT32 chunkAddr)$/;"	f	file:
+overwriteChunkOldInWBuf	ftl_page_mapped/overwrite.c	/^static void overwriteChunkOldInWBuf(UINT32 chunkAddr) {$/;"	f	file:
+overwriteChunkOldInWLog	ftl_page_mapped/overwrite.c	/^static void overwriteChunkOldInWLog(UINT32 chunkAddr) {$/;"	f	file:
+overwriteCompleteChunkNew	ftl_page_mapped/overwrite.c	/^static void overwriteCompleteChunkNew() {$/;"	f	file:
+overwriteCompletePageInOwLog	ftl_page_mapped/overwrite.c	/^static void overwriteCompletePageInOwLog() {$/;"	f	file:
+overwriteCompletePageOld	ftl_page_mapped/overwrite.c	/^static void overwriteCompletePageOld()$/;"	f	file:
+overwriteLbaMask	ftl_page_mapped/ftl.c	/^const UINT32 overwriteLbaMask = ~((0xFFFFFFFF) << overwriteBitPosition);$/;"	v
+overwriteLogCtrl	ftl_page_mapped/ftl_metadata.c	/^LogCtrlBlock overwriteLogCtrl[NUM_BANKS];$/;"	v
+overwritePageOldInOrderInOwLog	ftl_page_mapped/overwrite.c	/^static void overwritePageOldInOrderInOwLog()$/;"	f	file:
+overwritePartialChunkNew	ftl_page_mapped/overwrite.c	/^static void overwritePartialChunkNew(UINT32 nSectsToWrite) {$/;"	f	file:
+overwritePartialChunkWhenOldChunkIsInExhaustedOWLog	ftl_page_mapped/overwrite.c	/^static void overwritePartialChunkWhenOldChunkIsInExhaustedOWLog(UINT32 nSectsToWrite, UINT32 oldChunkAddr)$/;"	f	file:
+overwritePartialChunkWhenOldChunkIsInWLog	ftl_page_mapped/overwrite.c	/^static void overwritePartialChunkWhenOldChunkIsInWLog(UINT32 nSectsToWrite, UINT32 oldChunkAddr) {$/;"	f	file:
+overwritePartialPageOld	ftl_page_mapped/overwrite.c	/^static void overwritePartialPageOld() {$/;"	f	file:
+overwritePartialPageOldNotInOrder	ftl_page_mapped/overwrite.c	/^static void overwritePartialPageOldNotInOrder()$/;"	f	file:
+overwriteToLogBlk	ftl_page_mapped/overwrite.c	/^void overwriteToLogBlk (UINT32 const dataLpn, UINT32 const sectOffset, UINT32 const nSects)$/;"	f
+pad	installer/installer-linux.c	/^	UINT8		pad[BYTES_PER_SECTOR - sizeof(factory_cmd_t)];$/;"	m	struct:__anon14	file:
+pad	installer/installer.c	/^	UINT8		pad[BYTES_PER_SECTOR - sizeof(factory_cmd_t)];$/;"	m	struct:__anon17	file:
+pageOffset	ftl_page_mapped/garbage_collection.c	/^UINT8 pageOffset[NUM_BANKS];$/;"	v
+parity_mode	include/uart.h	/^	int		parity_mode		: 3;$/;"	m	struct:__anon13
+pio_sector_transfer	sata/sata_cmd.c	/^void pio_sector_transfer(UINT32 const dram_addr, UINT32 const protocol)$/;"	f
+positionsPtr	ftl_page_mapped/ftl_metadata.h	/^    UINT32 positionsPtr;$/;"	m	struct:heapData
+precacheDone	ftl_page_mapped/ftl_metadata.h	/^    UINT8 precacheDone;$/;"	m	struct:LogCtrlBlock
+precacheLowPage	ftl_page_mapped/log.c	/^void precacheLowPage(const UINT32 bank, LogCtrlBlock * ctrlBlock)$/;"	f
+predumpBankStates	target_spw/flash.c	/^void predumpBankStates(UINT32 const bank){$/;"	f
+printValidChunksInFirstUsageBlk	ftl_page_mapped/log.c	/^void printValidChunksInFirstUsageBlk(const UINT32 bank, const LogCtrlBlock * ctrlBlock, const UINT32 lbn)$/;"	f
+print_bank_number	installer/installer-linux.c	/^void print_bank_number(UINT32 rbank)$/;"	f
+print_bank_number	installer/installer.c	/^void print_bank_number(UINT32 rbank)$/;"	f
+print_menu	installer/installer-linux.c	/^static UINT32 print_menu()$/;"	f	file:
+print_menu	installer/installer.c	/^static UINT32 print_menu()$/;"	f	file:
+print_scan_list	installer/installer-linux.c	/^void print_scan_list(FILE* file)$/;"	f
+print_scan_list	installer/installer.c	/^void print_scan_list(FILE* file)$/;"	f
+query_device	installer/installer.c	/^static BOOL32 query_device(HANDLE handle)$/;"	f	file:
+queue	include/sata.h	/^	UINT32	queue[NCQ_SIZE][8];$/;"	m	struct:__anon5
+rbank	include/rom.h	/^	UINT32	rbank;$/;"	m	struct:__anon4
+rbbqdpselect	include/rom.h	/^	UINT32	rbbqdpselect;$/;"	m	struct:__anon4
+rdy_polarity	include/uart.h	/^	int		rdy_polarity	: 1;$/;"	m	struct:__anon13
+read	installer/installer.c	/^UINT32 read(UINT32 rbank, UINT32 row, UINT32 num_bytes, UINT8* buf)$/;"	f
+readCompletePage	ftl_page_mapped/read.c	/^static void readCompletePage(UINT32 *chunksInPage, UINT32 *srcChunkByteOffsets, UINT32 *chunkIdxs)$/;"	f	file:
+readCompletePageEncoded	ftl_page_mapped/read.c	/^static void readCompletePageEncoded(UINT32 *chunksInPage, UINT32 *srcChunkByteOffsets, UINT32 *chunkIdxs)$/;"	f	file:
+readFlashPage	ftl_page_mapped/read.c	/^static void readFlashPage(UINT32 *chunksInPage, UINT32 *srcChunkByteOffsets, UINT32 *chunkIdxs)$/;"	f	file:
+readFlashPageEncoded	ftl_page_mapped/read.c	/^static void readFlashPageEncoded(UINT32 *chunksInPage, UINT32 *srcChunkByteOffsets, UINT32 *chunkIdxs)$/;"	f	file:
+readFromLogBlk	ftl_page_mapped/read.c	/^void readFromLogBlk (UINT32 const dataLpn, UINT32 const sectOffset, UINT32 const nSects)$/;"	f
+readOneChunk	ftl_page_mapped/read.c	/^static void readOneChunk(UINT32 *chunksInPage, UINT32 *srcChunkByteOffsets, UINT32 *chunkIdxs)$/;"	f	file:
+readOneChunkEncoded	ftl_page_mapped/read.c	/^static void readOneChunkEncoded(UINT32 *chunksInPage, UINT32 *srcChunkByteOffsets, UINT32 *chunkIdxs)$/;"	f	file:
+readOwCounter	ftl_page_mapped/overwrite.c	/^static UINT8 readOwCounter(UINT32 bank, UINT32 lbn, UINT32 pageOffset)$/;"	f	file:
+readPage	ftl_page_mapped/garbage_collection.c	/^void readPage(UINT32 bank)$/;"	f
+readPageSingleStep	ftl_page_mapped/garbage_collection.c	/^void readPageSingleStep(UINT32 bank)$/;"	f
+read_buffer_base	target_spw/misc.c	/^    #define read_buffer_base /;"	d	file:
+read_dram_16	include/mem_util.h	/^#define read_dram_16(/;"	d
+read_dram_32	include/mem_util.h	/^#define read_dram_32(/;"	d
+read_dram_8	include/mem_util.h	/^#define read_dram_8(/;"	d
+read_fail	target_spw/misc.c	/^    UINT32    read_fail;$/;"	m	struct:__anon26	file:
+read_look_ahead_enabled	include/sata.h	/^	BOOL8	read_look_ahead_enabled;$/;"	m	struct:__anon8
+rebuildPageToFtlBuf	ftl_page_mapped/read.c	/^void rebuildPageToFtlBuf(const UINT32 dataLpn, const UINT32 sectOffset, const UINT32 nSects, const UINT8 mode)$/;"	f
+recv_from_dev	installer/installer-linux.c	/^void recv_from_dev(void* const buf, UINT32 const lba, UINT32 const sect_cnt)$/;"	f
+recv_from_dev	installer/installer.c	/^void recv_from_dev(void* const buf, UINT32 const lba, UINT32 const sect_cnt)$/;"	f
+refresh	include/sdram.h	/^	UINT32	refresh;$/;"	m	struct:__anon12
+remainingSects_	ftl_page_mapped/overwrite.c	/^static UINT32 remainingSects_;$/;"	v	file:
+remainingSects_	ftl_page_mapped/write.c	/^static UINT32 remainingSects_;$/;"	v	file:
+report_system_error	installer/installer.c	/^void report_system_error()$/;"	f
+reserved	include/uart.h	/^	int		reserved		: 20;$/;"	m	struct:__anon13
+resetOwCounter	ftl_page_mapped/dram_layout.h	/^#define resetOwCounter(/;"	d
+resetValidChunksAndRemove	ftl_page_mapped/heap.c	/^void resetValidChunksAndRemove(heapData * data, UINT32 bank, UINT16 realLogLbn, UINT16 initialValue)$/;"	f
+reset_banks	installer/installer-linux.c	/^void reset_banks()$/;"	f
+reset_banks	installer/installer.c	/^void reset_banks()$/;"	f
+reset_fctrl	installer/installer-linux.c	/^void reset_fctrl(BOOL32 strong_ecc)$/;"	f
+reset_fctrl	installer/installer.c	/^void reset_fctrl(BOOL32 strong_ecc)$/;"	f
+reset_handler	target_spw/init_gnu.s	/^reset_handler:$/;"	l
+reset_handler	target_spw/init_rvds.s	/^reset_handler$/;"	l
+reuseCondition	ftl_page_mapped/log.c	/^static BOOL8 reuseCondition(UINT32 bank)$/;"	f	file:
+reuseConditionHot	ftl_page_mapped/log.c	/^static BOOL8 reuseConditionHot(UINT32 bank)$/;"	f	file:
+row	include/flash.h	/^    UINT32    row[CHN_WIDTH];$/;"	m	struct:tag_bsp
+row	include/flash.h	/^    UINT32    row[NUM_BANKS_MAX][CHN_WIDTH];$/;"	m	struct:tag_fcp
+row_h	include/rom.h	/^	UINT32	row_h;$/;"	m	struct:__anon4
+row_l	include/rom.h	/^	UINT32	row_l;$/;"	m	struct:__anon4
+rows_per_blk	include/rom.h	/^	UINT32	rows_per_blk;$/;"	m	struct:__anon4
+sanity_check	ftl_page_mapped/ftl.c	/^static void sanity_check ()$/;"	f	file:
+sata_context_t	include/sata.h	/^} sata_context_t;$/;"	t	typeref:struct:__anon8
+sata_ncq_t	include/sata.h	/^} sata_ncq_t;$/;"	t	typeref:struct:__anon5
+sata_reset	sata/sata_main.c	/^void sata_reset(void)$/;"	f
+save_scan	installer/installer-linux.c	/^void save_scan()$/;"	f
+save_scan	installer/installer.c	/^void save_scan()$/;"	f
+scan_bad_blks	installer/installer-linux.c	/^void scan_bad_blks(void)$/;"	f
+scan_bad_blks	installer/installer.c	/^void scan_bad_blks(void)$/;"	f
+scan_list	installer/installer-linux.c	/^	scan_list_t	scan_list[NUM_BANKS_MAX];$/;"	m	struct:__anon14	file:
+scan_list	installer/installer.c	/^	scan_list_t	scan_list[NUM_BANKS_MAX];$/;"	m	struct:__anon17	file:
+scan_list_loaded	installer/installer-linux.c	/^	BOOL8		scan_list_loaded;$/;"	m	struct:__anon14	file:
+scan_list_loaded	installer/installer.c	/^	BOOL8		scan_list_loaded;$/;"	m	struct:__anon17	file:
+scan_list_t	include/jasmine.h	/^}scan_list_t;$/;"	t	typeref:struct:__anon3
+sdram	include/rom.h	/^	sdram_t	sdram;$/;"	m	struct:__anon4
+sdram_signature_1	include/rom.h	/^	UINT32	sdram_signature_1;$/;"	m	struct:__anon4
+sdram_signature_2_ptr	include/rom.h	/^	UINT32	sdram_signature_2_ptr;$/;"	m	struct:__anon4
+sdram_t	include/sdram.h	/^} sdram_t;$/;"	t	typeref:struct:__anon12
+search_ata_function	sata/sata_main.c	/^ATA_FUNCTION_T search_ata_function(UINT32 command_code)$/;"	f
+secondHotFactorDen	ftl_page_mapped/ftl_metadata.c	/^UINT32 secondHotFactorDen = 1;$/;"	v
+secondHotFactorNum	ftl_page_mapped/ftl_metadata.c	/^UINT32 secondHotFactorNum = 1;$/;"	v
+sectOffset_	ftl_page_mapped/overwrite.c	/^static UINT32 sectOffset_;$/;"	v	file:
+sectOffset_	ftl_page_mapped/read.c	/^UINT32 sectOffset_;$/;"	v
+sectOffset_	ftl_page_mapped/write.c	/^static UINT32 sectOffset_;$/;"	v	file:
+sector_count	include/sata.h	/^	UINT32	sector_count;$/;"	m	struct:__anon6
+sector_count	include/sata.h	/^	UINT32	sector_count;$/;"	m	struct:__anon7
+sectors	installer/installer-linux.c	/^	unsigned char sectors;$/;"	m	struct:hd_geometry	file:
+send_primitive_R_XX	sata/sata_isr.c	/^static __inline void send_primitive_R_XX(UINT32 response)$/;"	f	file:
+send_status_to_host	sata/sata_cmd.c	/^void send_status_to_host(UINT32 const err_code)$/;"	f
+send_to_dev	installer/installer-linux.c	/^void send_to_dev(void* const buf, UINT32 const sect_cnt)$/;"	f
+send_to_dev	installer/installer.c	/^void send_to_dev(void* const buf, UINT32 const sect_cnt)$/;"	f
+setHeapEl	ftl_page_mapped/heap.c	/^static void setHeapEl(heapData * data, UINT32 bank, UINT16 pos, heapEl el)$/;"	f	file:
+setValidChunks	ftl_page_mapped/heap.c	/^void setValidChunks(heapData * data, UINT32 bank, UINT16 realLogLbn, UINT16 initialValue)$/;"	f
+set_bad_block	ftl_page_mapped/ftl.c	/^static void set_bad_block (UINT32 const bank, UINT32 const vblk_offset)$/;"	f	file:
+set_bit_dram	include/mem_util.h	/^#define set_bit_dram(/;"	d
+set_bit_sram	include/mem_util.h	/^#define set_bit_sram(/;"	d
+set_log_vbn	ftl_page_mapped/log.c	/^void set_log_vbn (UINT32 const bank, UINT32 const log_lbn, UINT32 const vblock)$/;"	f
+set_string_data	sata/sata_identify.c	/^static void set_string_data(UINT16 *id_buffer, char* src_data, UINT32 whole_word_size)$/;"	f	file:
+setupFlashPageRead	ftl_page_mapped/read.c	/^static void setupFlashPageRead(UINT32 * chunksInPage, UINT32 * srcChunkByteOffsets, UINT32 * chunkIdxs)$/;"	f	file:
+setupFlashPageReadEncoded	ftl_page_mapped/read.c	/^static void setupFlashPageReadEncoded(UINT32 * chunksInPage, UINT32 * srcChunkByteOffsets, UINT32 * chunkIdxs)$/;"	f	file:
+shift_rpb	include/rom.h	/^	UINT32	shift_rpb;$/;"	m	struct:__anon4
+size	ftl_page_mapped/ftl_metadata.h	/^    UINT32 size[NUM_BANKS];$/;"	m	struct:listData
+slow_cmd	include/sata.h	/^	slow_cmd_t slow_cmd;$/;"	m	struct:__anon8
+slow_cmd_t	include/sata.h	/^} slow_cmd_t;$/;"	t	typeref:struct:__anon7
+srst	include/sata.h	/^	BOOL8	srst;$/;"	m	struct:__anon8
+start	installer/installer-linux.c	/^	unsigned long start;$/;"	m	struct:hd_geometry	file:
+start_blk	include/rom.h	/^	UINT32	start_blk;$/;"	m	struct:__anon4
+start_interval_measurement	target_spw/misc.c	/^void start_interval_measurement(UINT32 const timer, UINT32 const prescale)$/;"	f
+start_timer	target_spw/misc.c	/^void start_timer(UINT32 const timer, UINT32 const prescale, UINT32 const init_val)$/;"	f
+status	include/sata.h	/^	UINT16	status;$/;"	m	struct:__anon7
+stopbit_ctrl	include/uart.h	/^	int		stopbit_ctrl	: 1;$/;"	m	struct:__anon13
+stub	ftl_page_mapped/heap.c	/^    UINT32 stub;$/;"	m	union:__anon2	file:
+stubUnion	ftl_page_mapped/heap.c	/^} stubUnion;$/;"	t	typeref:union:__anon2	file:
+subcmd	include/rom.h	/^	UINT32	subcmd;$/;"	m	struct:__anon4
+successRateWOM	ftl_page_mapped/ftl_metadata.c	/^float successRateWOM = 100.0;$/;"	v
+swap	ftl_page_mapped/heap.c	/^static void swap(heapData * data, UINT32 bank, heapEl el1, UINT16 pos1, heapEl el2, UINT16 pos2)$/;"	f	file:
+swi_handler	target_spw/misc.c	/^void swi_handler(void)$/;"	f
+syncWithWriteLimit	ftl_page_mapped/overwrite.c	/^static void syncWithWriteLimit() {$/;"	f	file:
+syncWithWriteLimit	ftl_page_mapped/write.c	/^static void syncWithWriteLimit() {$/;"	f	file:
+tag_FEATURES_subcommands	include/sata_cmd.h	/^enum tag_FEATURES_subcommands$/;"	g
+tag_bsp	include/flash.h	/^typedef struct tag_bsp$/;"	s
+tag_fcp	include/flash.h	/^typedef struct tag_fcp$/;"	s
+tc_write_rand	tc/tc_synth.c	/^static void tc_write_rand(const UINT32 start_lsn, const UINT32 io_num, const UINT32 sector_size)$/;"	f	file:
+tc_write_seq	tc/tc_synth.c	/^static void tc_write_seq(const UINT32 start_lsn, const UINT32 io_num, const UINT32 sector_size)$/;"	f	file:
+test_nand_blocks	target_spw/misc.c	/^void test_nand_blocks(void)$/;"	f
+test_result_t	target_spw/misc.c	/^test_result_t;$/;"	t	typeref:struct:__anon26	file:
+time_cycle	include/rom.h	/^	UINT32	time_cycle;$/;"	m	struct:__anon4
+timing	include/sdram.h	/^	UINT32	timing;$/;"	m	struct:__anon12
+totSecWrites	ftl_page_mapped/ftl_metadata.c	/^UINT32 totSecWrites = 0;$/;"	v
+total_bad_vblks	installer/installer-linux.c	/^	UINT32		total_bad_vblks;$/;"	m	struct:__anon14	file:
+total_bad_vblks	installer/installer.c	/^	UINT32		total_bad_vblks;$/;"	m	struct:__anon17	file:
+trimRange	ftl_page_mapped/ftl.c	/^static void trimRange(const UINT32 lba, const UINT32 nSectors)$/;"	f	file:
+tst_bit_dram	include/mem_util.h	/^#define tst_bit_dram(/;"	d
+tst_bit_sram	include/mem_util.h	/^#define tst_bit_sram(/;"	d
+uart_enable	include/uart.h	/^	int		uart_enable		: 1;$/;"	m	struct:__anon13
+uart_init	target_spw/uart.c	/^void uart_init(void)$/;"	f
+uart_print	ftl_page_mapped/cleanList.c	/^        #define uart_print(/;"	d	file:
+uart_print	ftl_page_mapped/heap.c	/^        #define uart_print(/;"	d	file:
+uart_print	include/uart.h	/^#define uart_print(/;"	d
+uart_print	target_spw/mem_util.c	/^        #define uart_print(/;"	d	file:
+uart_print	target_spw/uart.c	/^void uart_print(char* string) {$/;"	f
+uart_print_32	include/uart.h	/^#define uart_print_32(/;"	d
+uart_print_hex	target_spw/uart.c	/^void uart_print_hex(UINT32 num) {$/;"	f
+uart_print_hexa	include/uart.h	/^#define uart_print_hexa(/;"	d
+uart_print_int	ftl_page_mapped/cleanList.c	/^        #define uart_print_int(/;"	d	file:
+uart_print_int	ftl_page_mapped/heap.c	/^        #define uart_print_int(/;"	d	file:
+uart_print_int	include/uart.h	/^#define uart_print_int(/;"	d
+uart_print_int	target_spw/mem_util.c	/^        #define uart_print_int(/;"	d	file:
+uart_print_int	target_spw/uart.c	/^void uart_print_int(const UINT32 num) {$/;"	f
+uart_print_level_1	target_spw/uart.c	/^void uart_print_level_1(char* string) {$/;"	f
+uart_print_level_1_int	target_spw/uart.c	/^void uart_print_level_1_int(const UINT32 num) {$/;"	f
+uart_print_level_2	target_spw/uart.c	/^void uart_print_level_2(char* string) {$/;"	f
+uart_print_level_2_int	target_spw/uart.c	/^void uart_print_level_2_int(const UINT32 num) {$/;"	f
+uart_printf	include/uart.h	/^#define uart_printf(/;"	d
+uart_txbyte	target_spw/uart.c	/^static void uart_txbyte(UINT8 data)$/;"	f	file:
+uartcont_t	include/uart.h	/^} uartcont_t;$/;"	t	typeref:struct:__anon13
+unused1	include/sata.h	/^	UINT8	unused1;$/;"	m	struct:__anon8
+unused2	include/sata.h	/^	UINT8	unused2;$/;"	m	struct:__anon8
+unused3	include/sata.h	/^	UINT8	unused3;$/;"	m	struct:__anon8
+up	installer/installer-linux.c	/^	BOOL32		up;				\/\/ whether initialized$/;"	m	struct:__anon14	file:
+up	installer/installer.c	/^	BOOL32		up;				\/\/ whether initialized$/;"	m	struct:__anon17	file:
+updateChunkPtr	ftl_page_mapped/ftl_metadata.h	/^    void (*updateChunkPtr)();$/;"	m	struct:LogCtrlBlock
+updateChunkPtr	ftl_page_mapped/write.c	/^void updateChunkPtr()$/;"	f
+updateChunkPtrDuringGC	ftl_page_mapped/write.c	/^static void updateChunkPtrDuringGC(const UINT32 bank)$/;"	f	file:
+updateChunkPtrRecycledPage	ftl_page_mapped/write.c	/^void updateChunkPtrRecycledPage()$/;"	f
+updateDramBufMetadata	ftl_page_mapped/write.c	/^static void updateDramBufMetadata()$/;"	f	file:
+updateDramBufMetadataDuringGc	ftl_page_mapped/write.c	/^static void updateDramBufMetadataDuringGc(const UINT32 bank, const UINT32 lpn, const UINT32 sectOffset)$/;"	f	file:
+updateOwChunkPtr	ftl_page_mapped/overwrite.c	/^static void updateOwChunkPtr()$/;"	f	file:
+updateOwDramBufMetadata	ftl_page_mapped/overwrite.c	/^static void updateOwDramBufMetadata() {$/;"	f	file:
+useRecycledPage	ftl_page_mapped/ftl_metadata.h	/^    UINT8 useRecycledPage;$/;"	m	struct:LogCtrlBlock
+userSecWrites	ftl_page_mapped/ftl_metadata.c	/^UINT32 userSecWrites = 0;$/;"	v
+val	ftl_page_mapped/heap.c	/^    heapEl val;$/;"	m	union:__anon2	file:
+validChunks	ftl_page_mapped/garbage_collection.c	/^UINT32 validChunks[NUM_BANKS][CHUNKS_PER_PAGE];$/;"	v
+value	ftl_page_mapped/ftl_parameters.h	/^    UINT16 value;$/;"	m	struct:heapEl
+victimLbn	ftl_page_mapped/ftl_metadata.c	/^UINT32 victimLbn[NUM_BANKS];$/;"	v
+victimVbn	ftl_page_mapped/garbage_collection.c	/^UINT32 victimVbn[NUM_BANKS];$/;"	v
+wait	include/rom.h	/^	BOOL32	wait;$/;"	m	struct:__anon4
+waitBusyBank	target_spw/flash.c	/^void waitBusyBank(UINT32 const bank)$/;"	f
+word_length	include/uart.h	/^	int		word_length		: 2;$/;"	m	struct:__anon13
+writeChunkNew	ftl_page_mapped/write.c	/^static void writeChunkNew(UINT32 nSectsToWrite)$/;"	f	file:
+writeChunkOld	ftl_page_mapped/write.c	/^static void writeChunkOld()$/;"	f	file:
+writeChunkOnLogBlockDuringGC	ftl_page_mapped/write.c	/^void writeChunkOnLogBlockDuringGC( const UINT32 bank,$/;"	f
+writeCompletePage	ftl_page_mapped/write.c	/^static void writeCompletePage()$/;"	f	file:
+writePage	ftl_page_mapped/garbage_collection.c	/^void writePage(UINT32 bank)$/;"	f
+writePartialChunkWhenOldChunkIsInFlashLog	ftl_page_mapped/write.c	/^static void writePartialChunkWhenOldChunkIsInFlashLog(UINT32 nSectsToWrite, UINT32 oldChunkAddr)$/;"	f	file:
+writePartialChunkWhenOldChunkIsInFlashLogEncoded	ftl_page_mapped/write.c	/^static void writePartialChunkWhenOldChunkIsInFlashLogEncoded(UINT32 nSectsToWrite, UINT32 oldChunkAddr)$/;"	f	file:
+writePartialChunkWhenOldIsInDRAMBuf	ftl_page_mapped/write.c	/^static void writePartialChunkWhenOldIsInDRAMBuf(UINT32 nSectsToWrite, UINT32 oldSectOffset, UINT32 DRAMBufStart)$/;"	f	file:
+writePartialPageOld	ftl_page_mapped/write.c	/^static void writePartialPageOld()$/;"	f	file:
+writeToLogBlk	ftl_page_mapped/write.c	/^void writeToLogBlk (LogCtrlBlock * ctrlBlock, UINT32 const dataLpn, UINT32 const sectOffset, UINT32 const nSects)$/;"	f
+write_buffer_base	target_spw/misc.c	/^    #define write_buffer_base /;"	d	file:
+write_cache_enabled	include/sata.h	/^	BOOL8	write_cache_enabled;$/;"	m	struct:__anon8
+write_dram_16	include/mem_util.h	/^#define write_dram_16(/;"	d
+write_dram_32	include/mem_util.h	/^#define write_dram_32(/;"	d
+write_dram_8	include/mem_util.h	/^#define write_dram_8(/;"	d
+write_to_flash	installer/installer-linux.c	/^static BOOL32 write_to_flash(void* buf, UINT32 rbank, UINT32 page_addr, UINT32 num_bytes)$/;"	f	file:
+write_to_flash	installer/installer.c	/^static BOOL32 write_to_flash(void* buf, UINT32 rbank, UINT32 page_addr, UINT32 num_bytes)$/;"	f	file:

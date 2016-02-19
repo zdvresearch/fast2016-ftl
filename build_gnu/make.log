@@ -1,0 +1,147 @@
+arm-none-eabi-gcc -M -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/ftl.c > ftl.d
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/ftl.c -o ftl.o
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl.c:841:15: warning: 'get_update_cnt' defined but not used
+../ftl_faster_overwrite/ftl.c:662:15: warning: 'check_format_mark' defined but not used
+../ftl_faster_overwrite/ftl.c:837:13: warning: 'set_runtime_bad_blk' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../sata/sata_identify.c -o sata_identify.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../sata/sata_cmd.c -o sata_cmd.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../sata/sata_isr.c -o sata_isr.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../sata/sata_main.c -o sata_main.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../sata/sata_table.c -o sata_table.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/initialize.c -o initialize.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/mem_util.c -o mem_util.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/flash.c -o flash.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/flash_wrapper.c -o flash_wrapper.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/misc.c -o misc.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/uart.c -o uart.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+../target_spw/uart.c:33:14: warning: 'uart_rxbyte' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../target_spw/shashtbl.c -o shashtbl.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/log.c -o log.o
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/data.c -o data.o
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/garbage_collection.c -o garbage_collection.o
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/blk_management.c -o blk_management.o
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/mapping.c -o mapping.o
+../ftl_faster_overwrite/mapping.c: In function 'write_to_log_block':
+../ftl_faster_overwrite/mapping.c:173:4: warning: suggest parentheses around '+' inside '<<'
+../ftl_faster_overwrite/mapping.c: In function 'overwrite_to_log_block':
+../ftl_faster_overwrite/mapping.c:369:4: warning: suggest parentheses around '+' inside '<<'
+../ftl_faster_overwrite/mapping.c: At top level:
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -mthumb-interwork -ffreestanding -nostdlib -std=c99 -O2 -g -DPROGRAM_MAIN_FW -Wall -c -I../include -I../ftl_faster_overwrite -I../sata -I../target_spw ../ftl_faster_overwrite/wear_leveling.c -o wear_leveling.o
+../ftl_faster_overwrite/ftl_metadata.h:58:22: warning: 'g_misc_meta' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:59:23: warning: 'g_ftl_statistics' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:61:15: warning: 'g_bad_blk_count' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:62:15: warning: 'g_bsp_isr_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:64:15: warning: 'g_gc_flag' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:65:14: warning: 'g_mem_to_clr' defined but not used
+../ftl_faster_overwrite/ftl_metadata.h:66:14: warning: 'g_mem_to_set' defined but not used
+arm-none-eabi-gcc -static -nostartfiles -ffreestanding -T ld_script -Wl,-O1,-Map=list.txt ftl.o sata_identify.o sata_cmd.o sata_isr.o sata_main.o sata_table.o initialize.o mem_util.o flash.o flash_wrapper.o misc.o uart.o syscalls.o shashtbl.o log.o data.o garbage_collection.o blk_management.o mapping.o wear_leveling.o init.o -o firmware.elf -lgcc
+arm-none-eabi-objcopy -O binary --strip-all --strip-debug firmware.elf firmware.bin
